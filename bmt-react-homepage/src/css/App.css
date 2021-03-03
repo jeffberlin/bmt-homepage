@@ -1,9 +1,0 @@
-.wrapper {
-  background: url(../images/background.jpg) no-repeat top;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  min-height: 100vh;
-  min-width: 100%;
-}

@@ -1,27 +1,44 @@
-.nav-link, .nav-button button, .dropdown-item:hover {
+.nav-link, .login-btn, .dropdown-item:hover {
   color: #195a7c !important;
 }
 
-.nav-link, .nav-button button, .dropdown-item {
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: .75rem !important;
+  padding-left: .75rem !important;
+}
+
+.main-nav-dropdown:hover, .main-nav-dropdown:focus {
+  opacity: .6;
+  text-decoration: none !important;
+}
+
+.nav-link, .login-btn, .dropdown-item {
   letter-spacing: .5px;
 }
 
-.nav-button button {
-  font-size: 1rem;
+.login-btn {
   border-radius: 50px;
-  padding: .2rem 1.6rem;
-  -webkit-box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.3);
-  box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.3);
+  padding: .3rem 1.7rem;
+  -webkit-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.3);
+  box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.3);
 }
 
-.nav-button button:hover {
+.login-btn:hover {
   background-color: rgba(255, 255, 255, 0.5);
   transition: ease-in-out .5s;
 }
 
-.nav-button button, ul.dropdown-menu {
+.login-btn, ul.dropdown-menu {
   background-color: rgba(255, 255, 255, 0.25);
   border: 1px solid #195a7c;
+}
+
+.login-btn, .login-list li a {
+  font-size: .8rem;
+}
+
+.login-list li a {
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.10);
 }
 
 ul.dropdown-menu {

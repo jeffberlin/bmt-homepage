@@ -30,17 +30,28 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="#">
-            <img src="images/bmt-logo-2.png" alt="" width="150px">
+            <img src="images/bmt-logo-2.png" alt="" width="120px">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-center" id="navbarToggler">
             <ul class="navbar-nav mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li class="nav-item dropdown">
+                <a class="nav-link main-nav-dropdown" href="#" id="companyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Company
                 </a>
+                <ul class="dropdown-menu" aria-labelledby="companyDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#">About</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Blog</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">News</a>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
@@ -52,16 +63,33 @@
                   Contact
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li class="nav-item dropdown">
+                <a class="nav-link main-nav-dropdown" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Services
                 </a>
+                <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#">FAQ</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Signup Plans</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Signup Form</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Affiliate Program</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Customers</a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
           <div class="dropdown nav-button">
-            <button type="button" name="Login" data-bs-toggle="dropdown" aria-expanded="false" class="" id="dropdownMenu">Login</button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+            <button type="button" name="Login" data-bs-toggle="dropdown" aria-expanded="false" class="login-btn" id="dropdownMenu">Login</button>
+            <ul class="dropdown-menu login-list" aria-labelledby="dropdownMenu">
               <li>
                 <a href="https://vendors.bmtmicro.com/" class="dropdown-item">Vendors</a>
               </li>
