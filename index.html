@@ -118,8 +118,9 @@
             <h1 class="text-left" style="color: #ffffff; text-shadow: 2px 2px 2px rgba(0,0,0,0.8); letter-spacing: 1px; font-size: 4rem;">Software distribution<br>& order fulfillment</h1>
             <p style="color: #ffffff; font-size: 1.2rem; letter-spacing: .5px; color: #ffffff; text-shadow: 1px 1px 1px rgba(0,0,0,0.5);">Using our dashboard, you can track your sales, product growth, and much more.</p>
           </div>
-          <div class="col-6">
-            <img src="images/bmt-micro-vendors-screenshot2.png" alt="" height="350px" style="box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.95);">
+          <div class="col-6 d-flex">
+            <img src="images/bmt-micro-vendors-screenshot2.png" alt="dashboard screenshot" height="350px" style="box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.95);">
+            <img src="images/cart-screenshot-2.png" alt="shopping cart screenshot" height="380px" style="box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.95); margin-top: -15px; margin-left: -170px;">
           </div>
         </div>
       </div> <!-- /.container -->
@@ -129,11 +130,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
-      $(".nav-item .dropdown").hover(
-        function() {
-          $(".dropdown-menu").toggleClass( "show" );
-        }
-      );
+      const menu = $("li.dropdown");
+      const menuOpen = $("li.dropdown-menu");
+      menu.on("mouseenter mouseleave", () => {
+        menuOpen.toggleClass("show");
+      });
     </script>
   </body>
 </html>
