@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="css/nav.css">
     <!-- Load Bootstrap v5.0 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -61,10 +62,10 @@
                       <a class="dropdown-item" href="#">Blog</a>
                     </li>
                   </ul>
-                </div>
+                </div> <!-- /.dropdown-menu -->
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="https://www.bmtmicro.com/bmtcatalog" target="_blank">
                   Catalog
                 </a>
               </li>
@@ -85,6 +86,9 @@
                     <li>
                       <a class="dropdown-item" href="#">Customers</a>
                     </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Sign-up</a>
+                    </li>
                   </ul>
                   <ul>
                     <li>
@@ -94,10 +98,10 @@
                       <a class="dropdown-item" href="#">Pricing</a>
                     </li>
                   </ul>
-                </div>
+                </div> <!-- /.dropdown-menu -->
               </li>
-            </div>
-          </div>
+            </div> <!-- /.navbar-nav -->
+          </div> <!-- /.collapse -->
           <div class="dropdown nav-button">
             <button type="button" name="Login" data-bs-toggle="dropdown" aria-expanded="false" class="login-btn" id="dropdownMenu">Login</button>
             <ul class="dropdown-menu login-list" aria-labelledby="dropdownMenu">
@@ -115,12 +119,12 @@
         </nav>
         <div class="row" style="margin-top: 30vh;">
           <div class="col-6">
-            <h1 class="text-left" style="color: #ffffff; text-shadow: 2px 2px 2px rgba(0,0,0,0.8); letter-spacing: 1px; font-size: 4rem;">Software distribution<br>& order fulfillment</h1>
-            <p style="color: #ffffff; font-size: 1.2rem; letter-spacing: .5px; color: #ffffff; text-shadow: 1px 1px 1px rgba(0,0,0,0.5);">Using our dashboard, you can track your sales, product growth, and much more.</p>
+            <h1 class="text-left animate__animated animate__fadeInLeftBig animate__slow" style="color: #ffffff; text-shadow: 2px 2px 2px rgba(0,0,0,0.8); letter-spacing: 1px; font-size: 4rem;">Software distribution<br>& order fulfillment</h1>
+            <p class="animate__animated animate__fadeInLeftBig animate__delay-1s" style="color: #ffffff; font-size: 1.2rem; letter-spacing: .5px; color: #ffffff; text-shadow: 1px 1px 1px rgba(0,0,0,0.5);">Using our dashboard, you can track your sales, product growth, and much more.</p>
           </div>
           <div class="col-6 d-flex">
-            <img src="images/bmt-micro-vendors-screenshot2.png" alt="dashboard screenshot" height="350px" style="box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.95);">
-            <img src="images/cart-screenshot-2.png" alt="shopping cart screenshot" height="380px" style="box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.95); margin-top: -15px; margin-left: -170px;">
+            <img class="animate__animated animate__fadeInRightBig animate__slow" src="images/bmt-micro-vendors-screenshot2.png" alt="dashboard screenshot" height="350px" style="box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.95);">
+            <img class="animate__animated animate__fadeInRightBig animate__delay-1s" src="images/cart-screenshot-2.png" alt="shopping cart screenshot" height="380px" style="box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.95); margin-top: -15px; margin-left: -170px;">
           </div>
         </div>
       </div> <!-- /.container -->
@@ -129,10 +133,6 @@
     <!-- Load Bootstrap v5.0 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script>
-    $('li.dropdown').hover(function() {
-      $(this).find('.dropdown-menu').toggleClass('show');
-    });
-    </script>
+    <script src="js/main.js"></script>
   </body>
 </html>
