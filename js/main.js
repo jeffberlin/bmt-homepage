@@ -4,5 +4,5 @@
 
 const menu = $("li.dropdown");
 menu.on("mouseenter mouseleave", () => {
-  menu.toggleClass("show");
+  $(".dropdown-menu").toggleClass("show");
 });
