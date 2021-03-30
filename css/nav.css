@@ -54,7 +54,7 @@ ul.dropdown-menu {
 }
 
 .login-list .dropdown-item:hover, .nav-dropdown-menu .dropdown-item:hover, .nav-dropdown-menu ul li:hover {
-  background-color: rgba(255, 255, 255, 0.3) !important;
+  background-color: rgba(255, 255, 255, 0.6) !important;
 }
 
 .nav-dropdown-menu ul {
