@@ -3,6 +3,10 @@ html, body {
 	width: 100%;
 }
 
+/* html {
+	scroll-behavior: smooth;
+} */
+
 .wrapper {
   background: url('../images/background.jpg') no-repeat top;
   background-size: cover;
