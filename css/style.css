@@ -21,7 +21,7 @@ button, button:active, button:focus {
   outline: none !important;
 }
 
-.header-section, h4, .down-arrow {
+.header-section, h4, .down-arrow, .ba-btn {
   color: #ffffff;
 }
 
@@ -32,16 +32,24 @@ button, button:active, button:focus {
 }
 
 .header-section p {
-  font-size: 1.2rem;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 }
 
-.header-section p, h4 {
+.header-section p, .ba-btn {
+	font-size: 1.2rem;
+}
+
+.header-section p, h4. .ba-btn {
   letter-spacing: .5px;
 }
 
+#section {
+	background-color: #195a7c;
+	border-top: 1px solid #ef9a00;
+}
+
 h4 {
-  font-size: 1.4rem;
+  font-size: 1.4rem !important;
 }
 
 .down-arrow {
@@ -49,7 +57,19 @@ h4 {
   font-size: 2.7rem !important;
 }
 
-.bi-credit-card-fill, .bi-lock-fill, .bi-globe, .bi-cart-fill, .bi-cloud-check-fill, .bi-question-circle-fill {
+.ba-btn {
+	background-color: #ef9a00;
+	padding: .6rem 1.2rem;
+	border-radius: 2px;
+	border: none;
+	text-shadow: 1px 1px 1px rgba(214, 129, 0, 1);
+}
+
+.ba-btn:hover {
+	background-color: rgba(239, 154, 0, .95) !important;
+}
+
+.bi-credit-card-fill, .bi-lock-fill, .bi-globe, .bi-cart-fill, .bi-cloud-check-fill, .bi-question-circle-fill, .bi-chat-fill {
   font-size: 3rem;
   color: #707070;
 }
