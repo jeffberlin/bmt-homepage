@@ -21,7 +21,7 @@ button, button:active, button:focus {
   outline: none !important;
 }
 
-.header-section, h4, .down-arrow, .ba-btn {
+.header-section, h4, .down-arrow, .ba-btn, .social p {
   color: #ffffff;
 }
 
@@ -39,7 +39,7 @@ button, button:active, button:focus {
 	font-size: 1.2rem;
 }
 
-.header-section p, h4. .ba-btn {
+.header-section p, h4. .ba-btn, .services h5, .social p a, .footer-menu p a, .footer-menu h1 {
   letter-spacing: .5px;
 }
 
@@ -66,7 +66,11 @@ h4 {
 }
 
 .ba-btn:hover {
-	background-color: rgba(239, 154, 0, .95) !important;
+	background-color: rgba(239, 154, 0, .9) !important;
+}
+
+.ba-btn:hover, .social p a:hover {
+  transition: all 0.3s ease;
 }
 
 .bi-credit-card-fill, .bi-lock-fill, .bi-globe, .bi-cart-fill, .bi-cloud-check-fill, .bi-question-circle-fill, .bi-chat-fill {
@@ -74,7 +78,26 @@ h4 {
   color: #707070;
 }
 
-h5 {
+.services h5 {
   color: #707070;
   margin-top: .5rem !important;
+}
+
+.social p a, .footer-menu p a {
+  text-decoration: none;
+  color: #707070;
+}
+
+.social p a:hover {
+  color: #ef9a00;
+}
+
+.footer-menu h1 {
+  font-size: .9rem;
+  color: #707070;
+}
+
+.footer-menu p {
+  font-size: .9rem;
+  margin-bottom: .5rem;
 }
