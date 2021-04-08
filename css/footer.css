@@ -1,0 +1,29 @@
+.footer {
+  background-color: #000000;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.social p a:hover, .footer-menu p a:hover, .footer-menu h1 a:hover {
+  color: #ef9a00;
+}
+
+.footer-menu h1, .footer-menu p, .copyright {
+  font-size: .9rem;
+}
+
+.footer-menu p {
+  margin-bottom: .5rem;
+}
+
+.footer-menu h1, .social p a, .footer-menu p a, .footer-menu h1 a {
+  color: #707070;
+}
+
+.social p a:hover, .footer-menu p a:hover, .footer-menu h1 a:hover {
+  transition: all 0.3s ease;
+}
+
+.social h5, .copyright {
+  color: #ffffff;
+}

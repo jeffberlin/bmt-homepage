@@ -1,0 +1,113 @@
+.wrapper {
+  background: url('../images/background.jpg') no-repeat top;
+  background-size: cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100vh;
+  opacity: .8;
+}
+
+.header-section, h4, .down-arrow, .ba-btn  {
+  color: #ffffff;
+}
+
+.header-section h1 {
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+  letter-spacing: 1px;
+  font-size: 4rem;
+}
+
+.header-section p {
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+
+.header-section p, .ba-btn {
+	font-size: 1.2rem;
+}
+
+#section {
+	background-color: #195a7c;
+	border-top: 1px solid #ef9a00;
+}
+
+h4 {
+  font-size: 1.4rem !important;
+}
+
+.down-arrow {
+  bottom: 0;
+  position: absolute;
+  right: 49%;
+}
+
+.down-arrow span {
+  opacity: .7;
+  font-size: 2.7rem !important;
+}
+
+.down-arrow span:hover {
+	cursor: pointer;
+}
+
+.ba-btn, .bottom-section {
+  background-color: #ef9a00;
+}
+
+.ba-btn {
+	padding: .6rem 1.2rem;
+	border-radius: 2px;
+	border: none;
+	text-shadow: 1px 1px 1px rgba(214, 129, 0, 1);
+}
+
+.ba-btn:hover {
+	background-color: rgba(239, 154, 0, .9) !important;
+}
+
+.ba-btn:hover, .cs-info p a:hover {
+  transition: all 0.3s ease;
+}
+
+.services i {
+  font-size: 3rem;
+}
+
+.services, .bottom-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.services h5 {
+  margin-top: .5rem !important;
+}
+
+.services h5, .services p, .services i {
+  color: #707070;
+}
+
+.bottom-section {
+  color: #000000;
+}
+
+.bottom-section h2 {
+	letter-spacing: 1px;
+	font-size: 2.2rem;
+	margin-bottom: 2rem;
+}
+
+.cs-info a {
+	color: inherit;
+}
+
+.cs-info p, .cs-info p a, .cs-info p i {
+  font-size: 1.1rem;
+}
+
+.cs-info p i {
+  margin-right: .5rem;
+}
+
+.cs-info p a:hover {
+  color: #195a7c;
+}

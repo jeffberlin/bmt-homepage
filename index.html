@@ -27,7 +27,9 @@
     <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
     <!-- Load Bootstrap v5.0 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -63,6 +65,9 @@
                     <li>
                       <a class="dropdown-item" href="#">Blog</a>
                     </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Privacy Policy</a>
+                    </li>
                   </ul>
                 </div> <!-- /.dropdown-menu -->
               </li> <!-- /.nav-item dropdown -->
@@ -89,7 +94,7 @@
                       <a class="dropdown-item" href="#">Customers</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">Sign-up</a>
+                      <a class="dropdown-item" href="#">Sign-up Plans</a>
                     </li>
                   </ul>
                   <ul>
@@ -98,6 +103,9 @@
                     </li>
                     <li>
                       <a class="dropdown-item" href="#">Pricing</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">W-9 Form</a>
                     </li>
                   </ul>
                 </div> <!-- /.dropdown-menu -->
@@ -130,8 +138,8 @@
           </div> <!-- /.col-6 d-flex -->
         </div> <!-- /.row -->
       </div> <!-- /.container -->
-      <div class="" style="bottom: 0; position: absolute; right: 49%;">
-        <a href="#section"><span class="material-icons down-arrow">arrow_drop_down_circle</span></a>
+      <div class="down-arrow">
+        <span class="material-icons">arrow_drop_down_circle</span>
       </div>
     </div> <!-- /.wrapper -->
     <div class="container-fluid" id="section">
@@ -140,53 +148,85 @@
           <h4>With BMT Micro, there are no hidden costs or setup fees. We have several plans for you to choose from, or we can customize any of our plans to suit your needs</h4>
         </div> <!-- .col-8 -->
         <div class="col-2 text-center">
-          <button class="ba-btn" href="#" style="color: #ffffff; background-color: #ef9a00; padding: .6rem 1.2rem; border-radius: 2px; border: none; font-size: 1.2rem; letter-spacing: .5px;">Learn More</button>
+          <button class="ba-btn" href="#">Learn More</button>
         </div> <!-- /.col-2 -->
       </div> <!-- /.row -->
     </div> <!-- /.container-fluid -->
-    <div class="container services" style="padding-top: 3rem; padding-bottom: 3rem;">
-      <div class="row" style="margin-bottom: 2.5rem;">
+    <div class="container services">
+      <div class="row" style="margin-bottom: 2rem;">
         <div class="col-4 text-center">
           <i class="bi bi-credit-card-fill"></i>
           <h5>Multiple Payment Options</h5>
-          <p style="color: #707070;">We offer multiple payment options including over ten different credit cards, check or money orders, PayPal, paysafecards, Amazon payments, BitPay, wire transfers and Sofort Instant Bank transfers.</p>
+          <p>We offer multiple payment options including over ten different credit cards, check or money orders, PayPal, paysafecards, Amazon payments, BitPay, wire transfers and Sofort Instant Bank transfers.</p>
         </div> <!-- /.col-4 -->
         <div class="col-4 text-center">
           <i class="bi bi-lock-fill"></i>
           <h5>Reliable Fraud Detection</h5>
-          <p style="color: #707070;">Our advanced, proprietary fraud detection system is state of the art and effective in preventing almost all fraudulent order attempts. Our system is designed to keep you and your customers safe, without the need for intrusive phone calls to your customers or lengthy reviews of your orders.</p>
+          <p>Our advanced, proprietary fraud detection system is state of the art and effective in preventing almost all fraudulent order attempts. Our system is designed to keep you and your customers safe, without the need for intrusive phone calls to your customers or lengthy reviews of your orders.</p>
         </div> <!-- /.col-4 -->
         <div class="col-4 text-center">
           <i class="bi bi-globe"></i>
           <h5>Localization & Languages</h5>
-          <p style="color: #707070;">Need your order pages in German, French, Spanish, or other languages? We can customize your order forms for any language you may need. Our carts use UTF-8 and support complete localization.</p>
+          <p>Need your order pages in German, French, Spanish, or other languages? We can customize your order forms for any language you may need. Our carts use UTF-8 and support complete localization.</p>
         </div> <!-- /.col-4 -->
       </div> <!-- /.row -->
       <div class="row">
         <div class="col-4 text-center">
           <i class="bi bi-cart-fill"></i>
           <h5>Custom Shopping Carts</h5>
-          <p style="color: #707070;">BMT Micro’s proprietary shopping cart system is versatile and robust. There is no need to purchase an expensive shopping cart system. Our experienced development team will create a customized order form to match your own website design at no additional cost!</p>
+          <p>BMT Micro’s proprietary shopping cart system is versatile and robust. There is no need to purchase an expensive shopping cart system. Our experienced development team will create a customized order form to match your own website design at no additional cost!</p>
         </div> <!-- /.col-4 -->
         <div class="col-4 text-center">
           <i class="bi bi-cloud-check-fill"></i>
           <h5>PCI Compliance & Secure Certificates</h5>
-          <p style="color: #707070;">We adhere to all Payment Card Industry Data Security Standards (PCI DSS) so you can concentrate on your products and customers knowing their information is safe and secure. Our servers are also fully secured and host all shopping carts using the highest encryption standards available.</p>
+          <p>We adhere to all Payment Card Industry Data Security Standards (PCI DSS) so you can concentrate on your products and customers knowing their information is safe and secure. Our servers are also fully secured and host all shopping carts using the highest encryption standards available.</p>
         </div> <!-- /.col-4 -->
         <div class="col-4 text-center">
           <!-- <i class="bi bi-question-circle-fill"></i> -->
           <i class="bi bi-chat-fill"></i>
           <h5>Customer Support</h5>
-          <p style="color: #707070;">Our customer service staff has the experience and know-how to assist your customers in a friendly and professional manner. Our focus has always been to provide customers with the best possible service, ensuring your and our integrity.</p>
+          <p>Our customer service staff has the experience and know-how to assist your customers in a friendly and professional manner. Our focus has always been to provide customers with the best possible service, ensuring your and our integrity.</p>
         </div> <!-- /.col-4 -->
       </div> <!-- /.row -->
     </div> <!-- /.container -->
-
-    <footer class="" style="background-color: #000000; padding-top: 2rem; padding-bottom: 1rem;">
+    <div class="testimonials" style="background-color: #195a7c; border-top: 1px solid #ef9a00; padding-top: 2rem; padding-bottom: 2rem;">
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
+          <div class="col-4">
+            <p style="color: #ffffff;">"It’s extremely low-friction. Sign up for an account, add products, add serial numbers, add payment links to your website and you’re done. Checks come once a month like clockwork. Much easier than Paypal and reduces the headaches."<br />-Kevin W.</p>
+          </div> <!-- /.col-4 -->
+        </div> <!-- /.row justify-content-center -->
+      </div> <!-- /.container -->
+    </div> <!-- /.testimonials -->
+    <div class="container-fluid bottom-section">
+      <div class="row justify-content-center">
+        <h2 class="text-center">What We Do</h2>
+        <div class="col-6">
+          <p>BMT Micro is a software distribution and order fulfillment service for software developers worldwide. If BMT Micro appears on your debit or credit card statement, this indicates that you have purchased an item through the BMT Micro order system. We represent a large number of software vendors on the internet and it is possible that you have not visited our site, but you have been billed by BMT Micro on behalf of one of our software vendors. You should have received an email message at the time of purchase containing your receipt and other information pertaining to the order.</p>
+        </div> <!-- /.col-6 -->
+        <div class="col-4 cs-info">
+          <h5>Customer Service Information</h5>
+          <p>
+            <i class="bi bi-telephone-fill"></i>
+            <a href="tel:1-800-414-4268" alt="phone" title="Call us">1-800-414-4268</a>
+          </p>
+          <p>
+            <i class="bi bi-geo-fill"></i>
+            P.O. Box 15016 Wilmington, NC 28408 USA
+          </p>
+          <p>
+            <i class="bi bi-envelope-fill"></i>
+            <a href="mailto:cservice@bmtmicro.com" alt="email" title="Email Us">cservice@bmtmicro.com</a>
+          </p>
+        </div> <!-- /.col-4 cs-info -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container-fluid bottom-section -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center">
           <div class="col-4 social">
-            <h5 style="color: #ffffff;">Connect With Us</h5>
+            <h5>Connect With Us</h5>
             <p><a href="https://www.facebook.com/bmt.micro">Facebook</a></p>
             <p><a href="https://twitter.com/BMTMicro">Twitter</a></p>
             <p><a href="https://www.instagram.com/bmtmicro/">Instagram</a></p>
@@ -197,9 +237,10 @@
             <h1><b>Company</b></h1>
             <p><a href="">About</a></p>
             <p><a href="">Blog</a></p>
-            <p style="margin-bottom: 1rem;"><a href="">News</a></p>
-            <h1><b>Catalog</b></h1>
-            <h1><b>Contact</b></h1>
+            <p><a href="">News</a></p>
+            <p style="margin-bottom: 1rem;"><a href="">Privacy Policy</a></p>
+            <h1><b><a href="#">Catalog</a></b></h1>
+            <h1><b><a href="#">Contact</a></b></h1>
           </div> <!-- /.col-4 -->
           <div class="col-2 footer-menu">
             <h1><b>Services</b></h1>
@@ -207,10 +248,12 @@
             <p><a href="">Customers</a></p>
             <p><a href="">Affiliate Program</a></p>
             <p><a href="">Pricing</a></p>
-            <p><a href="">Sign-up</a></p>
+            <p><a href="">Sign-up Plans</a></p>
+            <p><a href="">W-9 Form</a></p>
           </div>
-          <div class="col-4">
-            <p style="font-size: .9rem; color: #ffffff;">&copy;BMT Micro, Inc.</p>
+          <div class="col-4 text-center">
+            <p class="copyright">&copy;BMT Micro, Inc.</p>
+            <img src="images/bmt-bbb-rating-square-300x150.png" alt="BBB rating" height="55" />
           </div> <!-- /.col-4 -->
         </div> <!-- /.row -->
       </div> <!-- /.container -->
