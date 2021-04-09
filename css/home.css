@@ -50,7 +50,11 @@ h4 {
 	cursor: pointer;
 }
 
-.ba-btn, .bottom-section {
+#section h4, .ba-btn {
+  letter-spacing: .5px;
+}
+
+.ba-btn {
   background-color: #ef9a00;
 }
 
@@ -87,7 +91,8 @@ h4 {
 }
 
 .bottom-section {
-  color: #000000;
+  color: #707070;
+  background-color: #ffffff;
 }
 
 .bottom-section h2 {
