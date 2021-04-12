@@ -20,8 +20,8 @@
   color: #707070;
 }
 
-.social p a:hover, .footer-menu p a:hover, .footer-menu h1 a:hover {
-  transition: all 0.3s ease;
+.social p a, .footer-menu p a, .footer-menu h1 a {
+  transition: all .3s;
 }
 
 .social h5, .copyright {

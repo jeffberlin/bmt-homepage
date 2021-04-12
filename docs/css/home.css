@@ -1,4 +1,4 @@
-.wrapper {
+.header-section {
   background: url('../images/background.jpg') no-repeat top;
   background-size: cover;
 	-webkit-background-size: cover;
@@ -69,8 +69,8 @@ h4 {
 	background-color: rgba(239, 154, 0, .9) !important;
 }
 
-.ba-btn:hover, .cs-info p a:hover {
-  transition: all 0.3s ease;
+.ba-btn, .cs-info p a {
+  transition: all .3s;
 }
 
 .services i {

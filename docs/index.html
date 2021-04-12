@@ -38,109 +38,71 @@
   </head>
   <body>
     <div class="wrapper" id="landingHome">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-light fixed-top navbar-expand-md">
+        <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="images/bmt-logo-2.png" alt="" width="120px">
+            <img src="images/bmt-logo-2.png" alt="BMT Micro logo" width="120px">
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarToggler">
-            <div class="navbar-nav mb-lg-0">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+            <ul class="navbar-nav mb-lg-0">
               <li class="nav-item dropdown">
-                <a class="nav-link main-nav-dropdown" href="#" id="companyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Company
-                </a>
-                <div class="dropdown-menu nav-dropdown-menu" aria-labelledby="companyDropdown" style="top: 35px; z-index: 1001;">
-                  <ul>
-                    <li>
-                      <a class="dropdown-item" href="#">About</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">News</a>
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <a class="dropdown-item" href="#">Blog</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Privacy Policy</a>
-                    </li>
-                  </ul>
-                </div> <!-- /.dropdown-menu -->
-              </li> <!-- /.nav-item dropdown -->
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.bmtmicro.com/bmtcatalog" target="_blank">
-                  Catalog
-                </a>
+                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Company</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">About</a></li>
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">News</a></li>
+                  <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+                </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Contact
-                </a>
+                <a class="nav-link" href="https://www.bmtmicro.com/bmtcatalog">Catalog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link main-nav-dropdown" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
-                </a>
-                <div class="dropdown-menu nav-dropdown-menu" aria-labelledby="servicesDropdown" style="top: 35px; z-index: 1001;">
-                  <ul>
-                    <li>
-                      <a class="dropdown-item" href="#">FAQ</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Customers</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Sign-up Plans</a>
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <a class="dropdown-item" href="#">Affiliate Program</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Pricing</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">W-9 Form</a>
-                    </li>
-                  </ul>
-                </div> <!-- /.dropdown-menu -->
-              </li> <!-- /.nav-item dropdown -->
-            </div> <!-- /.navbar-nav -->
+                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Affiliate Program</a></li>
+                  <li><a class="dropdown-item" href="#">Customers</a></li>
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                  <li><a class="dropdown-item" href="#">Sign-up Plans</a></li>
+                  <li><a class="dropdown-item" href="#">W-9 Forms</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Login</a>
+                <ul class="dropdown-menu text-center">
+                  <li><a class="dropdown-item" href="#">Vendor</a></li>
+                  <li><a class="dropdown-item" href="#">Affiliate</a></li>
+                  <li><a class="dropdown-item" href="#">Customer</a></li>
+                </ul>
+              </li>
+            </ul> <!-- /.navbar-nav mb-lg-0 -->
           </div> <!-- /.collapse -->
-          <div class="dropdown nav-button">
-            <button type="button" name="Login" data-bs-toggle="dropdown" aria-expanded="false" class="login-btn" id="dropdownMenu">Login</button>
-            <ul class="dropdown-menu login-list" aria-labelledby="dropdownMenu">
-              <li>
-                <a href="https://vendors.bmtmicro.com/" class="dropdown-item">Vendors</a>
-              </li>
-              <li>
-                <a href="https://affiliates.bmtmicro.com/" class="dropdown-item">Affiliates</a>
-              </li>
-              <li>
-                <a href="https://customers.bmtmicro.com/" class="dropdown-item">Customers</a>
-              </li>
-            </ul>
-          </div> <!-- /.dropdown nav-button -->
-        </nav>
-        <div class="row" style="margin-top: 15%;">
-          <div class="col-6 header-section">
-            <h1 class="text-left animate__animated animate__fadeInLeftBig animate__slow">Software distribution<br>& order fulfillment</h1>
-            <p class="animate__animated animate__fadeInLeftBig animate__delay-1s">Using our dashboard, you can track your sales, product growth, and much more.</p>
-          </div> <!-- /.col-6 header-section -->
-          <div class="col-6 d-flex">
-            <img class="animate__animated animate__fadeInRightBig animate__slow" src="images/bmt-micro-vendors-screenshot2.png" alt="dashboard screenshot" height="350px" style="box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.95);">
-            <img class="animate__animated animate__fadeInRightBig animate__delay-1s" src="images/cart-screenshot-2.png" alt="shopping cart screenshot" height="380px" style="box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.95); margin-top: -15px; margin-left: -170px;">
-          </div> <!-- /.col-6 d-flex -->
-        </div> <!-- /.row -->
-      </div> <!-- /.container -->
-      <div class="down-arrow">
-        <span class="material-icons">arrow_drop_down_circle</span>
-      </div>
+        </div> <!-- /.container -->
+      </nav>
+
+      <div class="header-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-6" style="margin-top: 20%;">
+              <h1 class="text-left animate__animated animate__fadeInLeftBig animate__slow">Software distribution<br>& order fulfillment</h1>
+              <p class="animate__animated animate__fadeInLeftBig animate__delay-1s">Using our dashboard, you can track your sales, product growth, and much more.</p>
+            </div> <!-- /.col-6 -->
+            <div class="col-6 d-flex" style="margin-top: 20%;">
+              <img class="animate__animated animate__fadeInRightBig animate__slow" src="images/bmt-micro-vendors-screenshot2.png" alt="dashboard screenshot" height="350px" style="box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.95);">
+              <img class="animate__animated animate__fadeInRightBig animate__delay-1s" src="images/cart-screenshot-2.png" alt="shopping cart screenshot" height="380px" style="box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.95); margin-top: -15px; margin-left: -170px;">
+            </div> <!-- /.col-6 d-flex -->
+          </div> <!-- /.row -->
+        </div> <!-- /.container -->
+        <div class="down-arrow">
+          <span class="material-icons">arrow_drop_down_circle</span>
+        </div>
+      </div> <!-- /.header-section -->
     </div> <!-- /.wrapper -->
     <div class="container-fluid" id="section">
       <div class="row justify-content-center align-items-center" style="padding: 2.2rem;">
@@ -189,24 +151,36 @@
         </div> <!-- /.col-4 -->
       </div> <!-- /.row -->
     </div> <!-- /.container -->
-    <div class="testimonials" style="background-color: #ef9a00; padding-top: 1.5rem; padding-bottom: 1.5rem;">
+
+    <div class="testimonials" style="background-color: ; padding-top: 1.5rem; padding-bottom: 1.5rem;">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-4">
-            <p style="color: #195a7c; font-style: italic; margin-bottom: .5rem; font-size: .9rem; text-shadow: 1px 0px 0px rgba(0, 0, 0, .2);">"It’s extremely low-friction. Sign up for an account, add products, add serial numbers, add payment links to your website and you’re done. Checks come once a month like clockwork. Much easier than Paypal and reduces the headaches."</p>
-            <p class="text-center" style="color: #195a7c; font-weight: 600; margin-bottom: 0px;">- Kevin W.</p>
-          </div> <!-- /.col-4 -->
-          <div class="col-4">
-            <p style="color: #195a7c; font-style: italic; margin-bottom: .5rem; font-size: .9rem; text-shadow: 1px 0px 0px rgba(0, 0, 0, .2);">"BMT Micro on the other hand are a joy to work with and they treat customers like royalty.. quick support and they are happy to go the extra mile. Highly recommended."</p>
-            <p class="text-center" style="color: #195a7c; font-weight: 600; margin-bottom: 0px;">- Frank R.</p>
-          </div> <!-- /.col-4 -->
-          <div class="col-4">
-            <p style="color: #195a7c; font-style: italic; margin-bottom: .5rem; font-size: .9rem; text-shadow: 1px 0px 0px rgba(0, 0, 0, .2);">"BMT Micro, and you’ll never look back. Outstanding support, always above and beyond the call of duty. Been with them for over 10 years and I ain’t changing for anything. Some things simply have no price... They are extremely professional and, above all, very friendly."</p>
-            <p class="text-center" style="color: #195a7c; font-weight: 600; margin-bottom: 0px;">- Jorge C.</p>
-          </div> <!-- /.col-4 -->
+        <div class="row justify-content-center align-items-center">
+          <div class="col-6">
+            <div id="carouselTestimonial" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <p class="d-block" style="color: #195a7c; font-style: italic; margin-bottom: .5rem; font-size: .9rem; text-shadow: 1px 0px 0px rgba(0, 0, 0, .2);">"It’s extremely low-friction. Sign up for an account, add products, add serial numbers, add payment links to your website and you’re done. Checks come once a month like clockwork. Much easier than Paypal and reduces the headaches."</p>
+                  <p class="text-center" style="color: #195a7c; font-weight: 600; margin-bottom: 0px;">- Kevin W.</p>
+                </div> <!-- /.carousel-item -->
+                <div class="carousel-item">
+                  <p class="d-block" style="color: #195a7c; font-style: italic; margin-bottom: .5rem; font-size: .9rem; text-shadow: 1px 0px 0px rgba(0, 0, 0, .2);">"BMT Micro on the other hand are a joy to work with and they treat customers like royalty.. quick support and they are happy to go the extra mile. Highly recommended."</p>
+                  <p class="text-center" style="color: #195a7c; font-weight: 600; margin-bottom: 0px;">- Frank R.</p>
+                </div> <!-- /.carousel-item -->
+                <div class="carousel-item">
+                  <p class="d-block" style="color: #195a7c; font-style: italic; margin-bottom: .5rem; font-size: .9rem; text-shadow: 1px 0px 0px rgba(0, 0, 0, .2);">"BMT Micro on the other hand are a joy to work with and they treat customers like royalty.. quick support and they are happy to go the extra mile. Highly recommended."</p>
+                  <p class="text-center" style="color: #195a7c; font-weight: 600; margin-bottom: 0px;">- Frank R.</p>
+                </div> <!-- /.carousel-item -->
+                <div class="carousel-item">
+                  <p class="d-block w-100" style="color: #195a7c; font-style: italic; margin-bottom: .5rem; font-size: .9rem; text-shadow: 1px 0px 0px rgba(0, 0, 0, .2);">"BMT Micro, and you’ll never look back. Outstanding support, always above and beyond the call of duty. Been with them for over 10 years and I ain’t changing for anything. Some things simply have no price... They are extremely professional and, above all, very friendly."</p>
+                  <p class="text-center" style="color: #195a7c; font-weight: 600; margin-bottom: 0px;">- Jorge C.</p>
+                </div> <!-- /.carousel-item -->
+              </div> <!-- /.carousel-inner -->
+            </div> <!-- #carouselTestimonial -->
+          </div> <!-- /.col-6 -->
         </div> <!-- /.row justify-content-center -->
       </div> <!-- /.container -->
     </div> <!-- /.testimonials -->
+
     <div class="container-fluid bottom-section">
       <div class="row justify-content-center">
         <h2 class="text-center">About BMT Micro</h2>
