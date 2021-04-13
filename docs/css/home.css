@@ -117,7 +117,7 @@ h4 {
   margin-right: .5rem;
 }
 
-.cs-info p a:hover {
+.cs-info p a:hover, .carousel-item p {
   color: #195a7c;
 }
 
@@ -131,4 +131,3 @@ h4 {
   display: table-cell;
   vertical-align: middle;
 }
-
