@@ -120,3 +120,15 @@ h4 {
 .cs-info p a:hover {
   color: #195a7c;
 }
+
+.carousel {
+  height: 150px;
+  display: table;
+  width: 100%;
+}
+
+.carousel-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
