@@ -8,6 +8,10 @@
   opacity: .8;
 }
 
+.header-section .col-6 {
+  margin-top: 25%;
+}
+
 .header-section, h4, .down-arrow, .ba-btn  {
   color: #ffffff;
 }
