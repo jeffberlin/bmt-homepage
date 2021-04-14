@@ -12,7 +12,7 @@
   margin-top: 25%;
 }
 
-.header-section, h4, .down-arrow, .ba-btn  {
+.header-section, h4, .down-arrow, .ba-btn, .bottom-section {
   color: #ffffff;
 }
 
@@ -83,11 +83,18 @@ h4 {
 
 .services, .bottom-section {
   padding-top: 4rem;
-  padding-bottom: 4rem;
+}
+
+.services {
+  padding-bottom: 2.5rem;
 }
 
 .services h5 {
   margin-top: .5rem !important;
+}
+
+.services p, .bottom-section h2 {
+  margin-bottom: 2rem;
 }
 
 .services h5, .services p, .services i {
@@ -95,14 +102,13 @@ h4 {
 }
 
 .bottom-section {
-  color: #707070;
-  background-color: #ffffff;
+  background-color: #195a7c;
+  padding-bottom: 4rem;
 }
 
 .bottom-section h2 {
 	letter-spacing: 1px;
 	font-size: 2.2rem;
-	margin-bottom: 2rem;
 }
 
 .cs-info a {
@@ -117,7 +123,11 @@ h4 {
   margin-right: .5rem;
 }
 
-.cs-info p a:hover, .carousel-item p {
+.cs-info p a:hover {
+  color: #ef9a00;
+}
+
+.carousel-item p {
   color: #195a7c;
 }
 
