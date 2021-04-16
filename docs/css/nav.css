@@ -21,14 +21,15 @@ nav {
 }
 
 .nav-link:hover, .nav-link:focus {
-  opacity: .6;
+  opacity: .5;
   text-decoration: none;
 }
 
 .dropdown-menu {
-  top: 35px !important;
+  transform: translateY(-1px) !important;
   z-index: 1001;
   box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, .3);
+  -webkit-box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, .3)
 }
 
 .dropdown-item {

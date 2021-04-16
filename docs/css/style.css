@@ -11,6 +11,6 @@ button, button:active, button:focus {
   outline: none !important;
 }
 
-p, a {
+p, a, button {
 	letter-spacing: .5px;
 }
