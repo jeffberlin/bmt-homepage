@@ -4,23 +4,27 @@
   padding-bottom: 1rem;
 }
 
-.social p a:hover, .footer-menu p a:hover, .footer-menu h1 a:hover {
+ul {
+  padding-left: 0 !important;
+}
+
+.social p a:hover, .footer-menu li a:hover, .footer-menu h1 a:hover {
   color: #ef9a00;
 }
 
-.footer-menu h1, .footer-menu p, .copyright {
+.footer-menu h1, .footer-menu li, .copyright {
   font-size: .9rem;
 }
 
-.footer-menu p {
+.footer-menu li {
   margin-bottom: .5rem;
 }
 
-.footer-menu h1, .social p a, .footer-menu p a, .footer-menu h1 a {
+.footer-menu h1, .social p a, .footer-menu li a, .footer-menu h1 a {
   color: #707070;
 }
 
-.social p a, .footer-menu p a, .footer-menu h1 a {
+.social p a, .footer-menu li a, .footer-menu h1 a {
   transition: all .3s;
 }
 

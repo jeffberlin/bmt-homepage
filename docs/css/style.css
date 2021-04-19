@@ -14,3 +14,7 @@ button, button:active, button:focus {
 p, a, button {
 	letter-spacing: .5px;
 }
+
+li {
+	list-style: none;
+}
