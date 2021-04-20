@@ -21,7 +21,6 @@
 }
 
 .header-btn-1, .header-btn-2 {
-
 }
 
 .header-btn-1:hover, .header-btn-2:hover {
@@ -63,7 +62,7 @@
 }
 
 .bmt-cart-screenshot {
-  height: 380px;
+  max-height: 380px;
   margin-top: -15px;
   margin-left: -170px;
 }
