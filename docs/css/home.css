@@ -4,12 +4,13 @@
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
+  padding: 11rem 3rem;
   opacity: .8;
 }
 
 .header-section .header-div {
-  margin-top: 25%;
+  /*margin-top: 80px;*/
 }
 
 .header-btn-1, #section, .bottom-section {
@@ -21,6 +22,7 @@
 }
 
 .header-btn-1, .header-btn-2 {
+  font-size: .9rem;
 }
 
 .header-btn-1:hover, .header-btn-2:hover {
