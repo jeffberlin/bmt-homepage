@@ -16,12 +16,12 @@ nav {
   padding-right: 1rem !important;
 }
 
-.nav-link, .nav-link:hover, .dropdown-item:hover {
+.nav-link {
   color: #195a7c !important;
 }
 
 .nav-link:hover, .nav-link:focus {
-  opacity: .5;
+  color: rgba(25, 90, 124, .6) !important;
   text-decoration: none;
 }
 
@@ -34,4 +34,9 @@ nav {
 
 .dropdown-item {
   font-size: .9rem;
+  color: rgba(0, 0, 0, .4) !important;
+}
+
+.dropdown-item:hover {
+  color: rgba(0, 0, 0, 1) !important;
 }
