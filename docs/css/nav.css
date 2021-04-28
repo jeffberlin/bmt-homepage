@@ -34,7 +34,7 @@ nav {
 
 .dropdown-item {
   font-size: .9rem;
-  color: rgba(0, 0, 0, .4) !important;
+  color: rgba(0, 0, 0, .5) !important;
 }
 
 .dropdown-item:hover {
