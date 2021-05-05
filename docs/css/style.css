@@ -130,7 +130,7 @@ nav, .header-btn-1, .header-btn-2 {
   margin-left: -170px;
 }
 
-.header-section, .header-btn-1, h4, .down-arrow, .ba-btn, .bottom-section, .social h5, .copyright {
+.header-section, .header-btn-1, #section h4, .down-arrow, .ba-btn, .bottom-section, .social h5, .copyright {
   color: #ffffff;
 }
 
@@ -152,8 +152,8 @@ nav, .header-btn-1, .header-btn-2 {
 	border-top: 1px solid #ef9a00;
 }
 
-h4 {
-  font-size: 1.4rem !important;
+#section h4 {
+  font-size: 1.4rem;
 }
 
 .down-arrow {
@@ -360,6 +360,9 @@ h4 {
 	}
 	.bmt-cart-screenshot {
 		height: 370px;
+	}
+	#section h4 {
+		font-size: 1.2rem;
 	}
 }
 
