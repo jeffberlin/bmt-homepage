@@ -70,7 +70,7 @@ nav, .header-btn-1, .header-btn-2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   /*min-height: 100vh;*/
-  padding: 15rem 2rem;
+  padding: 15rem 0rem;
   background-repeat: no-repeat;
   background-position: top;
   background-image: linear-gradient(90deg, rgba(255,255,255,0.25) 0%, rgba(255,255,255,0.25) 0%, rgba(255,255,255,0.25) 100%), url('../images/background-min.jpg');
@@ -346,7 +346,7 @@ nav, .header-btn-1, .header-btn-2 {
 
 @media (max-width: 992px) {
 	.header-section {
-		padding: 10rem 2rem;
+		padding: 10rem 0rem;
 	}
 	.header-div {
 		margin-bottom: 3.5rem;
@@ -369,10 +369,14 @@ nav, .header-btn-1, .header-btn-2 {
 @media (max-width: 767px) {
 		.bmt-cart-screenshot {
 			height: 290px;
+			margin-top: -8px;
 		}
 }
 
 @media (max-width: 576px) {
+	.bmt-cart-screenshot {
+		height: 310px;
+	}
 	.header-section h1 {
 		font-size: 2.8rem;
 	}
