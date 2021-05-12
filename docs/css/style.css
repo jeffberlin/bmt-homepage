@@ -367,13 +367,16 @@ nav, .header-btn-1, .header-btn-2 {
 }
 
 @media (max-width: 767px) {
-		.bmt-cart-screenshot {
-			height: 290px;
-			margin-top: -8px;
-		}
+	.bmt-cart-screenshot {
+		height: 290px;
+		margin-top: -8px;
+	}
 }
 
 @media (max-width: 576px) {
+	.bmt-vendor-screenshot {
+		/*height: 269px;*/
+	}
 	.bmt-cart-screenshot {
 		height: 310px;
 	}
