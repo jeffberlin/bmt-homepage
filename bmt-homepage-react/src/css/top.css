@@ -1,0 +1,33 @@
+.header-section {
+	padding: 15rem 0;
+}
+
+.header-section h1 {
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 2px rgb(0 0 0 / 80%);
+	font-size: 3.2rem;
+}
+
+.header-section h1, .header-section p {
+	color: #ffffff;
+}
+
+.header-section p {
+	text-shadow: 1px 1px 1px rgb(0 0 0 / 70%);
+	font-size: 1.2rem;
+}
+
+.header-section p, .header-btn {
+	letter-spacing: .5px;
+}
+
+.header-btn {
+	border: none;
+	border-color: transparent !important;
+	padding: .4rem 1rem;
+}
+
+/*.screenshot {
+	-webkit-box-shadow: 1px 5px 15px 4px rgb(0 0 0 / 60%);
+	box-shadow: 1px 5px 15px 4px rgb(0 0 0 / 60%);
+}*/
