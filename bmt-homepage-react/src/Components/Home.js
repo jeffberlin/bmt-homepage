@@ -1,12 +1,14 @@
 import React from 'react';
-import Top from './Top';
+import Header from './Header';
 import Navigation from './Navigation';
+import Tag from './Tag';
 
 function Home() {
 	return (
 		<>
-			<Top />
 			<Navigation />
+			<Header />
+			<Tag />
 		</>
 	);
 }

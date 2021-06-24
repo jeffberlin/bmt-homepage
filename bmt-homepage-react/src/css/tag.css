@@ -1,0 +1,24 @@
+h4 {
+  font-size: 1.4rem;
+
+}
+
+.tag-btn, h4 {
+  letter-spacing: .5px;
+  color: #ffffff;
+}
+
+.tag-btn {
+  background-color: #efa900;
+  padding: .6rem 1.2rem;
+  border-radius: 2px;
+  text-shadow: 1px 1px 1px rgb(214 129 0);
+  border: none;
+  font-size: 1.2rem;
+  transition: all .3s;
+  text-align: center;
+}
+
+.tag-btn:hover {
+  background-color: rgba(239, 154, 0, .9);
+}
