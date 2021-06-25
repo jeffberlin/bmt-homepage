@@ -1,5 +1,5 @@
 import React, {Suspense, lazy} from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import './css/App.css';
 import './css/navigation.css';
 import './css/HomepageCSS/header.css';
@@ -8,9 +8,13 @@ import './css/HomepageCSS/features.css';
 import './css/HomepageCSS/testimonials.css';
 import './css/HomepageCSS/aboutSection.css';
 import './css/footer.css';
+import './css/about.css';
+import './css/news.css';
 
 
 const Home = lazy(() => import('./Components/Homepage/Home'));
+const About = lazy(() => import('./Components/About'));
+const News = lazy(() => import('./Components/News'));
 const Error = lazy(() => import('./Components/Error'));
 
 function App() {
@@ -19,6 +23,8 @@ function App() {
       <Suspense fallback={<div>Loading...</div>}>
         <Switch>
           <Route path="/" component={Home} exact />
+          <Route path="/about" component={About} />
+          <Route path="/news" component={News} />
           <Route path="*" component={Error} />
         </Switch>
       </Suspense>

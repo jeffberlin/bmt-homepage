@@ -3,7 +3,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 function Footer() {
-
+	const getYear = () => {
+		return new Date().getFullYear()
+	}
+	
 	const linkStyle = {
 		color: 'inherit'
 	}
@@ -11,7 +14,7 @@ function Footer() {
 	return (
 		<footer className="footer">
 			<Container>
-				<Row className="justify-content-center">
+				<Row className="justify-content-center" style={{ marginBottom: '1rem' }}>
 					<Col lg={2} md={4} className="social">
 						<h5>Connect With Us</h5>
 						<p className="facebook"><a href="https://www.facebook.com/bmt.micro">Facebook</a></p>
@@ -22,7 +25,7 @@ function Footer() {
 					</Col>
 					<Col lg={6} md={4} className="d-flex justify-content-around footer-menu">
 						<ul>
-							<li><strong>Company</strong></li>
+							<li><strong><Link to="#" className="disabled-link">Company</Link></strong></li>
 							<li>
 								<Link to="/about" style={linkStyle}>About</Link>
 							</li>
@@ -47,7 +50,7 @@ function Footer() {
 							</li>
 						</ul>
 						<ul>
-							<li><strong>Services</strong></li>
+							<li><strong><Link to="#" className="disabled-link">Services</Link></strong></li>
 							<li>
 								<Link to="/affiliates" style={linkStyle}>Affiliate Program</Link>
 							</li>
@@ -65,7 +68,7 @@ function Footer() {
 							</li>
 						</ul>
 						<ul>
-							<li><strong>Login</strong></li>
+							<li><strong><Link to="#" className="disabled-link">Login</Link></strong></li>
 							<li>
 								<a href="https://vendors.bmtmicro.com/" style={linkStyle}>Vendors</a>
 							</li>
@@ -76,6 +79,11 @@ function Footer() {
 								<a href="https://customers.bmtmicro.com/" style={linkStyle}>Customers</a>
 							</li>
 						</ul>
+					</Col>
+				</Row>
+				<Row>
+					<Col style={{ textAlign: 'center' }}>
+						<p className="copyright">&copy;&nbsp;BMT Micro, Inc. 1992 - {getYear()}</p>
 					</Col>
 				</Row>
 			</Container>

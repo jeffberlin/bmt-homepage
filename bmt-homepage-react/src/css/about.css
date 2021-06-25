@@ -1,0 +1,23 @@
+.about {
+	padding-top: 6rem;
+	padding-bottom: 4rem;
+}
+
+.about h1 {
+	margin-bottom: 3rem;
+	letter-spacing: 1px;
+}
+
+.about p {
+	color: #707070;
+	letter-spacing: .5px;
+}
+
+.about p a {
+	color: #195a7c;
+	transition: all .3s;
+}
+
+.about p a:hover {
+	color: #efa900;
+}

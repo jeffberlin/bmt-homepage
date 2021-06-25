@@ -4,15 +4,11 @@
 	padding-bottom: 1rem;
 }
 
-.social h5 {
+.social h5, .copyright {
 	color: #ffffff;
 }
 
-.social h5, .social p a {
-	letter-spacing: .5px;
-}
-
-.social p a, .footer-menu {
+.social p a, .footer-menu, .disabled-link, .disabled-link:hover {
 	color: #707070;
 }
 
@@ -20,7 +16,7 @@
 	transition: all .3s;
 }
 
-.social h5, .social p a, ul {
+.social h5, .social p a, ul, .copyright {
 	letter-spacing: .5px;
 }
 
@@ -33,7 +29,7 @@
 }
 
 .instagram a:hover {
-	color: #E1306C;
+	color: #C13584;
 }
 
 .linkedin a:hover {
@@ -49,7 +45,19 @@ ul {
 	padding-left: 0;
 }
 
-ul li a {
+.disabled-link {
+	pointer-events: none;
+}
+
+.footer-menu ul li strong {
+	font-size: 1.1rem;
+}
+
+.footer-menu ul li {
+	margin-bottom: .5rem;
+}
+
+ul li a, .copyright {
 	font-size: .9rem;
 }
 
