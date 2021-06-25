@@ -1,0 +1,35 @@
+.aboutSection {
+	background-color: #195a7c;
+	color: #ffffff;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.aboutSection h2 {
+	margin-bottom: 2rem;
+	font-size: 2.2rem;
+}
+
+.aboutSection h5, .aboutSection p {
+	letter-spacing: .5px;
+}
+
+.aboutSection p a {
+	transition: all .3s;
+}
+
+.aboutSection p {
+	font-size: 1.1rem;
+}
+
+.aboutSection i {
+	margin-right: .5rem;
+}
+
+.aboutSection a {
+	color: inherit;
+}
+
+.aboutSection p a:hover {
+	color: #efa900 !important;
+}

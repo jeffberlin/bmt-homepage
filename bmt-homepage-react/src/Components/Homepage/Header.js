@@ -17,8 +17,8 @@ function Top() {
 						</Animated>
 						<Animated animationIn="fadeIn" animationInDuration={2000} animationInDelay={2000}>
 							<div className="text-center">
-								<button className="header-btn" style={{ backgroundColor: '#195a7c', marginRight: '1.2rem', color: '#ffffff' }} type="button"><Link to="/">Learn More</Link></button>
-								<button className="header-btn" style={{ backgroundColor: '#efa900', color: '#195a7c' }} type="button"><Link to="/signup">Sign Up&nbsp;<i className="fas fa-arrow-right"></i></Link></button>
+								<button className="header-btn" style={{ backgroundColor: '#195a7c', marginRight: '1.2rem', color: '#ffffff' }} type="button"><Link to="/" style={{ color: 'inherit' }}>Learn More</Link></button>
+								<button className="header-btn" style={{ backgroundColor: '#efa900', color: '#195a7c' }} type="button"><Link to="/signup" style={{ color: 'inherit' }}>Sign Up&nbsp;<i className="fas fa-arrow-right"></i></Link></button>
 							</div>
 						</Animated>
 					</Col>

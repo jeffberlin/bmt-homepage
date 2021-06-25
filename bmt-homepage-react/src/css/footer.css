@@ -1,0 +1,58 @@
+.footer {
+	background-color: #000000;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+.social h5 {
+	color: #ffffff;
+}
+
+.social h5, .social p a {
+	letter-spacing: .5px;
+}
+
+.social p a, .footer-menu {
+	color: #707070;
+}
+
+.social p a, .footer-menu ul li a {
+	transition: all .3s;
+}
+
+.social h5, .social p a, ul {
+	letter-spacing: .5px;
+}
+
+.facebook a:hover {
+	color: #4267B2;
+}
+
+.twitter a:hover {
+	color: #1DA1F2;
+}
+
+.instagram a:hover {
+	color: #E1306C;
+}
+
+.linkedin a:hover {
+	color: #006192;
+}
+
+.pinterest a:hover {
+	color: #E60023;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul li a {
+	font-size: .9rem;
+}
+
+.footer-menu ul li a:hover {
+	color: #efa900 !important;
+}
