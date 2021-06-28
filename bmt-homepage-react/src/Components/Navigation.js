@@ -76,6 +76,15 @@ function Navigation() {
 								<LinkContainer to="/w9form">
 									<Nav.Link className="dropdown-style">W-9 Form</Nav.Link>
 								</LinkContainer>
+								<Nav.Link
+									href="https://help.bmtmicro.com/"
+									className="dropdown-style"
+									active={false}
+									rel="noopener"
+									target="_blank"
+								>
+									Help Pages
+								</Nav.Link>
 							</NavDropdown>
 							<NavDropdown
 								title="Login"
