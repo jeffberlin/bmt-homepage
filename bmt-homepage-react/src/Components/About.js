@@ -8,9 +8,9 @@ function About() {
 		<>
 			<Navigation />
 			<Container className="about">
-				<h1 style={{ textAlign: 'center' }}>About BMT Micro</h1>
+				<h1 style={{ textAlign: 'center', letterSpacing: '1px' }}>About BMT Micro</h1>
 				<div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/vF-MgzLXfmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/vF-MgzLXfmo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 				</div>
 				<Row className="justify-content-center">
 					<Col>

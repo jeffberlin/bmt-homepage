@@ -8,7 +8,7 @@ function News() {
 		<>
 			<Navigation />
 				<Container fluid className="news">
-					<h1>BMT Micro News</h1>
+					<h1 style={{ textAlign: 'center', letterSpacing: '1px' }}>BMT Micro News</h1>
 				</Container>
 			<Footer />
 		</>

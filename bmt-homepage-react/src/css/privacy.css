@@ -1,0 +1,29 @@
+.privacy {
+	padding-top: 6rem;
+	padding-bottom: 5rem;
+}
+
+.privacy h1 {
+	margin-bottom: 3rem;
+}
+
+.privacy h5 {
+	margin-bottom: 1rem;
+}
+
+.privacy h5, .privacy p {
+	letter-spacing: .5px;
+}
+
+.privacy p {
+	color: #707070;
+}
+
+.privacy p a {
+	color: #195a7c;
+	transition: all .3s;
+}
+
+.privacy p a:hover {
+	color: #efa900;
+}

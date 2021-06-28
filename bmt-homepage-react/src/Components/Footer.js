@@ -25,7 +25,7 @@ function Footer() {
 					</Col>
 					<Col lg={6} md={4} className="d-flex justify-content-around footer-menu">
 						<ul>
-							<li><strong><Link to="#" className="disabled-link">Company</Link></strong></li>
+							<li><strong><Link to="#" className="disabled-link" style={{ marginRight: '1rem' }}>Company</Link></strong></li>
 							<li>
 								<Link to="/about" style={linkStyle}>About</Link>
 							</li>
@@ -40,17 +40,17 @@ function Footer() {
 							</li>
 						</ul>
 						<ul>
-							<li><strong><a href="https://www.bmtmicro.com/bmtcatalog/" style={linkStyle}>Catalog</a></strong></li>
+							<li><strong><a href="https://www.bmtmicro.com/bmtcatalog/" style={{ marginRight: '1rem', ...linkStyle}}>Catalog</a></strong></li>
 						</ul>
 						<ul>
 							<li>
 								<strong>
-									<Link to="/contact" style={linkStyle}>Contact</Link>
+									<Link to="/contact" style={{ marginRight: '1rem', ...linkStyle}}>Contact</Link>
 								</strong>
 							</li>
 						</ul>
 						<ul>
-							<li><strong><Link to="#" className="disabled-link">Services</Link></strong></li>
+							<li><strong><Link to="#" className="disabled-link" style={{ marginRight: '1rem' }}>Services</Link></strong></li>
 							<li>
 								<Link to="/affiliates" style={linkStyle}>Affiliate Program</Link>
 							</li>
