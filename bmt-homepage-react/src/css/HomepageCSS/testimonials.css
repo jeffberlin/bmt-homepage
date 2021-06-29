@@ -6,8 +6,17 @@
 
 .testimonials p {
 	color: #195a7c;
-	letter-spacing: .5px;
+	/*letter-spacing: .5px;*/
 	text-shadow: 1px 0px 0px rgba(0, 0, 0, .2);
+	font-family: 'Rubik', sans-serif;
+}
+
+.testimonials p em {
+	font-weight: 400;
+}
+
+.testimonials p strong {
+	font-weight: 600;
 }
 
 .carousel {

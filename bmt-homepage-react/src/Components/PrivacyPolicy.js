@@ -7,8 +7,10 @@ function Privacy() {
 	return (
 		<>
 			<Navigation />
+			<div className="wrapper">
+				<h1>Privacy Policy</h1>
+			</div>
 				<Container className="privacy">
-					<h1 style={{ textAlign: 'center', letterSpacing: '1px' }}>Privacy Policy</h1>
 					<Row className="justify-content-center">
 						<Col>
 							<p>

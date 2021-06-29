@@ -9,16 +9,14 @@
 
 .features h5 {
 	margin-top: .5rem;
-	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .features p {
 	margin-bottom: 2rem;
-	font-weight: 500;
-}
-
-.features h5, .features p {
-	letter-spacing: .5px;
+	letter-spacing: .6px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 300;
 }
 
 .features i, .features h5, .features p {

@@ -6,7 +6,7 @@ function AboutSection() {
 		<div className="aboutSection">
 			<Container fluid>
 				<Row className="justify-content-center">
-					<h2 style={{ textAlign: 'center', letterSpacing: '1px' }}>About BMT Micro</h2>
+					<h2 style={{ textAlign: 'center', }}>About BMT Micro</h2>
 				</Row>
 				<Row className="justify-content-center">
 					<Col xl={6} lg={8} md={12} sm={12}>

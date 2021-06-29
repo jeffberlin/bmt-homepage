@@ -12,12 +12,18 @@
 	color: #707070;
 }
 
+.social p a, ul, .copyright {
+	letter-spacing: .6px;
+	font-family: 'Rubik', sans-serif;
+}
+
 .social p a, .footer-menu ul li a {
 	transition: all .3s;
 }
 
-.social h5, .social p a, ul, .copyright {
-	letter-spacing: .5px;
+.social h5 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.1rem;
 }
 
 .facebook a:hover {
