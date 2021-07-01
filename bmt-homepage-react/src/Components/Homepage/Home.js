@@ -1,23 +1,19 @@
 import React from 'react';
-import Navigation from '../Navigation';
 import Header from './Header';
 import Tag from './Tag';
 import Features from './Features';
 import Testimonials from './Testimonials';
 import AboutSection from './AboutSection';
-import Footer from '../Footer';
 
 function Home() {
 	return (
-		<>
-			<Navigation />
+		<div className="body-content">
 			<Header />
 			<Tag />
 			<Features />
 			<Testimonials />
 			<AboutSection />
-			<Footer />
-		</>
+		</div>
 	);
 }
 

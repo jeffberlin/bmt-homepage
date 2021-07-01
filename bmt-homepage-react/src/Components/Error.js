@@ -1,11 +1,9 @@
 import React from 'react';
-import Navigation from './Navigation';
 import { Container, Row, Col } from 'react-bootstrap';
 
 function Error() {
 	return (
-		<>
-			<Navigation />
+		<div className="body-content">
 			<Container style={{ paddingTop: '7rem' }}>
 				<Row className="align-items-center">
 					<Col>
@@ -14,7 +12,7 @@ function Error() {
 					</Col>
 				</Row>
 			</Container>
-		</>
+		</div>
 	);
 }
 

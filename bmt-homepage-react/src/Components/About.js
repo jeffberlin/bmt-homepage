@@ -1,12 +1,9 @@
 import React from 'react';
-import Navigation from './Navigation';
 import { Container, Row, Col } from 'react-bootstrap';
-import Footer from './Footer';
 
 function About() {
 	return (
-		<>
-			<Navigation />
+		<div className="body-content">
 			<div className="wrapper">
 				<h1>About BMT Micro</h1>
 			</div>
@@ -31,8 +28,7 @@ function About() {
 					</Col>
 				</Row>
 			</Container>
-			<Footer />
-		</>
+		</div>
 	);
 }
 

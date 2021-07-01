@@ -12,7 +12,8 @@ import './css/about.css';
 import './css/news.css';
 import './css/privacy.css';
 
-
+const Navigation = lazy(() => import('./Components/Navigation'));
+const Footer = lazy(() => import('./Components/Footer'));
 const Home = lazy(() => import('./Components/Homepage/Home'));
 const About = lazy(() => import('./Components/About'));
 const News = lazy(() => import('./Components/News'));
@@ -23,6 +24,7 @@ function App() {
   return (
     <div className="App">
       <Suspense fallback={<div>Loading...</div>}>
+        <Navigation />
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/about" component={About} />
@@ -30,6 +32,7 @@ function App() {
           <Route path="/privacy" component={Privacy} />
           <Route path="*" component={Error} />
         </Switch>
+        <Footer />
       </Suspense>
     </div>
   );

@@ -1,27 +1,11 @@
 import React from 'react';
-// import NewsHome from './NewsPages/NewsHome';
-import PurchaseOrderPolicy from './NewsPages/PurchaseOrderPolicy';
-import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { Container, Row, Col } from 'react-bootstrap';
 
-
-function News() {
-	const routes = [
-		{
-			path: "/news",
-			component: News,
-			routes: [
-				{
-					path: "/news/purchase-order-policy",
-					component: PurchaseOrderPolicy
-				}
-			]
-		}
-	]
-
-	return (
-		<div className="body-content">
-			<div className="wrapper">
+function NewsHome() {
+  return (
+    <>
+      <div className="wrapper">
         <h1>News</h1>
       </div>
       <Container className="news">
@@ -38,8 +22,8 @@ function News() {
           </Col>
         </Row>
       </Container>
-		</div>
-	);
+    </>
+  );
 }
 
-export default News;
+export default NewsHome;
