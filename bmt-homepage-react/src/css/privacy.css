@@ -17,10 +17,10 @@
 }
 
 .privacy p a {
-	color: #195a7c;
-	transition: all .3s;
+	color: #efa900;
+	transition: all .3s ease;
 }
 
 .privacy p a:hover {
-	color: #efa900;
+	color: #195a7c;
 }

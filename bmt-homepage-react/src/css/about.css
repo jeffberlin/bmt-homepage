@@ -1,7 +1,6 @@
 .about {
-	background-color: #ffffff;
-	padding: 3rem;
-	border-radius: 20px;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
 .about p {
@@ -12,10 +11,10 @@
 }
 
 .about p a {
-	color: #195a7c;
-	transition: all .3s;
+	color: #efa900;
+	transition: all .3s ease;
 }
 
 .about p a:hover {
-	color: #efa900;
+	color: #195a7c;
 }
