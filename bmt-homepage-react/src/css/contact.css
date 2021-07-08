@@ -2,3 +2,21 @@
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
+
+.card-title {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.card-text {
+	font-family: 'Rubik', sans-serif;
+	letter-spacing: .2px;
+}
+
+.card-text a {
+	color: #efa900;
+	transition: all .3s ease;
+}
+
+.card-text a:hover {
+	color: #195a7c;
+}

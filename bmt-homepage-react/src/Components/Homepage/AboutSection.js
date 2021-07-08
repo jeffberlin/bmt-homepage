@@ -16,7 +16,7 @@ function AboutSection() {
 						<h5>Customer Service Information</h5>
 						<p>
 							<i className="fas fa-phone-alt"></i>
-							<a href="tel:1-800-414-4268" alt="phone" title="Call us">1-800-414-4268</a>
+							<a href="tel:+18004144268" alt="phone" title="Call us">1-800-414-4268</a>
 						</p>
 						<p>
 							<i className="fas fa-location-arrow"></i>
