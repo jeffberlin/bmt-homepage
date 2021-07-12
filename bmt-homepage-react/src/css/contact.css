@@ -7,9 +7,10 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
-.card-text {
+.card-text, .contact p {
 	font-family: 'Rubik', sans-serif;
 	letter-spacing: .2px;
+	color: #707070;
 }
 
 .card-text a {
