@@ -12,9 +12,8 @@
 	color: #707070;
 }
 
-.social p a, ul, .copyright {
-	letter-spacing: .6px;
-	font-family: 'Rubik', sans-serif;
+ul {
+	letter-spacing: .3px;
 }
 
 .social p a, .footer-menu ul li a {

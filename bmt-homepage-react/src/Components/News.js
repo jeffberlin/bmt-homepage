@@ -1,7 +1,7 @@
 import React from 'react';
 import PurchaseOrderPolicy from './NewsPages/PurchaseOrderPolicy';
 import NewYearsMessage from './NewsPages/NewYearsMessage';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 function News() {
 	return (
@@ -13,7 +13,7 @@ function News() {
         <PurchaseOrderPolicy />
       	<NewYearsMessage />
       </Container>
-		</div> 
+		</div>
 	);
 }
 

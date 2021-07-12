@@ -1,0 +1,36 @@
+.affiliates {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.affiliates p, .affiliates-btn {
+  letter-spacing: .3px;
+}
+
+.affiliates p {
+  color: #707070;
+  font-weight: 300;
+}
+
+.affiliates-btn {
+  background-color: #efa900;
+  border: 0px;
+  padding: 1.3rem 2.8rem;
+  font-size: 1.6rem;
+  border-radius: 20px;
+  transition: all .7s ease;
+  color: #ffffff;
+  letter-spacing: .7px;
+  text-shadow: 1px 1px 1px rgb(214, 129, 0);
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+}
+
+.affiliates-btn:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.affiliates-btn:hover {
+  background-color: #195a7c;
+}

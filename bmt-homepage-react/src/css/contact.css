@@ -8,9 +8,9 @@
 }
 
 .card-text, .contact p {
-	font-family: 'Rubik', sans-serif;
 	letter-spacing: .2px;
 	color: #707070;
+	font-weight: 300;
 }
 
 .card-text a {
@@ -20,4 +20,5 @@
 
 .card-text a:hover {
 	color: #195a7c;
+	text-decoration: none;
 }

@@ -15,6 +15,10 @@ a:active, a:focus, button:focus, button:active, [role="button"]:focus, [role="bu
   box-shadow: none;
 }
 
+p, ul, nav {
+  font-family: 'Rubik', sans-serif;
+}
+
 /* Handles the height of every page. Keeps footer fixed to bottom */
 .body-content {
   min-height: calc(100vh - 330px);
