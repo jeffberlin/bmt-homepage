@@ -32,5 +32,8 @@
 }
 
 .affiliates-btn:hover {
-  background-color: #195a7c;
+  /* background-color: #195a7c; */
+  background-color: rgba(239, 169, 0, 0.8);
+  box-shadow: 0 2px 8px 1px rgba(0, 0, 0, .3);
+  -webkit-box-shadow: 0 2px 8px 1px rgba(0, 0, 0, .3);
 }
