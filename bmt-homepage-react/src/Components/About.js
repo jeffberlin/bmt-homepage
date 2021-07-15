@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import video from '../BMT-Micro-2021-video-min.mp4';
 
 function About() {
 	return (
@@ -9,7 +10,12 @@ function About() {
 			</div>
 			<Container className="about">
 				<div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/vF-MgzLXfmo" title="BMT Micro about video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
+					<video style={{ width: '560px', height: '315px' }} controls autoPlay>
+					  <source src={video} type="video/mp4" />
+					  {/* <source src="movie.ogg" type="video/ogg" /> */}
+						Your browser does not support the video tag.
+					</video>
 				</div>
 				<Row className="justify-content-center">
 					<Col>

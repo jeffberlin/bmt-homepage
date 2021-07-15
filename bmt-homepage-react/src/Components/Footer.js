@@ -6,7 +6,7 @@ function Footer() {
 	const getYear = () => {
 		return new Date().getFullYear()
 	}
-	
+
 	const linkStyle = {
 		color: 'inherit'
 	}
@@ -17,11 +17,11 @@ function Footer() {
 				<Row className="justify-content-center" style={{ marginBottom: '1rem' }}>
 					<Col lg={2} md={4} className="social">
 						<h5>Connect With Us</h5>
-						<p className="facebook"><a href="https://www.facebook.com/bmt.micro">Facebook</a></p>
-            <p className="twitter"><a href="https://twitter.com/BMTMicro">Twitter</a></p>
-            <p className="instagram"><a href="https://www.instagram.com/bmtmicro/">Instagram</a></p>
-            <p className="linkedin"><a href="https://www.linkedin.com/company/bmt-micro-wilmington-nc-usa">LinkedIn</a></p>
-            <p className="pinterest"><a href="https://www.pinterest.com/bmtmicro/">Pinterest</a></p>
+						<p className="facebook"><a href="https://www.facebook.com/bmt.micro" target="_blank" rel="noreferrer">Facebook</a></p>
+            <p className="twitter"><a href="https://twitter.com/BMTMicro" target="_blank" rel="noreferrer">Twitter</a></p>
+            <p className="instagram"><a href="https://www.instagram.com/bmtmicro/" target="_blank" rel="noreferrer">Instagram</a></p>
+            <p className="linkedin"><a href="https://www.linkedin.com/company/bmt-micro-wilmington-nc-usa" target="_blank" rel="noreferrer">LinkedIn</a></p>
+            <p className="pinterest"><a href="https://www.pinterest.com/bmtmicro/" target="_blank" rel="noreferrer">Pinterest</a></p>
 					</Col>
 					<Col lg={6} md={4} className="d-flex justify-content-around footer-menu">
 						<ul>

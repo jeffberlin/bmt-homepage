@@ -1,27 +1,6 @@
 .tag h4 {
   font-size: 1.4rem;
   font-family: 'Montserrat', sans-serif;
-}
-
-.tag-btn, .tag h4 {
+  letter-spacing: .2px;
   color: #ffffff;
-}
-
-.tag-btn {
-  background-color: #efa900;
-  padding: .6rem 1.2rem;
-  border-radius: 2px;
-  text-shadow: 1px 1px 1px rgb(214 129 0);
-  border: none;
-  font-size: 1.2rem;
-  transition: all .3s ease;
-  text-align: center;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 400;
-  letter-spacing: .5px;
-}
-
-.tag-btn:hover {
-  background-color: rgba(239, 154, 0, .9);
-  text-decoration: none;
 }
