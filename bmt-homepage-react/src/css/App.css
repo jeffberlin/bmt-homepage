@@ -9,6 +9,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a:hover {
+  text-decoration: none !important;
+}
+
 a:active, a:focus, button:focus, button:active, [role="button"]:focus, [role="button"]:active, .btn:focus, .btn:active {
   outline: none !important;
   border: none !important;
