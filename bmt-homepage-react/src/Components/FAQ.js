@@ -5,7 +5,7 @@ function FAQ() {
 	return (
 		<div className="body-content">
 			<div className="wrapper">
-				<h1>FAQ</h1>
+				<h1>FAQ's</h1>
 			</div>
 			<Container className="faq">
 				<Row className="justify-content-center">
