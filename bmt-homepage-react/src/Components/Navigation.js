@@ -71,7 +71,7 @@ function Navigation() {
 									<Nav.Link className="dropdown-style">FAQ</Nav.Link>
 								</LinkContainer>
 								<LinkContainer to="/pricing">
-									<Nav.Link className="dropdown-style">Pricing Plans</Nav.Link>
+									<Nav.Link className="dropdown-style">Pricing</Nav.Link>
 								</LinkContainer>
 								<LinkContainer to="/w9form">
 									<Nav.Link className="dropdown-style">W-9 Form</Nav.Link>

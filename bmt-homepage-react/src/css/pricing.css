@@ -1,0 +1,36 @@
+.pricing {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.tier {
+  border-radius: 25px;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+
+.tier h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.tier-header h4, .tier-rate p, .tier-text p {
+  margin-bottom: 0;
+  letter-spacing: .2px;
+}
+
+.tier-header {
+  background-color: #d3d3d3;
+  padding: 1.5rem .5rem;
+}
+
+.tier-rate {
+  padding: 1.3rem .5rem;
+  font-size: 1.2rem;
+  background-color: #eeeeee;
+}
+
+.tier-text {
+  padding: 1rem .5rem;
+  font-size: .9rem;
+  font-weight: 300;
+}

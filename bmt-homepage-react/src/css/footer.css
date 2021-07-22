@@ -1,7 +1,7 @@
 .footer {
 	background-color: #000000;
 	padding-top: 2rem;
-	padding-bottom: 1rem;
+	padding-bottom: 2rem;
 }
 
 .social h5, .copyright {
@@ -68,4 +68,8 @@ ul li a, .copyright {
 
 .footer-menu ul li a:hover {
 	color: #efa900 !important;
+}
+
+.copyright {
+	margin-bottom: 0;
 }
