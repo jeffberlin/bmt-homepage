@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import BasicTier from './BasicTier';
+import AdvancedTier from './AdvancedTier';
 
 function Pricing() {
   return (
@@ -12,6 +13,9 @@ function Pricing() {
         <Row>
           <Col xl={4} lg={4}>
             <BasicTier />
+          </Col>
+          <Col xl={4} lg={4}>
+            <AdvancedTier />
           </Col>
         </Row>
       </Container>

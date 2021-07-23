@@ -34,3 +34,27 @@
   font-size: .9rem;
   font-weight: 300;
 }
+
+.tier-btn {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.signup-btn {
+  background-color: rgba(239, 169, 0, 1);
+  color: #ffffff;
+  padding: .9rem 1.3rem;
+  border-radius: 10px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  letter-spacing: .3px;
+  transition: all .4s ease;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px rgb(214, 129, 0);
+}
+
+.signup-btn:hover {
+  color: #ffffff;
+  background-color: rgba(239, 169, 0, .85);
+  box-shadow: 0 2px 8px 1px rgba(0, 0, 0, .3);
+  -webkit-box-shadow: 0 2px 8px 1px rgba(0, 0, 0, .3);
+}
