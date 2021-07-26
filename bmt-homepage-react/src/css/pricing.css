@@ -4,14 +4,40 @@
 }
 
 .tier {
-  border-radius: 25px;
-  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 0 12px 12px 5px rgb(0, 0, 0, .1);
+  -webkit-box-shadow: 0 12px 12px 5px rgb(0, 0, 0, .1);
   overflow: hidden;
 }
 
 .tier h4 {
   font-family: 'Montserrat', sans-serif;
+  padding: 1.2rem;
+  border-bottom: 1px solid #f6f9fc;
+  font-size: 1.2rem;
+  letter-spacing: .2px;
 }
+
+.tier-rate {
+  /* font-size: 1.8rem; */
+  letter-spacing: .3px;
+}
+
+.advanced-tier {
+  background-color: #195a7c;
+}
+
+.advanced-tier p {
+  color: #ffffff;
+}
+
+/* .tier {
+  border-radius: 25px;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+
+
 
 .tier-header h4, .tier-rate p, .tier-text p {
   margin-bottom: 0;
@@ -37,7 +63,7 @@
 
 .tier-btn {
   padding: 0 2rem 2rem 2rem;
-}
+} */
 
 .signup-btn {
   background-color: rgba(239, 169, 0, 1);

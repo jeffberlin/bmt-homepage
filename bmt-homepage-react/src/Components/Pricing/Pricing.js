@@ -11,12 +11,8 @@ function Pricing() {
 			</div>
       <Container className="pricing">
         <Row>
-          <Col xl={4} lg={4}>
-            <BasicTier />
-          </Col>
-          <Col xl={4} lg={4}>
-            <AdvancedTier />
-          </Col>
+          <BasicTier />
+          <AdvancedTier />
         </Row>
       </Container>
     </div>
