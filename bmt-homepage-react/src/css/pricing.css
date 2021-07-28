@@ -5,17 +5,21 @@
 
 .tier {
   border-radius: 5px;
-  box-shadow: 0 12px 12px 5px rgb(0, 0, 0, .1);
-  -webkit-box-shadow: 0 12px 12px 5px rgb(0, 0, 0, .1);
+  box-shadow: 0 5px 12px 5px rgb(0, 0, 0, .1);
+  -webkit-box-shadow: 0 5px 12px 5px rgb(0, 0, 0, .1);
   overflow: hidden;
 }
 
 .tier h4 {
   font-family: 'Montserrat', sans-serif;
   padding: 1.2rem;
-  border-bottom: 1px solid #f6f9fc;
   font-size: 1.2rem;
   letter-spacing: .2px;
+  border-bottom: 2px solid #f6f9fc;
+}
+
+.advanced-tier h4 {
+  border-bottom-color: rgb(30, 107, 148);
 }
 
 .tier-rate {
@@ -29,6 +33,10 @@
 
 .advanced-tier p {
   color: #ffffff;
+}
+
+.tier-text p {
+  margin-bottom: .5rem;
 }
 
 /* .tier {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
-import Modal from 'react-bootstrap/Modal';
+// import Modal from 'react-bootstrap/Modal';
 
 function BasicTier() {
   return (
@@ -12,19 +12,13 @@ function BasicTier() {
         <div className="tier-rate text-center">
           <p style={{ fontSize: '2rem', marginBottom: '0' }}>8.9% flat</p>
           <p style={{ marginBottom: '0', color: '#707070', fontWeight: '400' }}>or</p>
-          <p style={{ fontSize: '1.5rem', marginBottom: '0' }}>5.9% + $1</p>
+          <p style={{ fontSize: '1.5rem' }}>5.9% + $1</p>
         </div>
-        <div className="tier-text">
-          <p></p>
-          {/* <p>All orders online (no phone support, demo hosting, or mail/fax orders)</p>
-          <p>No virtual products</p>
-          <p>No purchase orders</p>
-          <p>Downloadable or generated key fulfillment (by BMT only)</p>
-          <p>Receive your payment in USD</p>
-          <p>Accept payments in more than 30 currencies</p>
-          <p>Shopping cart in multiple languages</p>
-          <p>paysafecard – 20% per transaction</p>
-          <p>* Minimum Fee - $1.25</p> */}
+        <div className="tier-text ">
+          <ul>
+            <li><i className="fas fa-arrow-circle-right" style={{ color: '#efa900' }}></i>&nbsp;Accept payments in 30+ currencies</li>
+            <li><i className="fas fa-arrow-circle-right" style={{ color: '#efa900' }}></i>&nbsp;Shopping cart in multiple languages</li>
+          </ul>
         </div>
         {/* <div className="tier-btn text-center">
           <a className="signup-btn" href="https://vendors.bmtmicro.com/new-vendor-signup.jsp" target="_blank" rel="noreferrer">Sign up for free!</a>
