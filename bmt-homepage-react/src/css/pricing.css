@@ -11,11 +11,14 @@
 }
 
 .tier h4 {
-  font-family: 'Montserrat', sans-serif;
   padding: 1.2rem;
   font-size: 1.2rem;
   letter-spacing: .2px;
   border-bottom: 2px solid #f6f9fc;
+}
+
+.tier h4, .tier-btn {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .advanced-tier h4 {
@@ -23,20 +26,32 @@
 }
 
 .tier-rate {
-  /* font-size: 1.8rem; */
   letter-spacing: .3px;
+}
+
+.tier-text {
+  padding: .3rem 2.5rem;
 }
 
 .advanced-tier {
   background-color: #195a7c;
 }
 
-.advanced-tier p {
+.advanced-tier p, .advanced-tier .tier-text {
   color: #ffffff;
 }
 
 .tier-text p {
   margin-bottom: .5rem;
+}
+
+.tier-btn {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-size: 1.1rem;
+  width: 100%;
+  padding: 2rem;
 }
 
 /* .tier {

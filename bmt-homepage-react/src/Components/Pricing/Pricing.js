@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import BasicTier from './BasicTier';
 import AdvancedTier from './AdvancedTier';
 import CustomTier from './CustomTier';
