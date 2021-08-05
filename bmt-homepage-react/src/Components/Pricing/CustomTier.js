@@ -8,12 +8,24 @@ function CustomTier() {
 			 <div className="tier-header text-center">
 	        <h4 style={{ color: '#195a7c' }}>Custom Tier</h4>
 	      </div>
-	      <div className="tier-text text-center">
-	        <p>Contact us for pricing and add-ons</p>
+				<div className="tier-rate text-center">
+	        <p style={{ fontSize: '2rem', marginBottom: '0', color: '#000000' }}>Contact BMT</p>
+	        <p style={{ marginBottom: '0', color: '#efa900', fontWeight: '400' }}>for</p>
+	        <p style={{ fontSize: '1.5rem', color: '#000000' }}>Add-On Pricing</p>
 	      </div>
-	      {/*<div className="tier-btn text-center">
-	        <a className="signup-btn" href="https://vendors.bmtmicro.com/new-vendor-signup.jsp" target="_blank" rel="noreferrer">Sign up for free!</a>
-	      </div>*/}
+				<div className="tier-text">
+	        <ul>
+						<li><i className="fas fa-check-circle"></i>&nbsp;&nbsp;Advanced custom programming</li>
+						<li><i className="fas fa-check-circle"></i>&nbsp;&nbsp;Marketing services and promoting Vendor products</li>
+						<li><i className="fas fa-check-circle"></i>&nbsp;&nbsp;Micro-transaction processing</li>
+						<li><i className="fas fa-arrow-circle-right" style={{ color: '#195a7c' }}></i>&nbsp;&nbsp;Need a service that is not listed? Contact us! We can customize our plans to suit your business needs.</li>
+					</ul>
+	      </div>
+				<a className="text-center" href="https://vendors.bmtmicro.com/new-vendor-signup.jsp" target="_blank" rel="noreferrer">
+          <div className="tier-btn custom-btn">
+            Contact Us&nbsp;&nbsp;<i className="fas fa-arrow-right"></i>
+          </div>
+        </a>
 			</div>
 		</Col>
 	);

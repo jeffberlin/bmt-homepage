@@ -53,60 +53,28 @@
   width: 100%;
 }
 
-.tier-btn a {
-  padding: 2rem;
-}
-
-/* .tier {
-  border-radius: 25px;
-  border: 1px solid #000;
-  overflow: hidden;
-}
-
-
-
-.tier-header h4, .tier-rate p, .tier-text p {
-  margin-bottom: 0;
-  letter-spacing: .2px;
-}
-
-.tier-header {
-  background-color: #d3d3d3;
-  padding: 1.5rem .5rem;
-}
-
-.tier-rate {
-  padding: 1.3rem .5rem;
-  font-size: 1.2rem;
-  background-color: #eeeeee;
-}
-
-.tier-text {
-  padding: 1rem .5rem;
-  font-size: .9rem;
-  font-weight: 300;
-}
-
 .tier-btn {
-  padding: 0 2rem 2rem 2rem;
-} */
-
-.signup-btn {
-  background-color: rgba(239, 169, 0, 1);
-  color: #ffffff;
-  padding: .9rem 1.3rem;
-  border-radius: 10px;
-  font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
-  letter-spacing: .3px;
-  transition: all .4s ease;
-  font-weight: 600;
-  text-shadow: 1px 1px 1px rgb(214, 129, 0);
+  padding: 1.5rem;
+  color: #000000;
+  transition: all .5s ease;
 }
 
-.signup-btn:hover {
-  color: #ffffff;
-  background-color: rgba(239, 169, 0, .85);
-  box-shadow: 0 2px 8px 1px rgba(0, 0, 0, .3);
-  -webkit-box-shadow: 0 2px 8px 1px rgba(0, 0, 0, .3);
+.basic-btn, .custom-btn {
+  background-color: #f6f9fc;
+}
+
+.basic-btn:hover, .custom-btn:hover {
+  background-color: rgba(221, 224, 227, .5);
+}
+
+.advanced-btn {
+  background-color: rgb(30, 107, 148);
+}
+
+.fa-check-circle, .advanced-btn {
+  color: #efa900;
+}
+
+.advanced-btn:hover {
+  background-color: rgba(56, 133, 174, .6);
 }
