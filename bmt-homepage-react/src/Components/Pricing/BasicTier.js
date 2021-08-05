@@ -21,7 +21,11 @@ function BasicTier() {
             <li><i className="fas fa-check-circle" style={{ color: '#efa900' }}></i>&nbsp;&nbsp;Downloadable or generated key fulfillment by BMT</li>
           </ul>
         </div>
-        <a className="tier-btn" href="https://vendors.bmtmicro.com/new-vendor-signup.jsp" target="_blank" rel="noreferrer">Sign up for free&nbsp;&nbsp;&nbsp;<i className="fas fa-arrow-right"></i></a>
+        <div className="tier-btn">
+          <a className="" href="https://vendors.bmtmicro.com/new-vendor-signup.jsp" target="_blank" rel="noreferrer">
+            Sign up for free&nbsp;&nbsp;&nbsp;<i className="fas fa-arrow-right"></i>
+          </a>
+        </div>
         {/* <div className="tier-btn text-center">
           <a className="signup-btn" href="https://vendors.bmtmicro.com/new-vendor-signup.jsp" target="_blank" rel="noreferrer">Sign up for free!</a>
         </div> */}
