@@ -21,7 +21,7 @@ function CustomTier() {
 						<li><i className="fas fa-arrow-circle-right" style={{ color: '#195a7c' }}></i>&nbsp;&nbsp;Need a service that is not listed? Contact us! We can customize our plans to suit your business needs.</li>
 					</ul>
 	      </div>
-				<a className="text-center" href="https://vendors.bmtmicro.com/new-vendor-signup.jsp" target="_blank" rel="noreferrer">
+				<a className="text-center" href="mailto:vendors@bmtmicro.com?subject=New Vendor Custom Tier" target="_top">
           <div className="tier-btn custom-btn">
             Contact Us&nbsp;&nbsp;<i className="fas fa-arrow-right"></i>
           </div>
