@@ -16,6 +16,7 @@ import './css/affiliates.css';
 import './css/customers.css';
 import './css/faq.css';
 import './css/pricing.css';
+import './css/w9form.css';
 
 const Navigation = lazy(() => import('./Components/Navigation'));
 const Footer = lazy(() => import('./Components/Footer'));
@@ -28,6 +29,7 @@ const AffiliateProgram = lazy(() => import('./Components/AffiliateProgram'));
 const Customers = lazy(() => import('./Components/Customers'));
 const FAQ = lazy(() => import('./Components/FAQ'));
 const Pricing = lazy(() => import('./Components/Pricing/Pricing'));
+const W9form = lazy(() => import('./Components/W9form'));
 const Error = lazy(() => import('./Components/Error'));
 
 function App() {
@@ -45,6 +47,7 @@ function App() {
           <Route path="/customers" component={Customers} />
           <Route path="/faq" component={FAQ} />
           <Route path="/pricing" component={Pricing} />
+          <Route path="/w9form" component={W9form} />
           <Route path="*" component={Error} />
         </Switch>
         <Footer />
