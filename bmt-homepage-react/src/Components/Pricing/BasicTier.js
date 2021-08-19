@@ -16,9 +16,9 @@ function BasicTier() {
         </div>
         <div className="tier-text ">
           <ul>
-            <li><i className="fas fa-check-circle"></i>&nbsp;&nbsp;Accept payments in 30+ currencies</li>
-            <li><i className="fas fa-check-circle"></i>&nbsp;&nbsp;Shopping cart in multiple languages</li>
-            <li><i className="fas fa-check-circle"></i>&nbsp;&nbsp;Downloadable or generated key fulfillment by BMT</li>
+            <li>&nbsp;&nbsp;Accept payments in 30+ currencies</li>
+            <li>&nbsp;&nbsp;Shopping cart in multiple languages</li>
+            <li>&nbsp;&nbsp;Downloadable or generated key fulfillment by BMT</li>
           </ul>
         </div>
         <a className="text-center" href="https://vendors.bmtmicro.com/new-vendor-signup.jsp" target="_blank" rel="noreferrer">

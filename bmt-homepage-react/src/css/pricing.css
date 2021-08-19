@@ -1,13 +1,72 @@
 .pricing {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 7rem;
+  padding-bottom: 4rem;
 }
+
+/* Handles the ribbon for AdvancedTier */
+.ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+}
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  display: block;
+  border: 5px solid orangered;
+}
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 210px;
+  padding: 12px 0;
+  background-color: orangered;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  color: #fff;
+  font-size: 12px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .3px;
+}
+
+.ribbon-top-right {
+  top: -5px;
+  right: 12px;
+}
+.ribbon-top-right::before, .ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.ribbon-top-right::before {
+  top: 0;
+  left: 14px;
+}
+.ribbon-top-right::after {
+  bottom: 13px;
+  right: 0;
+}
+.ribbon-top-right span {
+  left: -10px;
+  top: 30px;
+  transform: rotate(45deg);
+}
+
+/* end AdvancedTier ribbon */
 
 .tier {
   border-radius: 5px;
   box-shadow: 0 5px 12px 5px rgb(0, 0, 0, .1);
   -webkit-box-shadow: 0 5px 12px 5px rgb(0, 0, 0, .1);
   overflow: hidden;
+}
+
+.custom-tier, .basic-tier {
+  background-color: #ffffff;
 }
 
 .tier h4 {
@@ -71,10 +130,25 @@
   background-color: rgb(30, 107, 148);
 }
 
-.fa-check-circle, .advanced-btn {
+/* .fa-check-circle, .advanced-btn {
   color: #efa900;
-}
+} */
 
 .advanced-btn:hover {
   background-color: rgba(56, 133, 174, .6);
+}
+
+.tier-text li::before, .blue-arrow li::before {
+  display: inline-block;
+  content: '\f058';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.tier-text li::before {
+  color: #efa900;
+}
+
+.blue-check::before {
+  color: #195a7c !important;
 }
