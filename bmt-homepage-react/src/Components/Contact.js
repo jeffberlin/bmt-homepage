@@ -4,12 +4,14 @@ import { Container, Row, Col, Card, CardDeck } from 'react-bootstrap';
 function Contact() {
 	return (
 		<div className="body-content">
-			<div className="wrapper">
+			{/*<div className="wrapper">
 				<h1>Contact Us</h1>
-			</div>
+			</div>*/}
 			<Container className="contact">
-				<Row>
-					<p>With BMT Micro, you can always get in touch with a real person who can help and assist you with any problems you may have. Unlike many of our competitors, </p>
+				<Row className="justify-content-center">
+					<Col>
+						<p style={{ marginBottom: '2rem' }}>With BMT Micro, you can always get in touch with a real person who can help and assist you with any problems you may have. <strong>Our office hours are from 9:00 a.m. – 4:00 p.m. Monday through Friday, Eastern Time</strong>. It is also likely that you will receive an email reply outside of our normal business hours, so please don’t hesitate to write. Someone will answer your email, and we will call you back.</p>
+					</Col>
 				</Row>
 				<Row>
 					<Col xl={12} lg={12} md={12} sm={12} style={{ marginBottom: '2rem' }}>

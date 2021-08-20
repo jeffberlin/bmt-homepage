@@ -1,6 +1,10 @@
 .contact {
-	padding-top: 3rem;
+	padding-top: 8rem;
 	padding-bottom: 3rem;
+}
+
+.contact strong {
+	font-weight: 600;
 }
 
 .card-title {

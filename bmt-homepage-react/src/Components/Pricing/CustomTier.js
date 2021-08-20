@@ -18,7 +18,7 @@ function CustomTier() {
 						<li>&nbsp;&nbsp;Advanced custom programming</li>
 						<li>&nbsp;&nbsp;Marketing services and promoting Vendor products</li>
 						<li>&nbsp;&nbsp;Micro-transaction processing</li>
-						<li className="blue-check">&nbsp;&nbsp;Need a service that is not listed? Contact us! We can customize our plans to suit your business needs.</li>
+						<li className="blue-arrow">&nbsp;&nbsp;Need a service that is not listed? Contact us! We can customize our plans to suit your business needs.</li>
 					</ul>
 	      </div>
 				<a className="text-center" href="mailto:vendors@bmtmicro.com?subject=New Vendor Custom Tier" target="_top">

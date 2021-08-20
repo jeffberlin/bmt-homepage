@@ -1,3 +1,18 @@
+.pricing-background {
+  background-image: url(./bmt-micro-beach-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(5px);
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  opacity: .5;
+}
+
 .pricing {
   padding-top: 7rem;
   padding-bottom: 4rem;
@@ -8,6 +23,8 @@
   width: 150px;
   height: 150px;
   overflow: hidden;
+}
+.ribbon, .ribbon span {
   position: absolute;
 }
 .ribbon::before,
@@ -19,35 +36,34 @@
   border: 5px solid orangered;
 }
 .ribbon span {
-  position: absolute;
   display: block;
   width: 210px;
   padding: 12px 0;
   background-color: orangered;
-  box-shadow: 0 5px 10px rgba(0,0,0,.1);
-  color: #fff;
+  box-shadow: 0 1px 10px 4px rgba(0,0,0,.05);
+  -webkit-box-shadow: 0 1px 10px 4px rgba(0,0,0,.05);
   font-size: 12px;
   text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  -webkit-text-shadow: 0 1px 1px rgba(0,0,0,.2);
   text-transform: uppercase;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: .3px;
 }
-
 .ribbon-top-right {
   top: -5px;
   right: 12px;
 }
-.ribbon-top-right::before, .ribbon-top-right::after {
+/*.ribbon-top-right::before, .ribbon-top-right::after {
   border-top-color: transparent;
   border-right-color: transparent;
-}
+}*/
 .ribbon-top-right::before {
   top: 0;
   left: 14px;
 }
 .ribbon-top-right::after {
-  bottom: 13px;
+  bottom: 14px;
   right: 0;
 }
 .ribbon-top-right span {
@@ -55,7 +71,6 @@
   top: 30px;
   transform: rotate(45deg);
 }
-
 /* end AdvancedTier ribbon */
 
 .tier {
@@ -72,11 +87,14 @@
 .tier h4 {
   padding: 1.2rem;
   font-size: 1.2rem;
-  letter-spacing: .2px;
   border-bottom: 2px solid #f6f9fc;
 }
 
-.tier h4, .tier-btn {
+.tier h4, .modal-btn, .modal-title {
+  letter-spacing: .2px;
+}
+
+.tier h4, .tier-btn, .modal-title {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -96,7 +114,7 @@
   background-color: #195a7c;
 }
 
-.advanced-tier p, .advanced-tier .tier-text {
+.advanced-tier p, .advanced-tier .tier-text, .ribbon span {
   color: #ffffff;
 }
 
@@ -115,6 +133,9 @@
 .tier-btn {
   padding: 1.5rem;
   color: #000000;
+}
+
+.tier-btn, .modal-btn {
   transition: all .5s ease;
 }
 
@@ -130,10 +151,6 @@
   background-color: rgb(30, 107, 148);
 }
 
-/* .fa-check-circle, .advanced-btn {
-  color: #efa900;
-} */
-
 .advanced-btn:hover {
   background-color: rgba(56, 133, 174, .6);
 }
@@ -145,10 +162,41 @@
   font-weight: 900;
 }
 
-.tier-text li::before {
+.tier-text li::before, .modal-btn {
   color: #efa900;
 }
 
-.blue-check::before {
+.blue-arrow::before {
   color: #195a7c !important;
+  content: '\f0a9' !important;
+}
+
+.modal-btn {
+  border: none;
+  background-color: transparent;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.modal-btn:hover {
+  color: rgba(239, 169, 0, 0.7);
+}
+
+.modal-title {
+  color: #000000;
+}
+
+.modal-body {
+  color: #707070;
+  font-weight: 300;
+}
+
+.modal-text li {
+  margin-bottom: .5rem;
+  border-bottom: 1px solid rgba(221, 224, 227, .5);
+}
+
+.modal-text li:last-child {
+  border-bottom: none;
 }

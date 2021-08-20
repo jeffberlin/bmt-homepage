@@ -22,7 +22,7 @@ const Navigation = lazy(() => import('./Components/Navigation'));
 const Footer = lazy(() => import('./Components/Footer'));
 const Home = lazy(() => import('./Components/Homepage/Home'));
 const About = lazy(() => import('./Components/About'));
-const News = lazy(() => import('./Components/News'));
+const News = lazy(() => import('./Components/NewsPages/News'));
 const Privacy = lazy(() => import('./Components/PrivacyPolicy'));
 const Contact = lazy(() => import('./Components/Contact'));
 const AffiliateProgram = lazy(() => import('./Components/AffiliateProgram'));
