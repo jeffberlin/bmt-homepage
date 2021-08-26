@@ -1,17 +1,21 @@
 .pricing-background {
-  background-image: linear-gradient(150deg, rgba(255,255,255,0.5242471988795518) 0%, rgba(255,255,255,1) 65%), url(./bmt-micro-pricing-background.svg);
+  /* background-image: linear-gradient(150deg, rgba(255,255,255,0.5242471988795518) 0%, rgba(255,255,255,1) 65%), url(./bmt-micro-pricing-background.svg); */
+  /* background-image: url(./bmt-micro-pricing-background.svg); */
+  background-image: linear-gradient(130deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,1) 90%), url(./Meteor.svg);
+  /* background-image: url(./Meteor.svg); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
-  -webkit-filter: blur(2px);
-  filter: blur(2px);
+  /* -webkit-filter: blur(2px);
+  filter: blur(2px); */
   height: 100%;
   z-index: -1;
   top: 0;
   left: 0;
   width: 100%;
   position: fixed;
+  /* opacity: .5; */
 }
 
 .pricing {
