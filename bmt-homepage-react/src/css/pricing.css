@@ -1,16 +1,20 @@
 .pricing-background {
-  background-image: url(./bmt-micro-beach-background.jpg);
+  /*background-image: url(./bmt-micro-beach-background.jpg);*/
+  background-image: url(./bmt-micro-pricing-background.svg);
+  /*background-image: url(./bmt-micro-pricing-sprinkle-background.svg);*/
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  filter: blur(5px);
+  background-attachment: fixed;
+  /*transform: scale(1.2);*/
+  /*filter: blur(5px);*/
   height: 100%;
   z-index: -1;
   top: 0;
   left: 0;
   width: 100%;
   position: fixed;
-  opacity: .5;
+  opacity: .9;
 }
 
 .pricing {
