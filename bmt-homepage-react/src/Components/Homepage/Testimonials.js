@@ -42,8 +42,8 @@ function Testimonials() {
 							controls={false}
 							indicators={false}
 						>
-							{testimonials.map(testimonial => (
-								<Carousel.Item interval={6500}>
+							{testimonials.map((testimonial, index) => (
+								<Carousel.Item interval={6000} key={index}>
 									<p style={{ marginBottom: '.5rem' }}>
 										<em>"{testimonial.text}"</em>
 									</p>

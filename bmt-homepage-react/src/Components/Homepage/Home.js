@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import Tag from './Tag';
+import Banner from './Banner';
 import Features from './Features';
 import Testimonials from './Testimonials';
 import AboutSection from './AboutSection';
@@ -9,7 +9,7 @@ function Home() {
 	return (
 		<div className="body-content">
 			<Header />
-			<Tag />
+			<Banner />
 			<Features />
 			<Testimonials />
 			<AboutSection />

@@ -8,17 +8,18 @@ function Top() {
 		<div className="main">
 			<Container className="header-section">
 				<Row className="justify-content-center align-items-center">
-					<Col xl={6} lg={6}>
+					<Col xl={6} lg={6} md={12} sm={12} className="header-hero">
 						<Animated animationIn="slideInLeft" animationInDuration={2000}>
 							<h1>Software distribution & order fullfilment</h1>
 						</Animated>
 						<Animated animationIn="fadeIn" animationInDuration={2000} animationInDelay={1500}>
-							<p>Using our dashboard, you can track your sales, product growth, and much more.</p>
+							<p>Providing scalable services for online sales and digital delivery systems for developers and companies. Track your sales, product growth, and much more through our vendor portal.</p>
+							{/*<p>Using our dashboard, you can track your sales, product growth, and much more.</p>*/}
 						</Animated>
 						<Animated animationIn="fadeIn" animationInDuration={2000} animationInDelay={2000}>
 							<div className="text-center">
 								<Link
-									to="/signup"
+									to="/pricing"
 									className="header-btn"
 									style={{ backgroundColor: '#195a7c', marginRight: '1.2rem', color: '#ffffff' }}
 								>
@@ -36,7 +37,7 @@ function Top() {
 							</div>
 						</Animated>
 					</Col>
-					<Col xl={6} lg={6}>
+					<Col xl={6} lg={6} md={12} sm={12} className="header-screenshots">
 						<Animated animationIn="slideInRight" animationInDuration={2000}>
 							<Image
 								fluid

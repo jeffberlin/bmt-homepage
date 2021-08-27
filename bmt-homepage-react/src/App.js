@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import './css/App.css';
 import './css/navigation.css';
 import './css/HomepageCSS/header.css';
-import './css/HomepageCSS/tag.css';
+import './css/HomepageCSS/banner.css';
 import './css/HomepageCSS/features.css';
 import './css/HomepageCSS/testimonials.css';
 import './css/HomepageCSS/aboutSection.css';
