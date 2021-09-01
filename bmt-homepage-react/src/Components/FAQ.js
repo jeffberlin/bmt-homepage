@@ -71,7 +71,7 @@ function FAQ() {
 		{
 			"number": "14",
 			"question": "Why is the ‘License to’ field optional in the shopping cart? I need this for my key generator.",
-			"answer": "Our system will fill this field with the customer’s first and last name when left blank or if the field is not present. Due to a number of customers entering wrong information in this field (e.g.: \“same as above\”, \“me\”, \“my company\”, etc.), some vendors opt to not include this field at all."
+			"answer": "Our system will fill this field with the customer’s first and last name when left blank or if the field is not present. Due to a number of customers entering wrong information in this field (e.g.: “same as above”, “me”, “my company”, etc.), some vendors opt to not include this field at all."
 		},
 		{
 			"number": "15",
