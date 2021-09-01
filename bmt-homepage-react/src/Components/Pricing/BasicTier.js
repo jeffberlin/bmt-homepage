@@ -43,6 +43,17 @@ function BasicTier() {
 export default BasicTier;
 
 function BasicModal(props) {
+  const features = [
+    "All orders online (no phone support, demo hosting, or mail/fax orders)",
+    "No virtual products",
+    "No purchase orders",
+    "Downloadable or generated key fulfillment (by BMT only)",
+    "Receive your payment in USD",
+    "Accept payments in 30+ currencies",
+    "Shopping cart in multiple languages",
+    "paysafecard - 20% per transaction",
+    "* Minimum Fee - $1.25"
+  ]
   return (
     <Modal
       {...props}
@@ -57,15 +68,9 @@ function BasicModal(props) {
       </Modal.Header>
       <Modal.Body>
         <ul className="modal-text text-center">
-          <li>All orders online (no phone support, demo hosting, or mail/fax orders)</li>
-          <li>No virtual products</li>
-          <li>No purchase orders</li>
-          <li>Downloadable or generated key fulfillment (by BMT only)</li>
-          <li>Receive your payment in USD</li>
-          <li>Accept payments in 30+ currencies</li>
-          <li>Shopping cart in multiple languages</li>
-          <li>paysafecard - 20% per transaction</li>
-          <li>* Minimum Fee - $1.25</li>
+          {features.map((feature, index) => (
+            <li key={index}>{feature}</li>
+          ))}
         </ul>
       </Modal.Body>
     </Modal>

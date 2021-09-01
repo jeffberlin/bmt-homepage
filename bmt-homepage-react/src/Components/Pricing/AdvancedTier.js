@@ -1,6 +1,5 @@
 import React from 'react';
 import { Col, Modal } from 'react-bootstrap';
-// import Modal from 'react-bootstrap/Modal';
 
 function AdvancedTier() {
 	const [modalShow, advancedModalShow] = React.useState(false);
@@ -46,6 +45,19 @@ function AdvancedTier() {
 export default AdvancedTier;
 
 function AdvancedModal(props) {
+  const features = [
+    "Vendor, remote or BMT fulfillment",
+    "Purchase orders",
+    "Phone ordering (with live customer service representative)",
+    "Mail/fax orders",
+    "Receive your payment in USD",
+    "Accept payments in 30+ currencies",
+    "Shopping cart in multiple languages",
+    "Shopping cart customized to your needs",
+    "paysafecard - 20% per transaction",
+    "* Minimum Fee - $1.25"
+  ]
+
   return (
     <Modal
       {...props}
@@ -60,16 +72,9 @@ function AdvancedModal(props) {
       </Modal.Header>
       <Modal.Body>
         <ul className="modal-text text-center">
-          <li>Vendor, remote or BMT fulfillment</li>
-          <li>Purchase orders</li>
-          <li>Phone ordering (with live customer service representative)</li>
-          <li>Mail/fax orders</li>
-          <li>Receive your payment in USD</li>
-          <li>Accept payments in 30+ currencies</li>
-          <li>Shopping cart in multiple languages</li>
-          <li>Shopping cart customized to your needs</li>
-          <li>paysafecard - 20% per transaction</li>
-          <li>* Minimum Fee - $1.25</li>
+          {features.map((feature, index) => (
+            <li key={index}>{feature}</li>
+          ))}
         </ul>
       </Modal.Body>
     </Modal>
