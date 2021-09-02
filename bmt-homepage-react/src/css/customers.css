@@ -1,3 +1,9 @@
+.customer-bg {
+	background-image: url(./background.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
 .customers {
 	padding-top: 3rem;
 	padding-bottom: 3rem;

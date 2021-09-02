@@ -9,7 +9,6 @@
   height: 100%;
   z-index: -1;
   left: 0;
-  width: 100%;
   position: fixed;
   opacity: .4;
 }
@@ -129,7 +128,7 @@
   color: #ffffff;
 }
 
-.tier-text p {
+.tier-text p, .modal-text li {
   margin-bottom: .5rem;
 }
 
@@ -202,7 +201,6 @@
 }
 
 .modal-text li {
-  margin-bottom: .5rem;
   border-bottom: 1px solid rgba(221, 224, 227, .5);
 }
 
