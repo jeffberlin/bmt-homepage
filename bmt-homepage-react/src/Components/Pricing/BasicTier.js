@@ -36,7 +36,6 @@ function BasicTier() {
         onHide={() => basicModalShow(false)}
       />
     </Col>
-
   );
 }
 
@@ -54,6 +53,7 @@ function BasicModal(props) {
     "paysafecard - 20% per transaction",
     "* Minimum Fee - $1.25"
   ]
+
   return (
     <Modal
       {...props}
@@ -67,14 +67,12 @@ function BasicModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <ul className="modal-text text-center">
-          {features.map((feature, index) => (
-            <li key={index}>{feature}</li>
-          ))}
-        </ul>
+        {features.map((feature, index) => (
+          <ul className="modal-text text-center" key={index}>
+            <li>{feature}</li>
+          </ul>
+        ))}
       </Modal.Body>
     </Modal>
   );
 }
-
-

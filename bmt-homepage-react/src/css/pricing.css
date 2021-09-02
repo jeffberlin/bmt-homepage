@@ -3,16 +3,23 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   -webkit-filter: blur(2px);
-  filter: blur(2px); 
+  filter: blur(2px);
   height: 100%;
   z-index: -1;
-  top: 0;
   left: 0;
   width: 100%;
   position: fixed;
   opacity: .4;
+}
+
+.pricing-background, .tier-btn {
+  width: 100%;
+}
+
+.pricing-background, .ribbon-top-right::before {
+  top: 0;
 }
 
 .pricing {
@@ -21,7 +28,6 @@
 }
 
 .pricing h5 {
-  letter-spacing: .2px;
   margin-bottom: 2rem;
   color: #000000;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
@@ -35,19 +41,20 @@
   height: 150px;
   overflow: hidden;
 }
-.ribbon, .ribbon span {
+.ribbon, .ribbon span, .ribbon::before,
+.ribbon::after {
   position: absolute;
+}
+.ribbon::before, .ribbon::after, .ribbon span {
+  display: block;
 }
 .ribbon::before,
 .ribbon::after {
-  position: absolute;
   z-index: -1;
   content: '';
-  display: block;
   border: 5px solid orangered;
 }
 .ribbon span {
-  display: block;
   width: 210px;
   padding: 12px 0;
   background-color: orangered;
@@ -58,19 +65,12 @@
   -webkit-text-shadow: 0 1px 1px rgba(0,0,0,.2);
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: .3px;
 }
 .ribbon-top-right {
   top: -5px;
   right: 12px;
 }
-/*.ribbon-top-right::before, .ribbon-top-right::after {
-  border-top-color: transparent;
-  border-right-color: transparent;
-}*/
 .ribbon-top-right::before {
-  top: 0;
   left: 14px;
 }
 .ribbon-top-right::after {
@@ -101,11 +101,11 @@
   border-bottom: 2px solid #f6f9fc;
 }
 
-.tier h4, .modal-btn, .modal-title {
+.tier h4, .modal-btn, .modal-title, .pricing h5 {
   letter-spacing: .2px;
 }
 
-.tier h4, .tier-btn, .modal-title {
+.tier h4, .tier-btn, .modal-title, .ribbon span {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -113,7 +113,7 @@
   border-bottom-color: rgb(30, 107, 148);
 }
 
-.tier-rate {
+.tier-rate, .ribbon span {
   letter-spacing: .3px;
 }
 
@@ -138,12 +138,10 @@
   text-transform: uppercase;
   letter-spacing: .5px;
   font-size: 1.1rem;
-  width: 100%;
 }
 
 .tier-btn {
   padding: 1.5rem;
-  color: #000000;
 }
 
 .tier-btn, .modal-btn {
@@ -194,7 +192,7 @@
   color: rgba(239, 169, 0, 0.7);
 }
 
-.modal-title {
+.modal-title, .tier-btn {
   color: #000000;
 }
 

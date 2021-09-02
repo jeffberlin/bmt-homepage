@@ -71,11 +71,11 @@ function AdvancedModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <ul className="modal-text text-center">
-          {features.map((feature, index) => (
-            <li key={index}>{feature}</li>
-          ))}
-        </ul>
+        {features.map((feature, index) => (
+					<ul className="modal-text text-center" key={index}>
+            <li>{feature}</li>
+					</ul>
+        ))}
       </Modal.Body>
     </Modal>
   );

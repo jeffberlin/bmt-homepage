@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 function FAQ() {
-	const faqs = [
+	const [faqs] = useState([
 		{
 			"number": "1",
 			"question": "I read on your website that there are NO fees to use your service. The only thing you do is take a % of the profits when I sell something, correct? It won’t cost me anything extra to use your service?",
@@ -83,7 +83,7 @@ function FAQ() {
 			"question": "Does your system support tracking codes?",
 			"answer": "Yes. BMT Micro has been supporting tracking codes for Google, Overture, MSN, Yahoo and many others."
 		}
-	]
+	])
 
 	return (
 		<div className="body-content">
@@ -92,12 +92,12 @@ function FAQ() {
 			</div>
 			<Container className="faq">
 				<Row className="justify-content-center">
-					<Col xl={12} lg={12} md={12} sm={12}>
-						{faqs.map((faq, index) => (
-							<><p className="question" key={index}>"{faq.question}"</p>
-							<blockquote className="answer" key={index}>{faq.answer}</blockquote></>
-						))}
-					</Col>
+					{faqs.map((faq, index) => (
+						<Col xl={12} lg={12} md={12} sm={12} key={index}>
+						<p className="question">"{faq.question}"</p>
+						<blockquote className="answer">{faq.answer}</blockquote>
+						</Col>
+					))}
 				</Row>
 			</Container>
 		</div>
