@@ -128,7 +128,7 @@
   color: #ffffff;
 }
 
-.tier-text p, .modal-text li {
+.tier-text p {
   margin-bottom: .5rem;
 }
 
@@ -202,6 +202,8 @@
 
 .modal-text li {
   border-bottom: 1px solid rgba(221, 224, 227, .5);
+  padding-bottom: .2rem;
+  padding-top: .2rem;
 }
 
 .modal-text li:last-child {

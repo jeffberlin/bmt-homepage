@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Col, Modal } from 'react-bootstrap';
 
 function BasicTier() {
-  const [modalShow, basicModalShow] = React.useState(false);
+  const [modalShow, basicModalShow] = useState(false);
 
   return (
     <Col style={{ marginBottom: '2.5rem' }}>
@@ -42,17 +42,16 @@ function BasicTier() {
 export default BasicTier;
 
 function BasicModal(props) {
-  const features = [
+  const [features] = useState([
     "All orders online (no phone support, demo hosting, or mail/fax orders)",
     "No virtual products",
     "No purchase orders",
     "Downloadable or generated key fulfillment (by BMT only)",
     "Receive your payment in USD",
-    "Accept payments in 30+ currencies",
-    "Shopping cart in multiple languages",
+    "Accept payments in 30+ currencies","Shopping cart in multiple languages",
     "paysafecard - 20% per transaction",
-    "* Minimum Fee - $1.25"
-  ]
+    "* Minimum Fee - $1.25",
+  ])
 
   return (
     <Modal
@@ -67,11 +66,11 @@ function BasicModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        {features.map((feature, index) => (
-          <ul className="modal-text text-center" key={index}>
-            <li>{feature}</li>
-          </ul>
-        ))}
+        <ul className="modal-text text-center">
+          {features.map((feature, index) => (
+            <li key={index}>{feature}</li>
+          ))}
+        </ul>
       </Modal.Body>
     </Modal>
   );
