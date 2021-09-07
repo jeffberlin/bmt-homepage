@@ -31,6 +31,10 @@ class Testimonials extends React.PureComponent {
 			{
 				"text": "This is the best customer service I’ve ever received… To respond within a day, too, is extraordinary. I can’t thank you enough!",
 				"name": "Chris S."
+			},
+			{
+				"text": "You are very good at customer service with your terrific response time and knowledge.",
+				"name": "Jennifer N."
 			}
 		]
 
