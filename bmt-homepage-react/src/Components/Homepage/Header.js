@@ -14,7 +14,6 @@ function Top() {
 						</Animated>
 						<Animated animationIn="fadeIn" animationInDuration={2000} animationInDelay={1500}>
 							<p>Providing scalable services for online sales and digital delivery systems for developers and companies. Track your sales, product growth, and much more through our vendor portal.</p>
-							{/*<p>Using our dashboard, you can track your sales, product growth, and much more.</p>*/}
 						</Animated>
 						<Animated animationIn="fadeIn" animationInDuration={2000} animationInDelay={2000}>
 							<div className="text-center">

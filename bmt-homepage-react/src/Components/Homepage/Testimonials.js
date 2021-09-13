@@ -35,6 +35,10 @@ class Testimonials extends React.PureComponent {
 			{
 				"text": "You are very good at customer service with your terrific response time and knowledge.",
 				"name": "Jennifer N."
+			},
+			{
+				"text": "We really wish we'd found you twenty years ago. What a cleanly designed and wonderful site! No one knows how to design interfaces these days anymore. You do it right! So good!",
+				"name": "John C."
 			}
 		]
 
