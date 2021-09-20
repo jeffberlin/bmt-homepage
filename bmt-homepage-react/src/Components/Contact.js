@@ -17,7 +17,7 @@ function Contact() {
 					<Col xl={12} lg={12} md={12} sm={12} style={{ marginBottom: '2rem' }}>
 						<CardDeck>
 							<Card>
-								<Card.Img src="./images/iu.jpg" style={{ height: '268px', width: '538px' }} />
+								<Card.Img src="./images/download.jpeg" style={{ height: '268px', width: '538px' }} />
 								<Card.Body>
 									<Card.Title>Phone</Card.Title>
 									<Card.Text>Orders only (toll-free in USA and Canada):&nbsp;<a href="tel:+18004144268" title="Call us">1-800-414-4268</a></Card.Text>
@@ -55,7 +55,7 @@ function Contact() {
 							</Card>
 						</CardDeck>
 					</Col>
-				</Row>			
+				</Row>
 			</Container>
 		</div>
 	);

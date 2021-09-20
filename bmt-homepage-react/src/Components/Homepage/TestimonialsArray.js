@@ -27,17 +27,17 @@ const testimonials = [
 	{
 		"text": "I am so impressed with BMT's outstanding customer service!",
 		"name": "Lenora",
-		"interval": "2500"
+		"interval": "3000"
 	},
 	{
 		"text": "This is the best customer service I’ve ever received… To respond within a day, too, is extraordinary. I can’t thank you enough!",
 		"name": "Chris S.",
-		"interval": "2500"
+		"interval": "3000"
 	},
 	{
 		"text": "You are very good at customer service with your terrific response time and knowledge.",
 		"name": "Jennifer N.",
-		"interval": "2500"
+		"interval": "3000"
 	},
 	{
 		"text": "We really wish we'd found you twenty years ago. What a cleanly designed and wonderful site! No one knows how to design interfaces these days anymore. You do it right! So good!",
