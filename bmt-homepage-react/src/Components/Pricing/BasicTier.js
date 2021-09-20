@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Col, Modal } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
+import BasicModal from './BasicTierModal';
 
 function BasicTier() {
   const [modalShow, basicModalShow] = useState(false);
@@ -11,9 +12,9 @@ function BasicTier() {
           <h4 style={{ color: '#efa900' }}>Basic Tier</h4>
         </div>
         <div className="tier-rate text-center">
-          <p style={{ fontSize: '2rem', marginBottom: '0', color: '#000000' }}>8.9% flat</p>
-          <p style={{ marginBottom: '0', color: '#707070', fontWeight: '400' }}>or</p>
-          <p style={{ fontSize: '1.5rem', color: '#000000' }}>5.9% + $1</p>
+          <p className="black-text top-rate">8.9% flat</p>
+          <p className="middle-rate" style={{ color: '#707070' }}>or</p>
+          <p className="black-text bottom-rate">5.9% + $1</p>
         </div>
         <div className="tier-text">
           <ul>
@@ -26,7 +27,7 @@ function BasicTier() {
           </div>
         </div>
         <a className="text-center" href="https://vendors.bmtmicro.com/new-vendor-signup.jsp" target="_blank" rel="noreferrer">
-          <div className="tier-btn basic-btn">
+          <div className="tier-btn black-text basic-btn">
             Sign up for free&nbsp;&nbsp;<i className="fas fa-arrow-right"></i>
           </div>
         </a>
@@ -40,38 +41,3 @@ function BasicTier() {
 }
 
 export default BasicTier;
-
-function BasicModal(props) {
-  const [features] = useState([
-    "All orders online (no phone support, demo hosting, or mail/fax orders)",
-    "No virtual products",
-    "No purchase orders",
-    "Downloadable or generated key fulfillment (by BMT only)",
-    "Receive your payment in USD",
-    "Accept payments in 30+ currencies","Shopping cart in multiple languages",
-    "paysafecard - 20% per transaction",
-    "* Minimum Fee - $1.25",
-  ])
-
-  return (
-    <Modal
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-    >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Basic Tier features
-        </Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
-        <ul className="modal-text text-center">
-          {features.map((feature, index) => (
-            <li key={index}>{feature}</li>
-          ))}
-        </ul>
-      </Modal.Body>
-    </Modal>
-  );
-}

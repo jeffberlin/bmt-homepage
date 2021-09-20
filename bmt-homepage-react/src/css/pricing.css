@@ -7,10 +7,13 @@
   -webkit-filter: blur(2px);
   filter: blur(2px);
   height: 100%;
-  z-index: -1;
   left: 0;
   position: fixed;
   opacity: .4;
+}
+
+.pricing-background, .ribbon::before, .ribbon::after {
+  z-index: -1;
 }
 
 .pricing-background, .tier-btn {
@@ -28,13 +31,22 @@
 
 .pricing h5 {
   margin-bottom: 2rem;
-  color: #000000;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
   -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
   font-weight: 400;
 }
 
-/* Handles the ribbon for AdvancedTier: https://codepen.io/nxworld/pen/oLdoWb */
+.black-text {
+  color: #000;
+}
+
+.tier {
+  border-radius: 5px;
+  box-shadow: 0 5px 12px 5px rgb(0, 0, 0, .1);
+  -webkit-box-shadow: 0 5px 12px 5px rgb(0, 0, 0, .1);
+  overflow: hidden;
+}
+
 .ribbon {
   width: 150px;
   height: 150px;
@@ -49,7 +61,6 @@
 }
 .ribbon::before,
 .ribbon::after {
-  z-index: -1;
   content: '';
   border: 5px solid orangered;
 }
@@ -81,17 +92,9 @@
   top: 30px;
   transform: rotate(45deg);
 }
-/* end AdvancedTier ribbon */
-
-.tier {
-  border-radius: 5px;
-  box-shadow: 0 5px 12px 5px rgb(0, 0, 0, .1);
-  -webkit-box-shadow: 0 5px 12px 5px rgb(0, 0, 0, .1);
-  overflow: hidden;
-}
 
 .custom-tier, .basic-tier {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .tier h4 {
@@ -116,6 +119,22 @@
   letter-spacing: .3px;
 }
 
+.top-rate {
+  font-size: 2rem;
+}
+
+.top-rate, .middle-rate {
+  margin-bottom: 0;
+}
+
+.middle-rate {
+  font-weight: 400;
+}
+
+.bottom-rate {
+  font-size: 1.5rem;
+}
+
 .tier-text {
   padding: .3rem 2.5rem;
 }
@@ -125,7 +144,7 @@
 }
 
 .advanced-tier p, .advanced-tier .tier-text, .ribbon span {
-  color: #ffffff;
+  color: #fff;
 }
 
 .tier-text p {
@@ -133,7 +152,6 @@
 }
 
 .tier-btn {
-  text-align: center;
   text-transform: uppercase;
   letter-spacing: .5px;
   font-size: 1.1rem;
@@ -189,10 +207,6 @@
 
 .modal-btn:hover {
   color: rgba(239, 169, 0, 0.7);
-}
-
-.modal-title, .tier-btn {
-  color: #000000;
 }
 
 .modal-body {

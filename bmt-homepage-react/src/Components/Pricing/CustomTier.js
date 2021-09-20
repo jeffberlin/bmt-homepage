@@ -9,9 +9,9 @@ function CustomTier() {
 	        <h4 style={{ color: '#195a7c' }}>Custom Tier</h4>
 	      </div>
 				<div className="tier-rate text-center">
-	        <p style={{ fontSize: '2rem', marginBottom: '0', color: '#000000' }}>Contact BMT</p>
-	        <p style={{ marginBottom: '0', color: '#efa900', fontWeight: '400' }}>for</p>
-	        <p style={{ fontSize: '1.5rem', color: '#000000' }}>Add-On Pricing</p>
+	        <p className="black-text top-rate">Contact BMT</p>
+	        <p className="middle-rate" style={{ color: '#efa900' }}>for</p>
+	        <p className="black-text bottom-rate">Add-On Pricing</p>
 	      </div>
 				<div className="tier-text">
 	        <ul>
@@ -22,7 +22,7 @@ function CustomTier() {
 					</ul>
 	      </div>
 				<a className="text-center" href="mailto:vendors@bmtmicro.com?subject=New Vendor Custom Tier" target="_top">
-          <div className="tier-btn custom-btn">
+          <div className="tier-btn black-text custom-btn">
             Contact Us&nbsp;&nbsp;<i className="fas fa-arrow-right"></i>
           </div>
         </a>
