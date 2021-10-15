@@ -43,6 +43,11 @@ const testimonials = [
 		"text": "We really wish we'd found you twenty years ago. What a cleanly designed and wonderful site! No one knows how to design interfaces these days anymore. You do it right! So good!",
 		"name": "John C.",
 		"interval": "3000"
+	},
+	{
+		"text": "Thank you for your help! My [son] loves you!!! You made him dance around the house.",
+		"name": "Tammy P.",
+		"interval": "3000"
 	}
 ]
 

@@ -7,22 +7,22 @@
 	font-weight: 600;
 }
 
-.card-title {
+.contact h5 {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.card-text, .contact p {
+.contact p {
 	letter-spacing: .2px;
 	color: #707070;
 	font-weight: 300;
 }
 
-.card-text a {
+.contact p a {
 	color: #efa900;
 	transition: all .3s ease;
 }
 
-.card-text a:hover {
+.contact p a:hover {
 	color: #195a7c;
 	text-decoration: none;
 }
