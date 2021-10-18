@@ -5,7 +5,8 @@ import video from '../BMT-Micro-2021-video-min.mp4';
 function About() {
 	return (
 		<div className="body-content">
-			<div className="wrapper">
+			{/* <div className="wrapper"> */}
+			<div className="about-bg">
 				<h1>About BMT Micro</h1>
 			</div>
 			<Container className="about">

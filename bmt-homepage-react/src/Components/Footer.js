@@ -16,7 +16,7 @@ function Footer() {
 			<Container>
 				<Row className="justify-content-center" style={{ marginBottom: '1rem' }}>
 					<Col lg={2} md={4} className="social">
-						<h5>Connect With Us</h5>
+						<h5>BMT Social</h5>
 						<p className="facebook"><a href="https://www.facebook.com/bmt.micro" target="_blank" rel="noreferrer">Facebook</a></p>
             <p className="twitter"><a href="https://twitter.com/BMTMicro" target="_blank" rel="noreferrer">Twitter</a></p>
             <p className="instagram"><a href="https://www.instagram.com/bmtmicro/" target="_blank" rel="noreferrer">Instagram</a></p>
