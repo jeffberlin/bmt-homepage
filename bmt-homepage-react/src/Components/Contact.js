@@ -7,6 +7,9 @@ function Contact() {
 			{/*<div className="wrapper">
 				<h1>Contact Us</h1>
 			</div>*/}
+			<div className="contact-wrapper" style={{ backgroundColor: '#000000', height: '15rem' }}>
+				<h1 style={{ color: '#ffffff', textAlign: 'center', paddingTop: '7.5rem' }}>It's easy to contact us.</h1>
+			</div>
 			<Container className="contact">
 				<Row className="justify-content-center">
 					<Col>
@@ -20,7 +23,7 @@ function Contact() {
 						<p>Orders and account questions: <a href="tel:+19107929100" title="Call us">1-910-792-9100</a></p>
 						<h5>Fax</h5>
 						<p>24-hour FAX (toll-free in USA and Canada):&nbsp;<span style={{ color: '#efa900' }}>1-800-346-1672</span></p>
-						<p>24-hour FAX:&nbsp;<span style={{ color: '#efa900' }}>1-910-792-1889</span></p>
+						<p style={{ marginBottom: '.1rem' }}>24-hour FAX:&nbsp;<span style={{ color: '#efa900' }}>1-910-792-1889</span></p>
 						<p style={{ fontSize: '.9rem' }}>This is an alternate way to send in orders, questions, or comments. <strong>Please note:</strong> Faxed orders will be processed the following business day.</p>
 						<h5>Email</h5>
 						<p>Vendors/Developers:&nbsp;<a href="mailto:vendors@bmtmicro.com" title="Send an email">vendors@bmtmicro.com</a></p>

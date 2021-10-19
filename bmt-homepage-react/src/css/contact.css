@@ -1,5 +1,5 @@
 .contact {
-	padding-top: 8rem;
+	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
 
@@ -13,8 +13,12 @@
 	font-weight: 600;
 }
 
-.contact h5 {
+.contact h5, .contact-wrapper h1 {
 	font-family: 'Montserrat', sans-serif;
+	letter-spacing: .5px;
+}
+
+.contact h5, .contact .fab {
 	color: #000000;
 }
 
@@ -47,7 +51,6 @@
 
 .contact .fab {
 	font-size: 1.6rem;
-	color: #000000;
 }
 
 .contact ul li:last-child {
