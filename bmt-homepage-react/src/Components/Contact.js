@@ -4,11 +4,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 function Contact() {
 	return (
 		<div className="body-content">
-			{/*<div className="wrapper">
-				<h1>Contact Us</h1>
-			</div>*/}
-			<div className="contact-wrapper" style={{ backgroundColor: '#000000', height: '15rem' }}>
-				<h1 style={{ color: '#ffffff', textAlign: 'center', paddingTop: '7.5rem' }}>It's easy to contact us.</h1>
+			<div className="contact-wrapper">
+				<h1 className="text-center">It's easy to contact us.</h1>
 			</div>
 			<Container className="contact">
 				<Row className="justify-content-center">
@@ -35,11 +32,11 @@ function Contact() {
 					<Col xl={{ span: 4, offset: 1 }} lg={6} md={12} sm={12} className="media-contact" style={{ borderLeft: '5px solid black'}}>
 						<h5>Connect through social media</h5>
 						<ul>
-							<li><a href="https://www.facebook.com/bmt.micro" target="_blank"><i className="fab fa-facebook-square facebook"></i></a></li>
-							<li><a href="https://twitter.com/BMTMicro" target="_blank"><i className="fab fa-twitter-square twitter"></i></a></li>
-							<li><a href="https://www.instagram.com/bmtmicro/" target="_blank"><i className="fab fa-instagram-square instagram"></i></a></li>
-							<li><a href="https://www.linkedin.com/company/bmt-micro-wilmington-nc-usa" target="_blank"><i className="fab fa-linkedin linkedin"></i></a></li>
-							<li><a href="https://www.pinterest.com/bmtmicro/" target="_blank"><i className="fab fa-pinterest-square pinterest"></i></a></li>
+							<li><a href="https://www.facebook.com/bmt.micro" target="_blank" rel="noreferrer"><i className="fab fa-facebook-square facebook"></i></a></li>
+							<li><a href="https://twitter.com/BMTMicro" target="_blank" rel="noreferrer"><i className="fab fa-twitter-square twitter"></i></a></li>
+							<li><a href="https://www.instagram.com/bmtmicro/" target="_blank" rel="noreferrer"><i className="fab fa-instagram-square instagram"></i></a></li>
+							<li><a href="https://www.linkedin.com/company/bmt-micro-wilmington-nc-usa" target="_blank" rel="noreferrer"><i className="fab fa-linkedin linkedin"></i></a></li>
+							<li><a href="https://www.pinterest.com/bmtmicro/" target="_blank" rel="noreferrer"><i className="fab fa-pinterest-square pinterest"></i></a></li>
 						</ul>
 					</Col>
 				</Row>

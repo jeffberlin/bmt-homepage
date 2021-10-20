@@ -1,5 +1,5 @@
 .about {
-	padding-top: 3rem;
+	padding-top: 8rem;
 	padding-bottom: 3rem;
 }
 
@@ -18,7 +18,7 @@
 	color: #195a7c;
 }
 
-video {
+.embed-responsive {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	box-shadow: 0 12px 12px 5px rgba(0, 0, 0, .1);
   -webkit-box-shadow: 0 12px 12px 5px rgba(0, 0, 0, .1);

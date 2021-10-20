@@ -18,6 +18,17 @@
 	letter-spacing: .5px;
 }
 
+.contact-wrapper h1 {
+	font-size: 2.75rem;
+	color: #ffffff;
+	padding-top: 7.5rem;
+}
+
+.contact-wrapper {
+	background-color: #000000;
+	height: 15rem;
+}
+
 .contact h5, .contact .fab {
 	color: #000000;
 }

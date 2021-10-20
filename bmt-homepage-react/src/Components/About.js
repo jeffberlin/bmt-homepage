@@ -1,23 +1,22 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, ResponsiveEmbed } from 'react-bootstrap';
 import video from '../BMT-Micro-2021-video-min.mp4';
 
 function About() {
 	return (
 		<div className="body-content">
-			{/* <div className="wrapper"> */}
-			<div className="about-bg">
-				<h1>About BMT Micro</h1>
-			</div>
 			<Container className="about">
-				<div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-
-					<video style={{ width: '560px', height: '315px' }} controls autoPlay>
-					  <source src={video} type="video/mp4" />
-					  {/* <source src="movie.ogg" type="video/ogg" /> */}
-						Your browser does not support the video tag.
-					</video>
-				</div>
+				<Row className="justify-content-center">
+					<Col className="text-center" xl={6} lg={6} md={12} sm={12} style={{ marginBottom: '3rem' }}>
+						<ResponsiveEmbed aspectRatio="16by9">
+					    <video controls autoPlay>
+					    	<source type="video/mp4" src={video} />
+					    	{/* <source src="movie.ogg" type="video/ogg" /> */}
+					    	Your browser does not support the video tag.
+					    </video>
+					  </ResponsiveEmbed>
+					</Col>
+				</Row>
 				<Row className="justify-content-center">
 					<Col>
 						<p>
