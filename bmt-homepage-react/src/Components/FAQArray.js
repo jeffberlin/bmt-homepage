@@ -7,7 +7,7 @@ const faqs = [
   {
     "number": "2",
     "question": "Is your organization all that we would need to work with, or will we need a merchant account or a ‘payment gateway’",
-    "answer": "You do not need any other companies to use our services. All orders are placed through BMT Micro’s merchant account using our payment gateway."
+    "answer": "ou do not need any other companies to sell your software through us. BMT Micro is your one-stop online merchant, handling everything for you all the way from purchase to delivery."
   },
   {
     "number": "3",

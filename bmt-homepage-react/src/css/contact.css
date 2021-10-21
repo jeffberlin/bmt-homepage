@@ -13,9 +13,12 @@
 	font-weight: 600;
 }
 
+.contact-wrapper h1 {
+	letter-spacing: 3px;
+}
+
 .contact h5, .contact-wrapper h1 {
 	font-family: 'Montserrat', sans-serif;
-	letter-spacing: .5px;
 }
 
 .contact-wrapper h1 {
@@ -31,6 +34,10 @@
 
 .contact h5, .contact .fab {
 	color: #000000;
+}
+
+.contact h5 {
+	letter-spacing: .5px;
 }
 
 .contact p {

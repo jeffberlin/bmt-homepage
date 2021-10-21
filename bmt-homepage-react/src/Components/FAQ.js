@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col, CardDeck, Card } from 'react-bootstrap';
 import faqs from './FAQArray';
 
 function FAQ() {
@@ -44,6 +44,7 @@ function FAQ() {
 							</Card>
 						</a>
 					</Col>
+
 					{/*<Col xl={12} lg={12} md={12} sm={12}>
 						<h5>
 							Here is a list of some of our most common questions. Don't see what you're looking for? Please visit <a href="https://vendors.bmtmicro.com/" target="_blank" rel="noreferrer">vendors.bmtmicro.com</a> if you are looking for Vendor documentation. If you are a customer, please visit <a href="https://customers.bmtmicro.com/" target="_blank" rel="noreferrer">customers.bmtmicro.com</a>.

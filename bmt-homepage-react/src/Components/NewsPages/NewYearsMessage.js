@@ -5,7 +5,7 @@ function NewYearsMessage() {
 	return (
 		<>
 	    <Row className="justify-content-center">
-	      <Col className="news-section" xl={12} lg={12} md={12} sm={12} xs={12} style={{ backgroundImage: "url('../images/new-year-background.jpg')" }}>
+	      <Col className="news-section" xl={12} lg={12} md={12} sm={12} xs={12} style={{ backgroundImage: "url('../images/new-year-background-min.jpg')" }}>
 	        <h2>A New Year's message from BMT Micro</h2>
 	      </Col>
 	      <Col className="news-section-text" xl={12} lg={12} md={12} sm={12} xs={12}>

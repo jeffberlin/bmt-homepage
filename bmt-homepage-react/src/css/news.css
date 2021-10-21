@@ -12,8 +12,17 @@
 	margin-bottom: 1.5rem;
 }
 
-.news-section h2 {
+.news h4 {
+	font-size: 1.4rem;
+	letter-spacing: .5px;
+	color: #000000;
+}
+
+.news h4, .news-section h2 {
 	font-family: 'Montserrat', sans-serif;
+}
+
+.news-section h2 {
 	text-shadow: 2px 2px 6px #000000;
 	padding: 0px 10px 0px 10px;
 	text-align: center;
