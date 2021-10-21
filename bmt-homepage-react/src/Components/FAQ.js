@@ -1,19 +1,60 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import faqs from './FAQArray';
 
 function FAQ() {
 	return (
 		<div className="body-content">
-			<div className="wrapper">
+			{/*<div className="wrapper">
 				<h1>FAQ's</h1>
-			</div>
+			</div>*/}
 			<Container className="faq">
+				<Row className="justify-content-center" style={{ marginBottom: '3rem' }}>
+					<Col xl={4} lg={4} md={4} sm={4}>
+						<a href="https://help.bmtmicro.com/vendors/" target="_blank" rel="noreferrer">
+							<Card>
+								<Card.Body className="text-center">
+									<Card.Title>
+										<i className="fas fa-laptop-code"></i>
+									</Card.Title>
+									<Card.Title className="vendor-card-title">
+										Vendor Support
+									</Card.Title>
+									<Card.Text>
+										Help pages for BMT Micro vendors
+									</Card.Text>
+								</Card.Body>
+							</Card>
+						</a>
+					</Col>
+					<Col xl={4} lg={4} md={4} sm={4}>
+						<a href="https://help.bmtmicro.com/customers/" target="_blank" rel="noreferrer">
+							<Card>
+								<Card.Body className="text-center">
+									<Card.Title>
+										<i className="fas fa-shopping-cart"></i>
+									</Card.Title>
+									<Card.Title className="customer-card-title">
+										Customer Support
+									</Card.Title>
+									<Card.Text>
+										Help pages for customers
+									</Card.Text>
+								</Card.Body>
+							</Card>
+						</a>
+					</Col>
+					{/*<Col xl={12} lg={12} md={12} sm={12}>
+						<h5>
+							Here is a list of some of our most common questions. Don't see what you're looking for? Please visit <a href="https://vendors.bmtmicro.com/" target="_blank" rel="noreferrer">vendors.bmtmicro.com</a> if you are looking for Vendor documentation. If you are a customer, please visit <a href="https://customers.bmtmicro.com/" target="_blank" rel="noreferrer">customers.bmtmicro.com</a>.
+						</h5>
+					</Col>*/}
+				</Row>
 				<Row className="justify-content-center">
 					{faqs.map((faq, index) => (
 						<Col xl={12} lg={12} md={12} sm={12} key={index}>
-						<p className="question">"{faq.question}"</p>
-						<blockquote className="answer">{faq.answer}</blockquote>
+							<p className="question">"{faq.question}"</p>
+							<blockquote className="answer">{faq.answer}</blockquote>
 						</Col>
 					))}
 				</Row>

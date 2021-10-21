@@ -1,6 +1,29 @@
 .faq {
-	padding-top: 3rem;
+	padding-top: 8rem;
 	padding-bottom: 3rem;
+}
+
+.card {
+	transition: all .3s ease;
+}
+
+.card:hover {
+	box-shadow: 0 5px 12px 5px rgb(0, 0, 0, .1);
+  -webkit-box-shadow: 0 5px 12px 5px rgb(0, 0, 0, .1);
+}
+
+.card-title {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: .5px;
+}
+
+.vendor-card-title, .customer-card-title {
+	color: #efa900;
+}
+
+.fa-laptop-code, .fa-shopping-cart {
+	font-size: 30px;
+	color: #195a7c;
 }
 
 .faq p, .answer {

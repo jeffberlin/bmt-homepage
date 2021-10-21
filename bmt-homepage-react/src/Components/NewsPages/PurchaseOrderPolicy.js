@@ -4,7 +4,7 @@ import { Row, Col } from 'react-bootstrap';
 function PurchaseOrderPolicy() {
   return (
     <>
-      <Row>
+      <Row className="justify-content-center">
         <Col className="news-section" xl={12} lg={12} md={12} sm={12} xs={12} style={{ backgroundImage: "url('../images/purchase-order-policy-background.jpg')" }}>
           <h2>BMT Micro’s Purchase Order Policies</h2>
         </Col>
