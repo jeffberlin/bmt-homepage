@@ -7,7 +7,7 @@ function Features() {
 		<>
 			<Container className="features">
 				<Row className="justify-content-center" style={{ marginBottom: '2.5rem' }}>
-					<Col lg={4} md={6} sm={12} className="text-center"> 
+					<Col lg={4} md={6} sm={12} className="text-center">
 						<i className="fas fa-credit-card"></i>
 						<h5>Multiple Payment Options</h5>
 						<p style={{ marginBottom: '0' }}>We offer multiple payment options including over ten different credit cards, check or money orders, PayPal, paysafecards, Amazon payments, BitPay, wire transfers and Sofort Instant Bank transfers.</p>
@@ -18,7 +18,7 @@ function Features() {
 						<p style={{ marginBottom: '0' }}>Our advanced, proprietary fraud detection system is state of the art and effective in preventing almost all fraudulent order attempts. Our system is designed to keep you and your customers safe, without the need for intrusive phone calls to your customers or lengthy reviews of your orders.</p>
 					</Col>
 					<Col lg={4} md={6} sm={12} className="text-center">
-						<i className="fas fa-globe"></i>
+						<i className="fas fa-globe-americas"></i>
 						<h5>Localization & Languages</h5>
 						<p style={{ marginBottom: '0' }}>Need your order pages in German, French, Spanish, or other languages? We can customize your order forms for any language you may need. Our carts use UTF-8 and support complete localization.</p>
 					</Col>
