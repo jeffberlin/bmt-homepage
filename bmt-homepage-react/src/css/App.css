@@ -42,17 +42,29 @@ p, ul, nav {
 }
 
 /* Responsive CSS */
-@media (min-width: 992px) {
-  .header-section {
-    padding: 15rem 0;
-  }
-}
 @media (max-width: 991px) {
   .header-section {
     padding: 8rem 0;
   }
   .header-hero {
     margin-bottom: 2.5rem;
+  }
+  .about-home h2 {
+    margin-bottom: 1.2rem;
+  }
+  .about-home p:first-child {
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .header-section {
+    padding: 15rem 0;
+  }
+  .about-home h2 {
+    margin-bottom: 2rem;
+  }
+  .about-home p:first-child {
+    margin-bottom: 1rem;
   }
 }
 @media (max-width: 767px) {
@@ -61,5 +73,31 @@ p, ul, nav {
   }
   .header-screenshots {
     display: none;
+  }
+}
+@media (max-width: 657px) {
+  .banner h4 {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 658px) {
+  .banner h4 {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 552px) {
+  .header-section h1 {
+    font-size: 2.5rem;
+  }
+  .header-section p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 553px) {
+  .header-section h1 {
+    font-size: 2.9rem;
+  }
+  .header-section p {
+    font-size: 1.2rem;
   }
 }

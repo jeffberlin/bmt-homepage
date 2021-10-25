@@ -1,36 +1,34 @@
-.aboutSection {
+.about-home {
 	background-color: #195a7c;
 	color: #ffffff;
-	padding-top: 4rem;
-	padding-bottom: 4rem;
+	padding: 4rem 0 3rem 0;
 }
 
-.aboutSection h2 {
-	margin-bottom: 2rem;
+.about-home h2 {
 	font-size: 2.2rem;
 }
 
-.aboutSection h2, .aboutSection h5 {
+.about-home h2, .about-home h5 {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.aboutSection p a {
+.about-home p a {
 	transition: all .3s;
 }
 
-.aboutSection p {
+.about-home p {
 	letter-spacing: .3px;
 	font-weight: 400;
 }
 
-.aboutSection i {
+.about-home i {
 	margin-right: .5rem;
 }
 
-.aboutSection a {
+.about-home a {
 	color: inherit;
 }
 
-.aboutSection p a:hover {
+.about-home p a:hover {
 	color: #efa900 !important;
 }

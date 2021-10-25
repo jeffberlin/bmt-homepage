@@ -3,10 +3,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function AboutSection() {
 	return (
-		<div className="aboutSection">
+		<div className="about-home">
 			<Container fluid>
 				<Row className="justify-content-center">
-					<h2 style={{ textAlign: 'center', }}>About BMT Micro</h2>
+					<h2 className="text-center">About BMT Micro</h2>
 				</Row>
 				<Row className="justify-content-center">
 					<Col xl={6} lg={8} md={12} sm={12}>
