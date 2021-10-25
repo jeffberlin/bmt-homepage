@@ -13,10 +13,9 @@
 }
 
 .affiliates-btn {
+  /* 'font-size' & 'padding' handled in App.css @media query */
   background-color: #efa900;
   border: 0px;
-  padding: 1.3rem 2.8rem;
-  font-size: 1.6rem;
   border-radius: 20px;
   transition: all .7s ease;
   color: #ffffff;
@@ -32,7 +31,6 @@
 }
 
 .affiliates-btn:hover {
-  /* background-color: #195a7c; */
   background-color: rgba(239, 169, 0, 0.8);
   box-shadow: 0 2px 8px 1px rgba(0, 0, 0, .3);
   -webkit-box-shadow: 0 2px 8px 1px rgba(0, 0, 0, .3);

@@ -114,3 +114,15 @@ p, ul, nav {
     font-size: 1.2rem;
   }
 }
+@media (max-width: 335px) {
+  .affiliates-btn {
+    font-size: .9rem;
+    padding: .9rem 1.8rem;
+  }
+}
+@media (min-width: 336px) {
+  .affiliates-btn {
+    font-size: 1.2rem;
+    padding: 1.2rem 2.5rem;
+  }
+}
