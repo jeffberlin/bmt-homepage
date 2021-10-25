@@ -17,6 +17,14 @@
 	letter-spacing: .5px;
 }
 
+.customer-card-title, .vendor-card-title {
+	margin-bottom: .3rem !important;
+}
+
+.faq .card-text {
+	font-size: .9rem;
+}
+
 .vendor-card-title, .customer-card-title {
 	color: #efa900;
 }
