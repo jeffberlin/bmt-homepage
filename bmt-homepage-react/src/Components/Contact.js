@@ -29,7 +29,7 @@ function Contact() {
 						<p>Address to PO Box:</p>
 						<p style={{ color: '#efa900' }}>BMT Micro P.O. Box 15016<br/>Wilmington, NC 28408 USA</p>
 					</Col>
-					<Col xl={{ span: 4, offset: 1 }} lg={6} md={12} sm={12} className="media-contact" style={{ borderLeft: '5px solid black'}}>
+					<Col xl={{ span: 4, offset: 1 }} lg={6} md={12} sm={12} className="media-contact">
 						<h5>Connect through social media</h5>
 						<ul>
 							<li><a href="https://www.facebook.com/bmt.micro" target="_blank" rel="noreferrer"><i className="fab fa-facebook-square facebook"></i></a></li>

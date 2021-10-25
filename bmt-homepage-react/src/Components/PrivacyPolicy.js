@@ -46,7 +46,7 @@ function Privacy() {
 							<strong>Firewall</strong>
 						</p>
 						<Image
-							src="../images/firewall.jpg"
+							src="../images/firewall-min.jpg"
 							alt="Firewall image"
 							style={{ marginBottom: '1rem', width: '200px' }}
 						/>
@@ -57,7 +57,7 @@ function Privacy() {
 							<strong>SSL (Secure Socket Layers)</strong>
 						</p>
 						<Image
-							src="../images/ssl-security-plan.jpg"
+							src="../images/ssl-security-plan-min.jpg"
 							alt="SSL Security image"
 							style={{ marginBottom: '1rem', width: '200px' }}
 						/>
@@ -68,7 +68,7 @@ function Privacy() {
 							<strong>Security Metrics</strong>
 						</p>
 						<Image
-							src="../images/security-metrics-logo.jpg"
+							src="../images/security-metrics-logo-min.jpg"
 							alt="Security Metrics logo"
 							style={{ marginBottom: '1rem', width: '200px' }}
 						/>
