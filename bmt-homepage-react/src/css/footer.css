@@ -1,7 +1,6 @@
 .footer {
 	background-color: #000000;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding: 2rem 0;
 }
 
 .social h5, .copyright {
@@ -22,6 +21,9 @@ ul {
 
 .social h5 {
 	font-family: 'Montserrat', sans-serif;
+}
+
+.social h5, .footer-menu ul li strong {
 	font-size: 1.1rem;
 }
 
@@ -52,10 +54,6 @@ ul {
 
 .disabled-link {
 	pointer-events: none;
-}
-
-.footer-menu ul li strong {
-	font-size: 1.1rem;
 }
 
 .footer-menu ul li {

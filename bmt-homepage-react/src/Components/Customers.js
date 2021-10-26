@@ -14,8 +14,8 @@ function Customers() {
 						<p>We represent a large number of software vendors on the internet and it is possible that you have not visited our site, but you have been billed by BMT Micro on behalf of one of our software vendors. You should have received an email message at the time of purchase containing your receipt and other information pertaining to the order. You can find additional information at <a href="http://info.bmtmicro.com/" target="_blank" rel="noreferrer">info.bmtmicro.com</a>.</p>
 					</Col>
 					<Col xl={12} lg={12} md={12} sm={12}>
-						<p style={{ fontWeight: '400', textAlign: 'center' }}>If you have a question about, or need assistance with the software you purchased, please contact our customer service department at <a href="mailto:cservice@bmtmicro.com">cservice@bmtmicro.com</a>, or at <a href="mailto:orders@bmtmicro.com">orders@bmtmicro.com</a>.</p>
-						<p style={{ fontWeight: '400', textAlign: 'center' }}>For Customer Login, please visit <a href="https://customers.bmtmicro.com/" target="_blank" rel="noreferrer">customers.bmtmicro.com</a>.</p>
+						<p><strong>If you have a question about, or need assistance with the software you purchased, please contact our customer service department at <a href="mailto:cservice@bmtmicro.com">cservice@bmtmicro.com</a>, or at <a href="mailto:orders@bmtmicro.com">orders@bmtmicro.com</a>.</strong></p>
+						<p style={{ textAlign: 'center' }}><strong>For Customer Login, please visit <a href="https://customers.bmtmicro.com/" target="_blank" rel="noreferrer">customers.bmtmicro.com</a>.</strong></p>
 					</Col>
 				</Row>
 			</Container>

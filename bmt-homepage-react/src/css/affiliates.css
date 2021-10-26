@@ -3,13 +3,10 @@
   padding-bottom: 3rem;
 }
 
-.affiliates p, .affiliates-btn {
-  letter-spacing: .3px;
-}
-
 .affiliates p {
   color: #707070;
   font-weight: 300;
+  letter-spacing: .3px;
 }
 
 .affiliates-btn {
@@ -28,9 +25,6 @@
 .affiliates-btn:hover {
   color: #ffffff;
   text-decoration: none;
-}
-
-.affiliates-btn:hover {
   background-color: rgba(239, 169, 0, 0.8);
   box-shadow: 0 2px 8px 1px rgba(0, 0, 0, .3);
   -webkit-box-shadow: 0 2px 8px 1px rgba(0, 0, 0, .3);

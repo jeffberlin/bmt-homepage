@@ -7,7 +7,7 @@ function AdvancedTier() {
 	const [modalShow, advancedModalShow] = useState(false);
 
 	return (
-		<Col style={{ marginBottom: '2.5rem' }}>
+		<Col xl={6} lg={6} style={{ marginBottom: '2.5rem' }}>
 			<div className="ribbon ribbon-top-right">
 				<span>Most Popular</span>
 			</div>

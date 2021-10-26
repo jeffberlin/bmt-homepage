@@ -6,10 +6,8 @@ function FAQ() {
 	return (
 		<div className="body-content">
 			<Container className="faq">
-				<Row className="justify-content-center" style={{ marginBottom: '3rem' }}>
+				<Row className="justify-content-center card-row">
 					<CardDeck>
-					{/* <Col xl={4} lg={4} md={4} sm={4}> */}
-
 						<a href="https://help.bmtmicro.com/vendors/" target="_blank" rel="noreferrer">
 							<Card style={{ width: 250 }}>
 								<Card.Body className="text-center">
@@ -25,8 +23,6 @@ function FAQ() {
 								</Card.Body>
 							</Card>
 						</a>
-					{/* </Col>
-					<Col xl={4} lg={4} md={4} sm={4}> */}
 						<a href="https://help.bmtmicro.com/customers/" target="_blank" rel="noreferrer">
 							<Card style={{ width: 250 }}>
 								<Card.Body className="text-center">
@@ -42,7 +38,6 @@ function FAQ() {
 								</Card.Body>
 							</Card>
 						</a>
-					{/* </Col> */}
 				</CardDeck>
 				</Row>
 				<Row className="justify-content-center">

@@ -6,7 +6,7 @@ function BasicTier() {
   const [modalShow, basicModalShow] = useState(false);
 
   return (
-    <Col style={{ marginBottom: '2.5rem' }}>
+    <Col xl={6} lg={6} style={{ marginBottom: '2.5rem' }}>
       <div className="tier basic-tier">
         <div className="tier-header text-center">
           <h4 style={{ color: '#efa900' }}>Basic Tier</h4>
