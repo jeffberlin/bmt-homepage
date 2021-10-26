@@ -16,7 +16,7 @@ function CustomTier() {
 				<div className="tier-text">
 	        <ul>
 						<li>&nbsp;&nbsp;Advanced custom programming</li>
-						<li>&nbsp;&nbsp;Marketing services and promoting Vendor products</li>
+						<li>&nbsp;&nbsp;Marketing services and promoting Supplier products</li>
 						<li>&nbsp;&nbsp;Micro-transaction processing</li>
 						<li className="blue-arrow">&nbsp;&nbsp;Need a service that is not listed? Contact us! We can customize our plans to suit your business needs.</li>
 					</ul>

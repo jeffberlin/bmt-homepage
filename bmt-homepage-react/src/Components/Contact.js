@@ -23,7 +23,7 @@ function Contact() {
 						<p style={{ marginBottom: '.1rem' }}>24-hour FAX:&nbsp;<span style={{ color: '#efa900' }}>1-910-792-1889</span></p>
 						<p style={{ fontSize: '.9rem' }}>This is an alternate way to send in orders, questions, or comments. <strong>Please note:</strong> Faxed orders will be processed the following business day.</p>
 						<h5>Email</h5>
-						<p>Vendors/Developers:&nbsp;<a href="mailto:vendors@bmtmicro.com" title="Send an email">vendors@bmtmicro.com</a></p>
+						<p>Software suppliers/Developers:&nbsp;<a href="mailto:vendors@bmtmicro.com" title="Send an email">vendors@bmtmicro.com</a></p>
 						<p>Customer Service:&nbsp;<a href="mailto:cservice@bmtmicro.com" title="Send an email">cservice@bmtmicro.com</a></p>
 						<h5>Mail</h5>
 						<p>Address to PO Box:</p>

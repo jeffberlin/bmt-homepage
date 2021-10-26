@@ -1,5 +1,5 @@
 const features = [
-  "Vendor, remote or BMT fulfillment",
+  "Supplier, remote or BMT fulfillment",
   "Purchase orders",
   "Phone ordering (with live customer service representative)",
   "Mail/fax orders",

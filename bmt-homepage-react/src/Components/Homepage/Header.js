@@ -13,7 +13,7 @@ function Top() {
 							<h1>Software distribution & order fullfilment</h1>
 						</Animated>
 						<Animated animationIn="fadeIn" animationInDuration={2000} animationInDelay={1500}>
-							<p>Providing scalable services for online sales and digital delivery systems for developers and companies. Track your sales, product growth, and much more through our vendor portal.</p>
+							<p>Providing scalable services for online sales and digital delivery systems for developers and companies. Track your sales, product growth, and much more through our supplier portal.</p>
 						</Animated>
 						<Animated animationIn="fadeIn" animationInDuration={2000} animationInDelay={2000}>
 							<div className="text-center">

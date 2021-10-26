@@ -10,7 +10,7 @@ function AboutSection() {
 				</Row>
 				<Row className="justify-content-center">
 					<Col xl={6} lg={8} md={12} sm={12}>
-						<p>BMT Micro is a software distribution and order fulfillment service for software developers worldwide. If BMT Micro appears on your debit or credit card statement, this indicates that you have purchased an item through the BMT Micro order system. We represent a large number of software vendors on the internet and it is possible that you have not visited our site, but you have been billed by BMT Micro on behalf of one of our software vendors. You should have received an email message at the time of purchase containing your receipt and other information pertaining to the order.</p>
+						<p>BMT Micro is a software distribution and order fulfillment service for software developers worldwide. If BMT Micro appears on your debit or credit card statement, this indicates that you have purchased an item through the BMT Micro order system. We represent a large number of software suppliers on the internet and you have not visited our site, but you have been billed by BMT Micro on behalf of one of our software suppliers. You should have received an email message at the time of purchase containing your receipt and other information pertaining to the order.</p>
 					</Col>
 					<Col xl={4} lg={4}>
 						<h5>Customer Service Information</h5>

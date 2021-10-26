@@ -15,10 +15,10 @@ function FAQ() {
 										<i className="fas fa-laptop-code"></i>
 									</Card.Title>
 									<Card.Title className="vendor-card-title">
-										Vendor Support
+										Supplier Support
 									</Card.Title>
 									<Card.Text>
-										Help pages for vendors
+										Help pages for software suppliers
 									</Card.Text>
 								</Card.Body>
 							</Card>
