@@ -18,7 +18,7 @@ function FAQ() {
 										Supplier Support
 									</Card.Title>
 									<Card.Text>
-										Help pages for software suppliers
+										Help pages for suppliers
 									</Card.Text>
 								</Card.Body>
 							</Card>
