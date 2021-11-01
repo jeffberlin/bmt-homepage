@@ -48,6 +48,11 @@ const testimonials = [
 		"text": "Thank you for your help! My [son] loves you!!! You made him dance around the house.",
 		"name": "Tammy P.",
 		"interval": "3000"
+	},
+	{
+		"text": "This is the most complete order info I've ever seen. Once again I have to wonder how we didn't find you years and years ago. Thank you.",
+		"name": "John",
+		"interval": "3000"
 	}
 ]
 
