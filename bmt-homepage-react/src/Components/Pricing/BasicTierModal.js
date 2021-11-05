@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal } from 'react-bootstrap';
+import Modal from 'react-bootstrap/Modal';
 import features from './BasicTierArray';
 
 function BasicModal(props) {

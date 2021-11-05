@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal } from 'react-bootstrap';
+import Modal from 'react-bootstrap/Modal';
 import features from './AdvancedTierArray';
 
 function AdvancedModal(props) {
@@ -17,7 +17,7 @@ function AdvancedModal(props) {
       </Modal.Header>
       <Modal.Body>
         <ul className="modal-text text-center">
-          {features.map((feature, index) => (	
+          {features.map((feature, index) => (
             <li key={index}>{feature}</li>
           ))}
         </ul>
