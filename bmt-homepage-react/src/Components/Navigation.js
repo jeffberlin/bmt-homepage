@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Navbar, Image, Nav, NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
+import logo from '/images/bmt-micro-nav-logo.png';
 
 function Navigation() {
 	return (
@@ -13,7 +14,7 @@ function Navigation() {
 				<Container>
 					<Navbar.Brand href="/">
 						<Image
-							src="./images/bmt-logo-2.png"
+							src={logo}
 							alt="BMT Micro, Inc. Logo"
 							width={120}
 							className="d-inline-block"
