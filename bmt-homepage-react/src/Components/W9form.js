@@ -11,7 +11,7 @@ function W9form() {
         <Row>
           <Col>
             <p>If you need to download the W-9 Form, please click the button below.</p>
-            <a href="/images/W9_2019.pdf" download>
+            <a href="https://www.bmtmicro.com/images/W9_2019.pdf" download>
               <i className="fas fa-file-download"></i>&nbsp;&nbsp;W9_2019.pdf
             </a>
           </Col>

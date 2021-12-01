@@ -51,7 +51,7 @@ function Footer() {
 								<Link to="/customers" style={linkStyle}>Customers</Link>
 							</li>
 							<li>
-								<Link to="/faq" style={linkStyle}>FAQ</Link>
+								<Link to="/faqs" style={linkStyle}>FAQ</Link>
 							</li>
 							<li>
 								<Link to="/pricing" style={linkStyle}>Pricing</Link>

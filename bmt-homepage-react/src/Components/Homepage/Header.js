@@ -40,7 +40,7 @@ function Top() {
 						<Animated animationIn="slideInRight" animationInDuration={2000}>
 							<Image
 								fluid
-								src="./images/bmt-micro-vendors-screenshot.png"
+								src="https://www.bmtmicro.com/images/bmt-micro-vendors-screenshot.png"
 								alt="BMT Micro cart/vendor screenshot"
 								className="screenshot"
 							/>

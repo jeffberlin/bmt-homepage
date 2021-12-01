@@ -45,7 +45,7 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/affiliates" component={AffiliateProgram} />
           <Route path="/customers" component={Customers} />
-          <Route path="/faq" component={FAQ} />
+          <Route path="/faqs" component={FAQ} />
           <Route path="/pricing" component={Pricing} />
           <Route path="/w9form" component={W9form} />
           <Route path="*" component={Error} />

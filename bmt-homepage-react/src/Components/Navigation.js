@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Navbar, Image, Nav, NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import logo from '/images/bmt-micro-nav-logo.png';
 
 function Navigation() {
 	return (
@@ -14,11 +13,12 @@ function Navigation() {
 				<Container>
 					<Navbar.Brand href="/">
 						<Image
-							src={logo}
+							src="https://www.bmtmicro.com/images/bmt-micro-nav-logo.png"
 							alt="BMT Micro, Inc. Logo"
 							width={120}
 							className="d-inline-block"
 						/>
+						{/* <img className="d-inline-block" width={120} src={process.env.PUBLIC_URL+"images/bmt-micro-nav-logo.png"} /> */}
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 					<Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
@@ -68,7 +68,7 @@ function Navigation() {
 								<LinkContainer to="/customers">
 									<Nav.Link className="dropdown-style">Customers</Nav.Link>
 								</LinkContainer>
-								<LinkContainer to="/faq">
+								<LinkContainer to="/faqs">
 									<Nav.Link className="dropdown-style">FAQ</Nav.Link>
 								</LinkContainer>
 								<LinkContainer to="/pricing">

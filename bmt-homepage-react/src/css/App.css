@@ -44,7 +44,7 @@ p, ul, nav {
 /* Responsive CSS */
 @media (max-width: 991px) {
   .header-section {
-    padding: 8rem 0;
+    padding: 8rem 15px;
   }
   .header-hero {
     margin-bottom: 2.5rem;

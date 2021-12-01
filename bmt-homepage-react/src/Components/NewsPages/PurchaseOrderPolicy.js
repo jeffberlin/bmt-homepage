@@ -5,7 +5,7 @@ function PurchaseOrderPolicy() {
   return (
     <>
       <Row className="justify-content-center">
-        <Col className="news-section" xl={12} lg={12} md={12} sm={12} xs={12} style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('../images/purchase-order-policy-background-min.jpg')"}}>
+        <Col className="news-section" xl={12} lg={12} md={12} sm={12} xs={12} style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('https://www.bmtmicro.com/images/purchase-order-policy-background-min.jpg')"}}>
           <h2>BMT Micro’s Purchase Order Policies</h2>
         </Col>
         <Col className="news-section-text" xl={12} lg={12} md={12} sm={12} xs={12}>
