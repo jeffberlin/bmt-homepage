@@ -48,13 +48,16 @@ function Navigation() {
 									<Nav.Link className="dropdown-style">Privacy Policy</Nav.Link>
 								</LinkContainer>
 							</NavDropdown>
-							<Nav.Link
+							{/* <Nav.Link
 								href="https://www.bmtmicro.com/bmtcatalog/"
 								active={false}
 								rel="noopener"
 							>
 								Catalog
-							</Nav.Link>
+							</Nav.Link> */}
+							<LinkContainer to="/catalog">
+								<Nav.Link>Catalog</Nav.Link>
+							</LinkContainer>
 							<LinkContainer to="/contact">
 								<Nav.Link>Contact</Nav.Link>
 							</LinkContainer>

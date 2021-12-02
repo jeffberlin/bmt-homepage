@@ -42,7 +42,12 @@ function Footer() {
 					</Col>
 					<Col xl={2} lg={2} md={4} sm={4} xs={4} className=" footer-menu">
 						<ul>
-							<li><strong><a href="https://www.bmtmicro.com/bmtcatalog/" style={{ marginRight: '1rem', ...linkStyle}}>Catalog</a></strong></li>
+							{/* <li><strong><a href="https://www.bmtmicro.com/bmtcatalog/" style={{ marginRight: '1rem', ...linkStyle}}>Catalog</a></strong></li> */}
+							<li>
+								<strong>
+									<Link to="/catalog" style={{ marginRight: '1rem', ...linkStyle}}>Catalog</Link>
+								</strong>
+							</li>
 							<li><strong><Link to="#" className="disabled-link" style={{ marginRight: '1rem' }}>Services</Link></strong></li>
 							<li>
 								<Link to="/affiliates" style={linkStyle}>Affiliate Program</Link>
