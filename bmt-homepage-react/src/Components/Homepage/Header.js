@@ -26,7 +26,8 @@ function Top() {
 								</Link>
 								<a
 									href="https://vendors.bmtmicro.com/new-vendor-signup.jsp"
-									target="_blank" className="header-btn"
+									target="_blank"
+									className="header-btn"
 									rel="noreferrer"
 									style={{ backgroundColor: '#efa900', color: '#195a7c' }}
 								>

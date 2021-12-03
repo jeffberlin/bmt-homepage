@@ -26,6 +26,7 @@ const About = lazy(() => import('./Components/About'));
 const News = lazy(() => import('./Components/NewsPages/News'));
 const Privacy = lazy(() => import('./Components/PrivacyPolicy'));
 const CatalogHome = lazy(() => import('./Components/CatalogPages/CatalogHome'));
+const CatalogProductList = lazy(() => import('./Components/CatalogPages/CatalogProductList'));
 const Contact = lazy(() => import('./Components/Contact'));
 const AffiliateProgram = lazy(() => import('./Components/AffiliateProgram'));
 const Customers = lazy(() => import('./Components/Customers'));
@@ -45,6 +46,7 @@ function App() {
           <Route path="/news" component={News} />
           <Route path="/privacy" component={Privacy} />
           <Route path="/catalog" component={CatalogHome} />
+          <Route path="/products" component={CatalogProductList} />
           <Route path="/contact" component={Contact} />
           <Route path="/affiliates" component={AffiliateProgram} />
           <Route path="/customers" component={Customers} />

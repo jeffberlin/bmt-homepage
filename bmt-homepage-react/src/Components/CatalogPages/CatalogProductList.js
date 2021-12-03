@@ -1,14 +1,19 @@
 import React from 'react';
-import products from './ProductSearchItems';
+import { Container, Row, Col } from 'react-bootstrap';
+import CatalogSearch from './CatalogSearch';
 
 function CatalogProductList() {
   return (
-    <div>
-      <ul>
-        {products.sort().map((product, index) => (
-          <li key={index}><a href={product.url} target="_blank">{product.name}</a></li>
-        ))}
-      </ul>
+    <div className="body-content" style={{ background: 'rgb(0,0,0)',
+    background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(25,90,124,1) 69%, rgba(25,90,124,1) 100%)' }}>
+      <div className="wrapper">
+        <h1>Welcome to the BMT Micro Catalog!</h1>
+      </div>
+      <Container className="catalog-search" style={{ minHeight: 'calc(100vh - 330px)'}}>
+        <Row className="justify-content-center">
+          <CatalogSearch />
+        </Row>
+      </Container>
     </div>
   );
 }

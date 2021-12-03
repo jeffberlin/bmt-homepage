@@ -1,11 +1,18 @@
-.catalog {
+.catalog, .catalog-search {
   padding-top: 2rem;
   padding-bottom: 3rem;
+  background-color: #fff;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 .catalog p {
   color: #707070;
   font-weight: 300;
+}
+
+.catalog p, .catalog h4, .featured-product-title {
   letter-spacing: .3px;
 }
 
@@ -17,4 +24,28 @@
 
 .catalog p a:hover {
 	color: #195a7c;
+}
+
+.catalog h4 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1.5rem;
+  color: #000
+}
+
+.featured-product-title {
+  color: #195a7c;
+  font-size: 1.35rem;
+}
+
+.featured-product-title, .search-input {
+  font-family: 'Rubik', sans-serif;
+}
+
+.search-input {
+  margin-bottom: 1rem;
+  border: 1px solid #195a7c;
+  border-radius: 3px;
+  padding: .2rem .4rem;
+  width: 300px;
+  font-size: .9rem;
 }

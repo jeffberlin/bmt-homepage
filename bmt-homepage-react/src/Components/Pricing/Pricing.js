@@ -1,9 +1,8 @@
 import React, { lazy } from 'react';
 import { Container, Row } from 'react-bootstrap';
-
-const BasicTier = lazy(() => import('./BasicTier'));
-const AdvancedTier = lazy(() => import('./AdvancedTier'));
-const CustomTier = lazy(() => import('./CustomTier'));
+import BasicTier from './BasicTier';
+import AdvancedTier from './AdvancedTier';
+import CustomTier from './CustomTier';
 
 function Pricing() {
   return (
