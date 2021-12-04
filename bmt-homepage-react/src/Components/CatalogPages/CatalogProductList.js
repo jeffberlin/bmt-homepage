@@ -1,11 +1,10 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import CatalogSearch from './CatalogSearch';
 
 function CatalogProductList() {
   return (
-    <div className="body-content" style={{ background: 'rgb(0,0,0)',
-    background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(25,90,124,1) 69%, rgba(25,90,124,1) 100%)' }}>
+    <div className="body-content catalog-bg">
       <div className="wrapper">
         <h1>Welcome to the BMT Micro Catalog!</h1>
       </div>

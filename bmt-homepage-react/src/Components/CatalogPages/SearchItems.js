@@ -264,7 +264,7 @@ const products = [
     url: "http://www.midnightsynergy.com/frazzled/"
   },
   {
-    name: "Frozzic\'s Revenge",
+    name: "Frozzic's Revenge",
     url: "http://www.twilightgames.com/"
   },
   {
@@ -460,7 +460,7 @@ const products = [
     url: "https://www.etcai.com/site.html"
   },
   {
-    name: "Paul\'s Graphic Viewer",
+    name: "Paul's Graphic Viewer",
     url: "http://www.deleeuw.com.au/"
   },
   {
@@ -480,11 +480,11 @@ const products = [
     url: "https://www.bmtmicro.com/bmtcatalog/products/personal-time-keeper"
   },
   {
-    name: "Pharaoh\'s Curse Gold",
+    name: "Pharaoh's Curse Gold",
     url: "http://www.ancientsoft.com/pharaohs_curse.htm"
   },
   {
-    name: "Pharaohs\' Treasure",
+    name: "Pharaoh's Treasure",
     url: "http://www.ancientsoft.com/pharaohstreasure.htm"
   },
   {
@@ -564,7 +564,7 @@ const products = [
     url: "http://www.midnightsynergy.com/returntowonderland/"
   },
   {
-    name: "Rock\'n\'Roll 2004",
+    name: "Rock'n'Roll 2004",
     url: "http://www.300ad.com/rnr2004.php"
   },
   {
@@ -604,7 +604,7 @@ const products = [
     url: "http://www.xequte.com/smartpix/index.html"
   },
   {
-    name: "A Snake\'s Life",
+    name: "A Snake's Life",
     url: "http://www.twilightgames.com/"
   },
   {
@@ -696,11 +696,11 @@ const products = [
     url: "http://timelapsetool.com/"
   },
   {
-    name: "Tizzie\'s Bubble Chase",
+    name: "Tizzie's Bubble Chase",
     url: "http://www.uppergroove.com/tizzbub.htm"
   },
   {
-    name: "Tizzie\'s Bug Revenge",
+    name: "Tizzie's Bug Revenge",
     url: "http://www.uppergroove.com/tizzbug.htm"
   },
   {
@@ -776,7 +776,7 @@ const products = [
     url: "http://www.watchdirectory.net/"
   },
   {
-    name: "Where\'s The Bus?",
+    name: "Where's The Bus?",
     url: "http://www.dbandsons.com/"
   },
   {
@@ -828,28 +828,28 @@ const products = [
     url: "http://www.ztree.com/html/ztreewin.htm"
   },
   {
-    name: "Chantell\'s Creations",
+    name: "Chantell's Creations",
     url: "http://www.chantells-creations.com"
   },
   {
-    name: 'Designs by Petro',
-    url: 'http://www.designsbypetro.com/'
+    name: "Designs by Petro",
+    url: "http://www.designsbypetro.com/"
   },
   {
-    name: 'Threads n Scissors',
-    url: 'http://www.threadsnscissors.com/'
+    name: "Threads n Scissors",
+    url: "http://www.threadsnscissors.com/"
   },
   {
-    name: 'Inspiration Mutz Embroidery',
-    url: 'http://www.inspirationmutz.com/'
+    name: "Inspiration Mutz Embroidery",
+    url: "http://www.inspirationmutz.com/"
   },
   {
-    name: 'Elsa\'s Designs',
-    url: 'http://www.elsasdesigns.com/'
+    name: "Elsa's Designs",
+    url: "http://www.elsasdesigns.com/"
   },
   {
-    name: 'SoftSew',
-    url: 'http://www.softsew.com/'
+    name: "SoftSew",
+    url: "http://www.softsew.com/"
   }
 ]
 

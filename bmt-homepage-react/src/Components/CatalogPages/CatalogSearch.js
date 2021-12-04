@@ -1,5 +1,7 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import products from './SearchItems';
+import { Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function CatalogSearch() {
   const [searchText, setSearchText] = useState("");
@@ -39,7 +41,15 @@ function CatalogSearch() {
   })
 
   return (
-    <div>
+    <Col xl={4} lg={4} md={8} sm={12}>
+      <p className="back-btn">
+
+        {/* <Link to="/catalog">⟵ Back</Link> */}
+        <Link to="/catalog">
+          <i class="fas fa-arrow-left"></i>
+          &nbsp;Back
+        </Link>
+      </p>
       <input
         className="search-input"
         type="text"
@@ -47,13 +57,13 @@ function CatalogSearch() {
         value={searchText}
         onChange={e => handleChange(e.target.value)}
       />
-      <ul>
+      <ul className="product-list">
         {data.map((d, i) => (
           <li key={i}><a href={d.url} target="_blank" rel="noreferrer">{d.name}</a></li>
         ))}
       </ul>
       {data.length === 0 && <p>No matches found! Please try again.</p>}
-    </div>
+    </Col>
   );
 }
 

@@ -7,33 +7,46 @@
   -webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
-.catalog p {
+.catalog-bg {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(25,90,124,1) 69%, rgba(25,90,124,1) 100%);
+}
+
+.catalog p, .search-input {
   color: #707070;
   font-weight: 300;
 }
 
-.catalog p, .catalog h4, .featured-product-title {
+.catalog p, .catalog h4, .featured-product-title, .back-btn a {
   letter-spacing: .3px;
 }
 
 .catalog p a {
-	color: #efa900;
-	transition: all .3s ease;
 	text-decoration: none;
 }
 
-.catalog p a:hover {
+.catalog p a, .product-list li a, .products-link:hover, .back-btn a:hover {
+  color: #efa900;
+}
+
+.catalog p a, .product-list li a, .products-link, .products-link a, .back-btn a {
+  transition: all .3s ease;
+}
+
+.catalog p a:hover, .featured-product-title, .product-list li a:hover, .back-btn a {
 	color: #195a7c;
 }
 
 .catalog h4 {
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 1.5rem;
-  color: #000
+}
+
+.catalog h4 {
+  color: #000;
 }
 
 .featured-product-title {
-  color: #195a7c;
   font-size: 1.35rem;
 }
 
@@ -44,8 +57,54 @@
 .search-input {
   margin-bottom: 1rem;
   border: 1px solid #195a7c;
-  border-radius: 3px;
+  border-radius: 6px;
   padding: .2rem .4rem;
-  width: 300px;
+  width: 100%;
   font-size: .9rem;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.05), 0 1px 10px 5px rgba(0, 0, 0, 0.05), 0 4px 2px -5px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.05), 0 1px 10px 5px rgba(0, 0, 0, 0.05), 0 4px 2px -5px rgba(0, 0, 0, 0.05);
+}
+
+.search-input:focus {
+  border: 1px solid #efa900;
+  outline: none;
+}
+
+.product-list li a {
+  font-size: 1rem;
+}
+
+.product-list li {
+  margin-bottom: .5rem;
+}
+
+.products-link {
+  background-color: #efa900;
+  border: none;
+  padding: .6rem 1rem;
+  font-size: 1.05rem;
+  border-radius: 1.18rem;
+  -webkit-text-shadow: 0 0 5px rgba(0, 0, 0, .2);
+  text-shadow: 0 0 5px rgba(0, 0, 0, .2);
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .2);
+  -webkit-box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .2);
+  letter-spacing: .5px;
+}
+
+.products-link  {
+  color: #fff;
+  font-weight: 500;
+}
+
+.products-link:hover {
+  cursor: pointer;
+  background-color: #195a7c;
+}
+
+.back-btn i {
+  font-size: 12px;
+}
+
+.back-btn {
+  font-size: 14px;
 }

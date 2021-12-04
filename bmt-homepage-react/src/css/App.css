@@ -74,6 +74,9 @@ p, ul, nav {
   .header-screenshots {
     display: none;
   }
+  .catalog-bg .wrapper h1 {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 657px) {
   .banner h4 {
@@ -107,6 +110,9 @@ p, ul, nav {
   }
   .social {
     margin-bottom: .5rem;
+  }
+  .catalog-bg .wrapper h1 {
+    font-size: 1.8rem;
   }
 }
 @media (min-width: 576px) {
