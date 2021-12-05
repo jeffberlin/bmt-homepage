@@ -43,10 +43,8 @@ function CatalogSearch() {
   return (
     <Col xl={4} lg={4} md={8} sm={12}>
       <p className="back-btn">
-
-        {/* <Link to="/catalog">⟵ Back</Link> */}
         <Link to="/catalog">
-          <i class="fas fa-arrow-left"></i>
+          <i className="fas fa-arrow-left"></i>
           &nbsp;Back
         </Link>
       </p>
