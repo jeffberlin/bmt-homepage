@@ -21,7 +21,8 @@ const products = [
   },
   {
     name: "Address N More",
-    url: "https://www.bmtmicro.com/bmtcatalog/products/address-n-more"
+    // url: "https://www.bmtmicro.com/bmtcatalog/products/address-n-more"
+    url: "/product/addressnmore"
   },
   {
     name: "Advanced Landscape Editor",

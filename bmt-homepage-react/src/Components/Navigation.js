@@ -13,12 +13,11 @@ function Navigation() {
 				<Container>
 					<Navbar.Brand href="/">
 						<Image
-							src="https://www.bmtmicro.com/images/bmt-micro-nav-logo.png"
+							src="https://www.bmtmicro.com/images/bmt-micro-nav-logo-min.png"
 							alt="BMT Micro, Inc. Logo"
 							width={120}
 							className="d-inline-block"
 						/>
-						{/* <img className="d-inline-block" width={120} src={process.env.PUBLIC_URL+"images/bmt-micro-nav-logo.png"} /> */}
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 					<Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">

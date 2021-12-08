@@ -24,7 +24,7 @@ function Catalog() {
         </Row>
         <Row>
           <Col xl={12} lg={12} md={12} sm={12}>
-            <h4>Featured Products</h4>
+            <h4 style={{ color: '#000' }}>Featured Products</h4>
           </Col>
         </Row>
         <FeaturedProducts />
