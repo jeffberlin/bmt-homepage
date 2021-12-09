@@ -37,6 +37,7 @@ const Error = lazy(() => import('./Components/Error'));
 
 // Catalog Product pages
 const AddressNmore = lazy(() => import('./Components/CatalogPages/ProductPages/AddressNmore'));
+const EmployeeSchedule = lazy(() => import('./Components/CatalogPages/ProductPages/EmployeeSchedule'));
 
 function App() {
   return (
@@ -48,11 +49,9 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/news" component={News} />
           <Route path="/privacy" component={Privacy} />
-          {/* <Route path="/catalog" component={CatalogHome}>
-            <Route path="/:addressnmore"><AddressNmore /></Route>
-          </Route> */}
           <Route path="/catalog" component={CatalogHome} />
           <Route path="/product/addressnmore" component={AddressNmore} />
+          <Route path="/product/employeeschedule" component={EmployeeSchedule} />
           <Route path="/products" component={CatalogProductList} />
           <Route path="/contact" component={Contact} />
           <Route path="/affiliates" component={AffiliateProgram} />

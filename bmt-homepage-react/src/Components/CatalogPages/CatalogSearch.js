@@ -42,7 +42,7 @@ function CatalogSearch() {
 
   return (
     <Col xl={4} lg={4} md={8} sm={12}>
-      <p className="back-btn">
+      <p className="back-btn" style={{ fontWeight: '300' }}>
         <Link to="/catalog">
           <i className="fas fa-arrow-left"></i>
           &nbsp;Back
@@ -57,7 +57,7 @@ function CatalogSearch() {
       />
       <ul className="product-list">
         {data.map((d, i) => (
-          <li key={i}><a href={d.url} target="_blank" rel="noreferrer">{d.name}</a></li>
+          <li key={i}><a href={d.url} target={d.target} rel="noreferrer">{d.name}</a></li>
         ))}
       </ul>
       {data.length === 0 && <p>No matches found! Please try again.</p>}

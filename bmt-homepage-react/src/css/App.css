@@ -114,12 +114,15 @@ p, ul, nav {
   .catalog-bg .wrapper h1 {
     font-size: 1.8rem;
   }
+  .info-section {
+    margin-bottom: 1.5rem;
+  }
 }
 @media (min-width: 576px) {
   .news-title {
     padding-left: 0px !important;
   }
-  .card-row {
+  .card-row, .info-section {
     margin-bottom: 3rem;
   }
   .tier-text {

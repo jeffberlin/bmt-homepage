@@ -15,7 +15,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.product-page h2 {
+.product-page h2, .search-input {
   margin-bottom: 1rem;
 }
 
@@ -37,15 +37,15 @@
 	text-decoration: none;
 }
 
-.catalog p a, .product-list li a, .products-link:hover, .back-btn a:hover {
+.catalog-link, .product-list li a, .products-link:hover, .back-btn a:hover {
   color: #efa900;
 }
 
-.catalog p a, .product-list li a, .products-link, .products-link a, .back-btn a, .demo-btn {
+.catalog-link, .product-list li a, .products-link, .products-link a, .back-btn a, .demo-btn {
   transition: all .3s ease;
 }
 
-.catalog p a:hover, .featured-product-title, .product-list li a:hover, .back-btn a {
+.catalog-link:hover, .featured-product-title, .product-list li a:hover, .back-btn a {
 	color: #195a7c;
 }
 
@@ -69,10 +69,6 @@
   font-size: .9rem;
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.05), 0 1px 10px 5px rgba(0, 0, 0, 0.05), 0 4px 2px -5px rgba(0, 0, 0, 0.05);
   -webkit-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.05), 0 1px 10px 5px rgba(0, 0, 0, 0.05), 0 4px 2px -5px rgba(0, 0, 0, 0.05);
-}
-
-.search-input, .product-image {
-  margin-bottom: 1rem;
 }
 
 .search-input:focus {
@@ -155,6 +151,8 @@
 }
 
 .product-features u {
-  text-decoration-color: #efa900;
-  text-decoration-line: underline;
+  -webkit-text-decoration-color: #efa900;
+          text-decoration-color: #efa900;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }

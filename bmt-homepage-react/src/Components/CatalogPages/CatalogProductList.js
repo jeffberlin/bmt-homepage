@@ -8,7 +8,7 @@ function CatalogProductList() {
       <div className="wrapper">
         <h1>Welcome to the BMT Micro Catalog!</h1>
       </div>
-      <Container className="catalog-search" style={{ minHeight: 'calc(100vh - 330px)'}}>
+      <Container className="catalog-search" style={{ minHeight: 'calc(100vh - 330px)' }}>
         <Row className="justify-content-center">
           <CatalogSearch />
         </Row>
