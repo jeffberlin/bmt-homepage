@@ -40,7 +40,7 @@ function AddressNmore() {
           <Col xl={{ span: 4, order: 1 }} lg={{ span: 4, order: 1 }} md={{ span: 6, order: 1 }} sm={{ span: 6, order: 1 }} xs={{ span: 12, order: 2 }}>
             <div className="product-image text-left">
               <Image
-                src="https://www.bmtmicro.com/bmtcatalog/images/address-screenshot3.jpg"
+                src="https://www.bmtmicro.com/images/bmt-micro-address-screenshot3-min.jpg"
                 fluid
               />
             </div>
@@ -57,7 +57,7 @@ function AddressNmore() {
             <div className="product-image">
               <Image
                 fluid
-                src="https://www.bmtmicro.com/bmtcatalog/images/address-screenshot1.jpg"
+                src="https://www.bmtmicro.com/images/bmt-micro-address-screenshot1-min.jpg"
               />
             </div>
           </Col>
@@ -70,7 +70,7 @@ function AddressNmore() {
             <div className="product-image">
               <Image
                 fluid
-                src="https://www.bmtmicro.com/bmtcatalog/images/address-screenshot2.jpg"
+                src="https://www.bmtmicro.com/images/bmt-micro-address-screenshot2-min.jpg"
               />
             </div>
           </Col>

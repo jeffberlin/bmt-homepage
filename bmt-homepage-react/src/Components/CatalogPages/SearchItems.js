@@ -278,12 +278,14 @@ const products = [
   },
   {
     name: "File Commander/2",
-    url: "https://www.bmtmicro.com/bmtcatalog/products/file-commander2",
+    // url: "https://www.bmtmicro.com/bmtcatalog/products/file-commander2",
+    url: "/product/filecommander2",
     target: "_self"
   },
   {
     name: "File Commander for Win95/NT",
-    url: "https://www.bmtmicro.com/bmtcatalog/products/file-commander-win",
+    // url: "https://www.bmtmicro.com/bmtcatalog/products/file-commander-win",
+    url: "/product/filecommanderwin",
     target: "_self"
   },
   {
@@ -363,7 +365,8 @@ const products = [
   },
   {
     name: "Goobs",
-    url: "https://www.bmtmicro.com/bmtcatalog/products/goobs",
+    // url: "https://www.bmtmicro.com/bmtcatalog/products/goobs",
+    url: "/product/goobs",
     target: "_self"
   },
   {
@@ -408,7 +411,8 @@ const products = [
   },
   {
     name: "In Charge!",
-    url: "https://www.bmtmicro.com/bmtcatalog/products/incharge",
+    // url: "https://www.bmtmicro.com/bmtcatalog/products/incharge",
+    url: "/product/incharge",
     target: "_self"
   },
   {
@@ -508,7 +512,8 @@ const products = [
   },
   {
     name: "Money Quiz-Counter",
-    url: "https://www.bmtmicro.com/bmtcatalog/products/money-quiz-counter",
+    // url: "https://www.bmtmicro.com/bmtcatalog/products/money-quiz-counter",
+    url: "/product/moneyquizcounter",
     target: "_self"
   },
   {

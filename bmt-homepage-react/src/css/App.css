@@ -114,7 +114,7 @@ p, ul, nav {
   .catalog-bg .wrapper h1 {
     font-size: 1.8rem;
   }
-  .info-section {
+  .info-section, .top-img {
     margin-bottom: 1.5rem;
   }
 }

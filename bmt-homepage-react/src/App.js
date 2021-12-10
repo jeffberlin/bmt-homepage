@@ -38,6 +38,12 @@ const Error = lazy(() => import('./Components/Error'));
 // Catalog Product pages
 const AddressNmore = lazy(() => import('./Components/CatalogPages/ProductPages/AddressNmore'));
 const EmployeeSchedule = lazy(() => import('./Components/CatalogPages/ProductPages/EmployeeSchedule'));
+const FileCommanderWin = lazy(() => import('./Components/CatalogPages/ProductPages/FileCommanderWin'));
+const FileCommander2 = lazy(() => import('./Components/CatalogPages/ProductPages/FileCommander2'));
+const Goobs = lazy(() => import('./Components/CatalogPages/ProductPages/Goobs'));
+const InCharge = lazy(() => import('./Components/CatalogPages/ProductPages/InCharge'));
+const MoneyQuizCounter = lazy(() => import('./Components/CatalogPages/ProductPages/MoneyQuizCounter'));
+
 
 function App() {
   return (
@@ -52,6 +58,11 @@ function App() {
           <Route path="/catalog" component={CatalogHome} />
           <Route path="/product/addressnmore" component={AddressNmore} />
           <Route path="/product/employeeschedule" component={EmployeeSchedule} />
+          <Route path="/product/filecommanderwin" component={FileCommanderWin} />
+          <Route path="/product/filecommander2" component={FileCommander2} />
+          <Route path="/product/goobs" component={Goobs} />
+          <Route path="/product/incharge" component={InCharge} />
+          <Route path="/product/moneyquizcounter" component={MoneyQuizCounter} />
           <Route path="/products" component={CatalogProductList} />
           <Route path="/contact" component={Contact} />
           <Route path="/affiliates" component={AffiliateProgram} />
