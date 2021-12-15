@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import NetDriveModal from './NetDriveModal';
 
 function PersonalTimeKeeper() {
-  const [modalShow, NetDriveModalShow] = useState(false);
   return (
     <div className="body-content catalog-bg product-page">
       <Container className="catalog">
