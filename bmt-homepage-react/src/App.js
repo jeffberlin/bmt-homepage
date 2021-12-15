@@ -43,6 +43,13 @@ const FileCommander2 = lazy(() => import('./Components/CatalogPages/ProductPages
 const Goobs = lazy(() => import('./Components/CatalogPages/ProductPages/Goobs'));
 const InCharge = lazy(() => import('./Components/CatalogPages/ProductPages/InCharge'));
 const MoneyQuizCounter = lazy(() => import('./Components/CatalogPages/ProductPages/MoneyQuizCounter'));
+const NetDrive = lazy(() => import('./Components/CatalogPages/ProductPages/NetDrive'));
+const OsEzine = lazy(() => import('./Components/CatalogPages/ProductPages/OsEzine'));
+const PersonalTimeKeeper = lazy(() => import('./Components/CatalogPages/ProductPages/PersonalTimeKeeper'));
+const PipelinePlus = lazy(() => import('./Components/CatalogPages/ProductPages/PipelinePlus'));
+const RavenSkull = lazy(() => import('./Components/CatalogPages/ProductPages/RavenSkull'));
+const Repton1 = lazy(() => import('./Components/CatalogPages/ProductPages/Repton1'));
+const ScreenSaver = lazy(() => import('./Components/CatalogPages/ProductPages/ScreenSaver'));
 
 
 function App() {
@@ -63,6 +70,13 @@ function App() {
           <Route path="/product/goobs" component={Goobs} />
           <Route path="/product/incharge" component={InCharge} />
           <Route path="/product/moneyquizcounter" component={MoneyQuizCounter} />
+          <Route path="/product/netdrive" component={NetDrive} />
+          <Route path="/product/osezine" component={OsEzine} />
+          <Route path="/product/personaltimekeeper" component={PersonalTimeKeeper} />
+          <Route path="/product/pipelineplus" component={PipelinePlus} />
+          <Route path="/product/ravenskull" component={RavenSkull} />
+          <Route path="/product/repton1" component={Repton1} />
+          <Route path="/product/screensaver" component={ScreenSaver} />
           <Route path="/products" component={CatalogProductList} />
           <Route path="/contact" component={Contact} />
           <Route path="/affiliates" component={AffiliateProgram} />
@@ -71,7 +85,6 @@ function App() {
           <Route path="/pricing" component={Pricing} />
           <Route path="/w9form" component={W9form} />
           <Route path="*" component={Error} />
-
         </Switch>
         <Footer />
       </Suspense>

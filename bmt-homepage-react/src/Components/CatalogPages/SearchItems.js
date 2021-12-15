@@ -533,7 +533,8 @@ const products = [
   },
   {
     name: "Netdrive",
-    url: "https://www.bmtmicro.com/bmtcatalog/products/net-drive",
+    // url: "https://www.bmtmicro.com/bmtcatalog/products/net-drive",
+    url: "/product/netdrive",
     target: "_self"
   },
   {
@@ -573,7 +574,8 @@ const products = [
   },
   {
     name: "OS/2 e-Zine!",
-    url: "https://www.bmtmicro.com/bmtcatalog/products/os-ezine",
+    // url: "https://www.bmtmicro.com/bmtcatalog/products/os-ezine",
+    url: "/product/osezine",
     target: "_self"
   },
   {
@@ -603,7 +605,8 @@ const products = [
   },
   {
     name: "Personal Time Keeper",
-    url: "https://www.bmtmicro.com/bmtcatalog/products/personal-time-keeper",
+    // url: "https://www.bmtmicro.com/bmtcatalog/products/personal-time-keeper",
+    url: "/product/personaltimekeeper",
     target: "_self"
   },
   {
@@ -623,7 +626,8 @@ const products = [
   },
   {
     name: "Pipeline Plus",
-    url: "https://www.bmtmicro.com/bmtcatalog/products/pipeline-plus",
+    // url: "https://www.bmtmicro.com/bmtcatalog/products/pipeline-plus",
+    url: "/product/pipelineplus",
     target: "_self"
   },
   {
@@ -693,12 +697,14 @@ const products = [
   },
   {
     name: "Ravenskull",
-    url: "https://www.bmtmicro.com/bmtcatalog/products/ravenskull",
+    // url: "https://www.bmtmicro.com/bmtcatalog/products/ravenskull",
+    url: "/product/ravenskull",
     target: "_self"
   },
   {
     name: "Repton 1",
-    url: "https://www.bmtmicro.com/bmtcatalog/products/repton1",
+    // url: "https://www.bmtmicro.com/bmtcatalog/products/repton1",
+    url: "/product/repton1",
     target: "_self"
   },
   {
@@ -718,7 +724,8 @@ const products = [
   },
   {
     name: "ScreenSaver",
-    url: "https://www.bmtmicro.com/bmtcatalog/products/screensaver",
+    // url: "https://www.bmtmicro.com/bmtcatalog/products/screensaver",
+    url: "/product/screensaver",
     target: "_self"
   },
   {
