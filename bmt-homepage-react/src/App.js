@@ -50,7 +50,7 @@ const PipelinePlus = lazy(() => import('./Components/CatalogPages/ProductPages/P
 const RavenSkull = lazy(() => import('./Components/CatalogPages/ProductPages/RavenSkull'));
 const Repton1 = lazy(() => import('./Components/CatalogPages/ProductPages/Repton1'));
 const ScreenSaver = lazy(() => import('./Components/CatalogPages/ProductPages/ScreenSaver'));
-
+const VoiceMemberships = lazy(() => import('./Components/CatalogPages/ProductPages/VoiceMemberships'));
 
 function App() {
   return (
@@ -77,6 +77,7 @@ function App() {
           <Route path="/product/ravenskull" component={RavenSkull} />
           <Route path="/product/repton1" component={Repton1} />
           <Route path="/product/screensaver" component={ScreenSaver} />
+          <Route path="/product/voicememberships" component={VoiceMemberships} />
           <Route path="/products" component={CatalogProductList} />
           <Route path="/contact" component={Contact} />
           <Route path="/affiliates" component={AffiliateProgram} />

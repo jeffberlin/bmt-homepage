@@ -893,11 +893,11 @@ const products = [
     url: "http://www.uppergroove.com/tizzbug.htm",
     target: "_blank"
   },
-  {
-    name: "TK-Tools",
-    url: "https://www.bmtmicro.com/bmtcatalog/products/tk-tools",
-    target: "_self"
-  },
+  // {
+  //   name: "TK-Tools",
+  //   url: "https://www.bmtmicro.com/bmtcatalog/products/tk-tools",
+  //   target: "_self"
+  // },
   {
     name: "TN3270 Plus",
     url: "http://www.sdisw.com/",
@@ -918,11 +918,11 @@ const products = [
     url: "http://www.bantamcity.com/werlin/",
     target: "_blank"
   },
-  {
-    name: "Turbo Business Apps for Linux",
-    url: "https://www.bmtmicro.com/bmtcatalog/products/turbo-business-linux",
-    target: "_self"
-  },
+  // {
+  //   name: "Turbo Business Apps for Linux",
+  //   url: "https://www.bmtmicro.com/bmtcatalog/products/turbo-business-linux",
+  //   target: "_self"
+  // },
   {
     name: "TurboHex",
     url: "http://www.genkisoft.com/turbohex.shtml",
@@ -975,7 +975,8 @@ const products = [
   },
   {
     name: "VOICE Memberships",
-    url: "https://www.bmtmicro.com/bmtcatalog/products/voice-memberships",
+    // url: "https://www.bmtmicro.com/bmtcatalog/products/voice-memberships",
+    url: "/product/voicememberships",
     target: "_self"
   },
   {
@@ -1023,11 +1024,11 @@ const products = [
     url: "http://www.midnightsynergy.com/secretworlds/",
     target: "_blank"
   },
-  {
-    name: "Workplace Security for OS/2 Warp",
-    url: "https://www.bmtmicro.com/bmtcatalog/products/workplace-security",
-    target: "_self"
-  },
+  // {
+  //   name: "Workplace Security for OS/2 Warp",
+  //   url: "https://www.bmtmicro.com/bmtcatalog/products/workplace-security",
+  //   target: "_self"
+  // },
   {
     name: "ZModeler2",
     url: "http://www.zmodeler2.com/",
