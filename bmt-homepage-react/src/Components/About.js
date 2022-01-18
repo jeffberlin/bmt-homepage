@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col, ResponsiveEmbed } from 'react-bootstrap';
-// import video from '../BMT-Micro-2021-video-min.mp4';
 
 function About() {
 	return (
@@ -9,11 +8,6 @@ function About() {
 				<Row className="justify-content-center">
 					<Col className="text-center" xl={6} lg={6} md={12} sm={12} style={{ marginBottom: '3rem' }}>
 						<ResponsiveEmbed aspectRatio="16by9">
-					    {/* <video controls autoPlay>
-					    	<source type="video/mp4" src={video} />
-					    	<source src="movie.ogg" type="video/ogg" />
-					    	Your browser does not support the video tag.
-					    </video> */}
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/vF-MgzLXfmo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 					  </ResponsiveEmbed>
 					</Col>

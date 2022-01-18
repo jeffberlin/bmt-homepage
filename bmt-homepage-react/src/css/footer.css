@@ -60,8 +60,12 @@ ul {
 	margin-bottom: .5rem;
 }
 
-ul li a, .copyright {
+ul li a {
 	font-size: .9rem;
+}
+
+.copyright {
+	font-size: .8rem;
 }
 
 .footer-menu ul li a:hover {
