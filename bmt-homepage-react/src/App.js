@@ -33,6 +33,7 @@ const Customers = lazy(() => import('./Components/Customers'));
 const FAQ = lazy(() => import('./Components/FAQ'));
 const Pricing = lazy(() => import('./Components/Pricing/Pricing'));
 const W9form = lazy(() => import('./Components/W9form'));
+const OurGuarantee = lazy(() => import('./Components/OurGuarantee'));
 const Error = lazy(() => import('./Components/Error'));
 
 // Catalog Product pages
@@ -85,6 +86,7 @@ function App() {
           <Route path="/faqs" component={FAQ} />
           <Route path="/pricing" component={Pricing} />
           <Route path="/w9form" component={W9form} />
+          <Route path="/our-guarantee" component={OurGuarantee} />
           <Route path="*" component={Error} />
         </Switch>
         <Footer />
