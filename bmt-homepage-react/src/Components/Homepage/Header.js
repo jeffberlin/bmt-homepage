@@ -20,7 +20,7 @@ function Top() {
 								<Link
 									to="/pricing"
 									className="header-btn"
-									style={{ backgroundColor: '#195a7c', marginRight: '1.2rem', color: '#ffffff' }}
+									style={{ backgroundColor: '#195a7c', color: '#ffffff' }}
 								>
 									Learn More
 								</Link>

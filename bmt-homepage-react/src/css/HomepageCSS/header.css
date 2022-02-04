@@ -31,7 +31,10 @@
 
 .header-btn {
 	border-radius: 1.18rem;
-  padding: .4rem 1rem;
+  /* padding: .5rem 2rem; */
+  padding: .5rem 0;
+  margin: 10px;
+  width: 140px;
   border: none;
   -webkit-text-shadow: 0 0 5px rgba(0, 0, 0, .2);
   text-shadow: 0 0 5px rgba(0, 0, 0, .2);
