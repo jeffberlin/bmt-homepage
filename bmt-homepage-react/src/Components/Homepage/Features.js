@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function Features() {
 	return (
@@ -35,6 +36,14 @@ function Features() {
 						<i className="fas fa-comment"></i>
 						<h5>Customer Support</h5>
 						<p style={{ marginBottom: '0' }}>Our customer service staff has the experience and know-how to assist your customers in a friendly and professional manner. Our focus has always been to provide customers with the best possible service, ensuring your and our integrity.</p>
+					</Col>
+					<Col className="text-center" style={{ marginBottom: '2rem' }}>
+						<Link
+							to="/product-overview"
+							
+						>
+							Explore all features
+						</Link>
 					</Col>
 				</Row>
 			</Container>

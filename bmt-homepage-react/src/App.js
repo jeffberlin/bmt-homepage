@@ -18,6 +18,7 @@ import './css/customers.css';
 import './css/faq.css';
 import './css/pricing.css';
 import './css/w9form.css';
+import './css/product-overview.css';
 
 const Navigation = lazy(() => import('./Components/Navigation'));
 const Footer = lazy(() => import('./Components/Footer'));
@@ -34,6 +35,7 @@ const FAQ = lazy(() => import('./Components/FAQ'));
 const Pricing = lazy(() => import('./Components/Pricing/Pricing'));
 const W9form = lazy(() => import('./Components/W9form'));
 const OurGuarantee = lazy(() => import('./Components/OurGuarantee'));
+const ProductOverview = lazy(() => import('./Components/ProductOverview'));
 const Error = lazy(() => import('./Components/Error'));
 
 // Catalog Product pages
@@ -87,6 +89,7 @@ function App() {
           <Route path="/pricing" component={Pricing} />
           <Route path="/w9form" component={W9form} />
           <Route path="/our-guarantee" component={OurGuarantee} />
+          <Route path="/product-overview" component={ProductOverview} />
           <Route path="*" component={Error} />
         </Switch>
         <Footer />
