@@ -28,12 +28,7 @@ const testimonials = [
 		"text": "I am so impressed with BMT's outstanding customer service!",
 		"name": "Lenora",
 		"interval": "3000"
-	},
-	{
-		"text": "This is the best customer service I’ve ever received… To respond within a day, too, is extraordinary. I can’t thank you enough!",
-		"name": "Chris S.",
-		"interval": "3000"
-	},
+	}
 	{
 		"text": "You are very good at customer service with your terrific response time and knowledge.",
 		"name": "Jennifer N.",
@@ -52,6 +47,11 @@ const testimonials = [
 	{
 		"text": "This is the most complete order info I've ever seen. Once again I have to wonder how we didn't find you years and years ago. Thank you.",
 		"name": "John",
+		"interval": "3000"
+	},
+	{
+		"text": "Thank you SOOO much for getting back to me so quickly!! It worked perfectly!! Your customer service is brilliant, Thank you again.",
+		"name": "Jamie",
 		"interval": "3000"
 	}
 ]
