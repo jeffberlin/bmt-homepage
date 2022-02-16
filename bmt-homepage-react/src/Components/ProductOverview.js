@@ -9,7 +9,6 @@ function ProductOverview() {
           <Col xl={6} lg={6}>
             <h1>Whatever your needs,</h1>
             <h1>BMT Micro has a solution for you</h1>
-            {/* <div className="line"></div> */}
           </Col>
         </Row>
         <Row>

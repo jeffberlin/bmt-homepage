@@ -28,7 +28,7 @@ const testimonials = [
 		"text": "I am so impressed with BMT's outstanding customer service!",
 		"name": "Lenora",
 		"interval": "3000"
-	}
+	},
 	{
 		"text": "You are very good at customer service with your terrific response time and knowledge.",
 		"name": "Jennifer N.",
