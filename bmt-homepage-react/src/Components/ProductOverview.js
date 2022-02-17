@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function ProductOverview() {
   return (
@@ -18,6 +19,7 @@ function ProductOverview() {
         </Row>
         <Row>
           <Col>
+            <Link to="/pricing">Pricing</Link>
             <p>WordPress Plugin</p>
             <p>Custom Cart</p>
             <p>Dashboard, upload products, track sales, emails,</p>
