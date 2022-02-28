@@ -8,6 +8,11 @@
   line-height: 1.5;
 }
 
+.product-overview p {
+  color: #707070;
+  letter-spacing: .3px;
+}
+
 .product-overview h1, .plugin-btn {
   color: #efa900;
 }
@@ -20,6 +25,10 @@
   background-color: #000;
   height: 4px;
   margin-bottom: 2rem;
+}
+
+.product-overview h2 {
+  color: #000;
 }
 
 .plugin-btn span {

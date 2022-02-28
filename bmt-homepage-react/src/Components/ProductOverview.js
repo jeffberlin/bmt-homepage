@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 
 function ProductOverview() {
   return (
@@ -16,7 +16,7 @@ function ProductOverview() {
             <div className="line"></div>
           </Col>
         </Row>
-        <Row className="justify-content-center" style={{ marginBottom: '5rem' }}>
+        <Row className="justify-content-center" style={{ marginBottom: '7rem' }}>
           <Col>
             <p>[screenshot]</p>
           </Col>
@@ -25,7 +25,7 @@ function ProductOverview() {
             <p>Select options that you would like to have displayed in your cart, blend your cart into your current website design, and much more!</p>
           </Col>
         </Row>
-        <Row className="justify-content-center" style={{ marginBottom: '5rem' }}>
+        <Row className="justify-content-center" style={{ marginBottom: '7rem' }}>
           <Col xl={6} lg={6} md={12} sm={12}>
             <h2>Pop-up Cart</h2>
             <p>Easy to implement and </p>
@@ -34,9 +34,12 @@ function ProductOverview() {
             <p>[screenshot]</p>
           </Col>
         </Row>
-        <Row className="justify-content-center" style={{ marginBottom: '5rem' }}>
+        <Row className="justify-content-center align-items-center" style={{ marginBottom: '7rem' }}>
           <Col>
-            <p>[screenshot]</p>
+            <Image
+              src="../images/bmt-micro-wordpress-plugin-image.png"
+              fluid
+            />
           </Col>
           <Col xl={6} lg={6} md={12} sm={12}>
             <h2>WordPress Plugin</h2>
@@ -47,7 +50,7 @@ function ProductOverview() {
         <Row className="justify-content-center">
           <Col xl={6} lg={6} md={12} sm={12}>
             <h2>Supplier Portal</h2>
-            <p>With our supplier portal, you can manage your products, track sales, edit your account, and much more. </p>
+            <p>With our supplier portal, you can manage your products, track detailed sales information, edit your account, add users, and much more. </p>
           </Col>
           <Col>
             <p>[screenshot]</p>
