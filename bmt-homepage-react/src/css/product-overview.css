@@ -1,16 +1,36 @@
 .product-overview {
   padding-top: 8rem;
+  padding-bottom: 3rem;
 }
 
 .product-overview h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.75rem;
+  font-size: 2.8rem;
   line-height: 1.5;
+}
+
+.product-overview h1, .plugin-btn {
   color: #efa900;
+}
+
+.product-overview h1, .product-overview h2 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .line {
   background-color: #000;
   height: 4px;
   margin-bottom: 2rem;
+}
+
+.plugin-btn span {
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+
+.plugin-btn {
+  transition: all .3s ease;
+}
+
+.plugin-btn:hover {
+  color: #195a7c;
 }
