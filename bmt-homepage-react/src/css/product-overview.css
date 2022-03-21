@@ -43,3 +43,7 @@
 .plugin-btn:hover {
   color: #195a7c;
 }
+
+.screenshot img {
+  box-shadow: 0px 0px 35px 4px rgba(0,0,0,0.31);
+}

@@ -16,8 +16,8 @@ function ProductOverview() {
             <div className="line"></div>
           </Col>
         </Row>
-        <Row className="justify-content-center align-items-center" style={{ marginBottom: '7rem' }}>
-          <Col className="text-center">
+        <Row className="justify-content-center align-items-center" style={{ marginBottom: '8rem' }}>
+          <Col className="text-center screenshot">
             <Image
               src="../images/bmt-popup-cart-overview-min.png"
               width={400}
@@ -28,19 +28,20 @@ function ProductOverview() {
             <p>If you prefer to implement your own options</p>
           </Col>
         </Row>
-        <Row className="justify-content-center align-items-center" style={{ marginBottom: '7rem' }}>
+        <Row className="justify-content-center align-items-center" style={{ marginBottom: '8rem' }}>
           <Col xl={6} lg={6} md={12} sm={12}>
             <h2>Customized Shopping Cart</h2>
             <p>Select options that you would like to have displayed in your cart, blend your cart into your current website design, and much more!</p>
           </Col>
-          <Col className="text-center">
+          <Col className="text-center screenshot">
             <Image
               src="../images/custom-cart-template.png"
               width={400}
+              height={328}
             />
           </Col>
         </Row>
-        <Row className="justify-content-center align-items-center" style={{ marginBottom: '7rem' }}>
+        <Row className="justify-content-center align-items-center" style={{ marginBottom: '8rem' }}>
           <Col className="text-center">
             <Image
               src="../images/bmt-micro-wordpress-plugin-image.png"
@@ -58,8 +59,11 @@ function ProductOverview() {
             <h2>Supplier Portal</h2>
             <p>With our supplier portal, you can manage your products, track detailed sales information, edit your account, add users, and much more. </p>
           </Col>
-          <Col className="text-center">
-            <p>[screenshot]</p>
+          <Col className="text-center screenshot">
+            <Image
+              src="../images/bmt-vendors-area-screenshot.jpg"
+              width={400}
+            />
           </Col>
         </Row>
       </Container>
