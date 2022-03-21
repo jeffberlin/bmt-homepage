@@ -1,10 +1,11 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function ProductOverview() {
   return (
-    <div className="body-content">
-      <Container className="product-overview">
+    <div className="body-content product-overview">
+      <Container className="">
         <Row className="justify-content-center">
           <Col xl={10} lg={10}>
             <h1>Whatever your needs,</h1>
@@ -14,6 +15,30 @@ function ProductOverview() {
         <Row>
           <Col xl={12} lg={12} md={12} sm={12}>
             <div className="line"></div>
+          </Col>
+        </Row>
+        <Row className="justify-content-center" style={{ marginBottom: '8rem' }}>
+          <Col xl={8} lg={8} className="text-center">
+            <h5>With BMT Micro, we have many features to help you manage your products, increase your sales, and choose a cart that works best for your website.</h5>
+            <div>
+              <Link
+                to="/pricing"
+                className="header-btn"
+                style={{ backgroundColor: '#195a7c', color: '#ffffff' }}
+              >
+                Learn More
+              </Link>
+              <a
+                href="https://vendors.bmtmicro.com/new-vendor-signup.jsp"
+                target="_blank"
+                className="header-btn"
+                rel="noreferrer"
+                style={{ backgroundColor: '#efa900', color: '#195a7c' }}
+              >
+                Sign Up&nbsp;
+                <i className="fas fa-arrow-right"></i>
+              </a>
+            </div>
           </Col>
         </Row>
         <Row className="justify-content-center align-items-center" style={{ marginBottom: '8rem' }}>

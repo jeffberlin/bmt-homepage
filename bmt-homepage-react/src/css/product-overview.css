@@ -1,11 +1,22 @@
 .product-overview {
   padding-top: 8rem;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
+  background-image: linear-gradient(176deg, #000 25%, #fff calc(25% + 2px));
 }
 
 .product-overview h1 {
   font-size: 2.8rem;
   line-height: 1.5;
+}
+
+.product-overview h5 {
+  font-size: 1.10rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  letter-spacing: .7px;
+  line-height: 2;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
 }
 
 .product-overview p {
@@ -22,9 +33,9 @@
 }
 
 .line {
-  background-color: #000;
+  background-color: #195a7c;
   height: 4px;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 
 .product-overview h2 {
