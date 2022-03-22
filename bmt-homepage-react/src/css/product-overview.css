@@ -1,22 +1,49 @@
 .product-overview {
   padding-top: 8rem;
   padding-bottom: 5rem;
-  background-image: linear-gradient(176deg, #000 25%, #fff calc(25% + 2px));
 }
 
-.product-overview h1 {
-  font-size: 2.8rem;
-  line-height: 1.5;
+.product-overview h1, .product-overview h5 {
+  letter-spacing: .7px;
+
 }
 
 .product-overview h5 {
   font-size: 1.10rem;
   margin-bottom: 1.5rem;
   color: #fff;
-  letter-spacing: .7px;
-  line-height: 2;
+}
+
+.product-overview h5, .product-overview-btn {
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
+}
+
+.product-overview-btn {
+  border-radius: 1.18rem;
+  padding: .5rem 0;
+  margin: 10px;
+  width: 180px;
+  border: none;
+  -webkit-text-shadow: 0 0 5px rgba(0, 0, 0, .2);
+  text-shadow: 0 0 5px rgba(0, 0, 0, .2);
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .2);
+  -webkit-box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .2);
+	font-size: .9rem;
+  display: inline-block;
+}
+
+.product-overview-btn, .plugin-btn {
+  transition: all .3s ease;
+}
+
+.product-overview-btn, .plugin-btn span {
+  letter-spacing: .5px;
+}
+
+.product-overview-btn:hover {
+  text-decoration: none !important;
+  transform: scale(1.03) !important;
 }
 
 .product-overview p {
@@ -33,7 +60,7 @@
 }
 
 .line {
-  background-color: #195a7c;
+  background-color: #000;
   height: 4px;
   margin-bottom: 1rem;
 }
@@ -44,11 +71,6 @@
 
 .plugin-btn span {
   font-weight: 600;
-  letter-spacing: .5px;
-}
-
-.plugin-btn {
-  transition: all .3s ease;
 }
 
 .plugin-btn:hover {

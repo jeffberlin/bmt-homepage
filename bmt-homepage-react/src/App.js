@@ -35,7 +35,7 @@ const FAQ = lazy(() => import('./Components/FAQ'));
 const Pricing = lazy(() => import('./Components/Pricing/Pricing'));
 const W9form = lazy(() => import('./Components/W9form'));
 const OurGuarantee = lazy(() => import('./Components/OurGuarantee'));
-const ProductOverview = lazy(() => import('./Components/ProductOverview'));
+const ProductOverview = lazy(() => import('./Components/ProductOverview/ProductOverview'));
 const Error = lazy(() => import('./Components/Error'));
 
 // Catalog Product pages

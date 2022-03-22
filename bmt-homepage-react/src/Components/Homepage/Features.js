@@ -40,9 +40,10 @@ function Features() {
 					<Col className="text-center" style={{ marginBottom: '2rem' }}>
 						<Link
 							to="/product-overview"
-							
+							className="features-btn"
 						>
-							Explore all features
+							Explore all features&nbsp;
+							<i className="fas fa-arrow-right"></i>
 						</Link>
 					</Col>
 				</Row>
