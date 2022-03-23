@@ -46,7 +46,7 @@ p, ul, nav {
   .header-section {
     padding: 8rem 15px;
   }
-  .header-hero {
+  .header-hero, .product-overview p {
     margin-bottom: 2.5rem;
   }
   .about-home h2 {
@@ -61,8 +61,8 @@ p, ul, nav {
   .product-overview h1 {
     font-size: 2.5rem;
   }
-  .plugin-btn-col {
-    margin-bottom: 3rem !important;
+  .product-overview-item {
+    margin-bottom: 6.5rem;
   }
 }
 @media (min-width: 992px) {
@@ -80,6 +80,9 @@ p, ul, nav {
   }
   .product-overview h1 {
     font-size: 2.8rem;
+  }
+  .product-overview-item {
+    margin-bottom: 8rem;
   }
 }
 @media (max-width: 767px) {

@@ -29,13 +29,12 @@
 	font-size: 1.1rem;
 }
 
-.features-btn, .features-btn .fas {
+.features-btn, .features-btn .fas, .features-btn:hover {
 	color: #efa900;
-	transition: all .3s ease;
 }
 
-.features-btn a:hover {
-	color: #195a7c;
+.features-btn:hover {
+	text-decoration: none !important;
 }
 
 .features-btn .fas {

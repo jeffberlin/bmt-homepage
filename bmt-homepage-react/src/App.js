@@ -19,6 +19,7 @@ import './css/faq.css';
 import './css/pricing.css';
 import './css/w9form.css';
 import './css/product-overview.css';
+import ScrollToTop from './ScrollToTop';
 
 const Navigation = lazy(() => import('./Components/Navigation'));
 const Footer = lazy(() => import('./Components/Footer'));
@@ -60,39 +61,41 @@ function App() {
     <div className="App">
       <Suspense fallback={<div>Loading...</div>}>
         <Navigation />
-        <Switch>
-          <Route path="/" component={Home} exact />
-          <Route path="/about" component={About} />
-          <Route path="/news" component={News} />
-          <Route path="/privacy" component={Privacy} />
-          <Route path="/catalog" component={CatalogHome} />
-          <Route path="/product/addressnmore" component={AddressNmore} />
-          <Route path="/product/employeeschedule" component={EmployeeSchedule} />
-          <Route path="/product/filecommanderwin" component={FileCommanderWin} />
-          <Route path="/product/filecommander2" component={FileCommander2} />
-          <Route path="/product/goobs" component={Goobs} />
-          <Route path="/product/incharge" component={InCharge} />
-          <Route path="/product/moneyquizcounter" component={MoneyQuizCounter} />
-          <Route path="/product/netdrive" component={NetDrive} />
-          <Route path="/product/osezine" component={OsEzine} />
-          <Route path="/product/personaltimekeeper" component={PersonalTimeKeeper} />
-          <Route path="/product/pipelineplus" component={PipelinePlus} />
-          <Route path="/product/ravenskull" component={RavenSkull} />
-          <Route path="/product/repton1" component={Repton1} />
-          <Route path="/product/screensaver" component={ScreenSaver} />
-          <Route path="/product/voicememberships" component={VoiceMemberships} />
-          <Route path="/products" component={CatalogProductList} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/affiliates" component={AffiliateProgram} />
-          <Route path="/customers" component={Customers} />
-          <Route path="/faqs" component={FAQ} />
-          <Route path="/pricing" component={Pricing} />
-          <Route path="/w9form" component={W9form} />
-          <Route path="/our-guarantee" component={OurGuarantee} />
-          <Route path="/product-overview" component={ProductOverview} />
-          <Route path="*" component={Error} />
-        </Switch>
-        <Footer />
+        <ScrollToTop>
+          <Switch>
+            <Route path="/" component={Home} exact />
+            <Route path="/about" component={About} />
+            <Route path="/news" component={News} />
+            <Route path="/privacy" component={Privacy} />
+            <Route path="/catalog" component={CatalogHome} />
+            <Route path="/product/addressnmore" component={AddressNmore} />
+            <Route path="/product/employeeschedule" component={EmployeeSchedule} />
+            <Route path="/product/filecommanderwin" component={FileCommanderWin} />
+            <Route path="/product/filecommander2" component={FileCommander2} />
+            <Route path="/product/goobs" component={Goobs} />
+            <Route path="/product/incharge" component={InCharge} />
+            <Route path="/product/moneyquizcounter" component={MoneyQuizCounter} />
+            <Route path="/product/netdrive" component={NetDrive} />
+            <Route path="/product/osezine" component={OsEzine} />
+            <Route path="/product/personaltimekeeper" component={PersonalTimeKeeper} />
+            <Route path="/product/pipelineplus" component={PipelinePlus} />
+            <Route path="/product/ravenskull" component={RavenSkull} />
+            <Route path="/product/repton1" component={Repton1} />
+            <Route path="/product/screensaver" component={ScreenSaver} />
+            <Route path="/product/voicememberships" component={VoiceMemberships} />
+            <Route path="/products" component={CatalogProductList} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/affiliates" component={AffiliateProgram} />
+            <Route path="/customers" component={Customers} />
+            <Route path="/faqs" component={FAQ} />
+            <Route path="/pricing" component={Pricing} />
+            <Route path="/w9form" component={W9form} />
+            <Route path="/our-guarantee" component={OurGuarantee} />
+            <Route path="/product-overview" component={ProductOverview} />
+            <Route path="*" component={Error} />
+          </Switch>
+          <Footer />
+        </ScrollToTop>
       </Suspense>
     </div>
   );
