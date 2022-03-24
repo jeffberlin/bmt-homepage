@@ -6,7 +6,7 @@ function SupplierPortal() {
     <Row className="justify-content-center align-items-center">
       <Col xl={6} lg={6} md={12} sm={12}>
         <h2>Supplier Portal</h2>
-        <p>With our supplier portal, you can manage your products, track detailed sales information, edit your account, add users, and much more. </p>
+        <p>With our supplier portal, you can manage all products, track detailed sales information, edit account information, add users, and much more. </p>
       </Col>
       <Col className="text-center screenshot overview-img-col">
         <Image

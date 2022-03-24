@@ -15,7 +15,7 @@ class ProductOverview extends Component {
         <Container>
           <Row className="justify-content-center">
             <Col xl={8} lg={8} md={12} sm={12} xs={12}>
-              <h1>Whatever your needs, BMT Micro has a solution for you</h1>
+              <h1>BMT Micro has a checkout solution that is right for you!</h1>
             </Col>
           </Row>
           <Row>
@@ -25,7 +25,7 @@ class ProductOverview extends Component {
           </Row>
           <Row className="justify-content-center" style={{ marginBottom: '8rem' }}>
             <Col xl={8} lg={8} md={12} sm={12} xs={12} className="text-center">
-              <h5>With BMT Micro, we have many features to help you manage your products, increase your sales, and choose a cart that works best for your website.</h5>
+              <h5>With BMT Micro, we have many features to help you manage your products, increase sales, and choose a cart that works best for your website.</h5>
               <a
                 href="https://vendors.bmtmicro.com/new-vendor-signup.jsp"
                 target="_blank"

@@ -11,7 +11,7 @@ function PopupCart() {
       </Col>
       <Col xl={{ span: 6, order: 2 }} lg={{ span: 6, order: 2 }} md={{ span: 12, order: 1 }} sm={{ span: 12, order: 1 }} xs={{ span: 12, order: 1 }}>
         <h2>Pop-up Cart</h2>
-        <p>Using our pop-up cart, your customers can remain on the page throughout the checkout process. With this cart, you can allow products to be added into the customers cart without having to display the checkout screen.</p>
+        <p>Using our pop-up cart, customers can remain on the page throughout the checkout process. With this cart, products can be added into the customers cart without having to display the checkout screen.</p>
       </Col>
     </Row>
   );
