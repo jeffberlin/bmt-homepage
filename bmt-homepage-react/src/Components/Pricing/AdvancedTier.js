@@ -27,7 +27,7 @@ function AdvancedTier() {
 						<li>&nbsp;&nbsp;Purchase Orders</li>
 					</ul>
 					<div className="text-center">
-            <button className="modal-btn" onClick={() => advancedModalShow(true)}>View All Features</button>
+            <button className="modal-btn" onClick={() => advancedModalShow(true)}>View Plan Features</button>
           </div>
 	      </div>
 				<a className="text-center" href="https://vendors.bmtmicro.com/new-vendor-signup.jsp" target="_blank" rel="noreferrer">

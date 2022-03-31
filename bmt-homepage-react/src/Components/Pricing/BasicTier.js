@@ -23,7 +23,7 @@ function BasicTier() {
             <li>&nbsp;&nbsp;Downloadable or generated key fulfillment by BMT</li>
           </ul>
           <div className="text-center">
-            <button className="modal-btn" onClick={() => basicModalShow(true)}>View All Features</button>
+            <button className="modal-btn" onClick={() => basicModalShow(true)}>View Plan Features</button>
           </div>
         </div>
         <a className="text-center" href="https://vendors.bmtmicro.com/new-vendor-signup.jsp" target="_blank" rel="noreferrer">

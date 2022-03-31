@@ -59,6 +59,9 @@ function Footer() {
 								<Link to="/faqs" style={linkStyle}>FAQ</Link>
 							</li>
 							<li>
+								<Link to="/product-overview" style={linkStyle}>Features</Link>
+							</li>
+							<li>
 								<Link to="/pricing" style={linkStyle}>Pricing</Link>
 							</li>
 							<li>
