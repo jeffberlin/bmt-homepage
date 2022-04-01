@@ -6,7 +6,7 @@ function PopupCart() {
     <Row className="justify-content-center align-items-center product-overview-item">
       <Col xl={{ span: 6, order: 1 }} lg={{ span: 6, order: 1 }} md={{ span: 12, order: 2 }} sm={{ span: 12, order: 2 }} xs={{ span: 12, order: 2 }} className="text-center screenshot overview-img-col">
         <Image
-          src="../images/bmt-popup-cart-overview-min.jpg"
+          src="https://www.bmtmicro.com/images/bmt-micro-popup-cart-overview-min.jpg"
         />
       </Col>
       <Col xl={{ span: 6, order: 2 }} lg={{ span: 6, order: 2 }} md={{ span: 12, order: 1 }} sm={{ span: 12, order: 1 }} xs={{ span: 12, order: 1 }}>

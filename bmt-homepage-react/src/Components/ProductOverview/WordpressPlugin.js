@@ -6,7 +6,7 @@ function WordpressPlugin() {
     <Row className="justify-content-center align-items-center product-overview-item">
       <Col xl={{ span: 6, order: 1 }} lg={{ span: 6, order: 1 }} md={{ span: 12, order: 2 }} sm={{ span: 12, order: 2 }} xs={{ span: 12, order: 2 }}  className="text-center overview-img-col">
         <Image
-          src="../images/bmt-micro-wordpress-plugin-image.png"
+          src="https://www.bmtmicro.com/images/bmt-micro-wordpress-plugin-image-min.png"
         />
       </Col>
       <Col xl={{ span: 6, order: 2 }} lg={{ span: 6, order: 2 }} md={{ span: 12, order: 1 }} sm={{ span: 12, order: 1 }} xs={{ span: 12, order: 1 }}>

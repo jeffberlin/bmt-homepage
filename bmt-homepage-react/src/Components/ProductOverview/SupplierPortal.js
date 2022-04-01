@@ -10,7 +10,7 @@ function SupplierPortal() {
       </Col>
       <Col className="text-center screenshot overview-img-col">
         <Image
-          src="../images/bmt-vendors-area-screenshot.jpg"
+          src="https://www.bmtmicro.com/images/bmt-micro-vendors-area-screenshot-min.jpg"
         />
       </Col>
     </Row>

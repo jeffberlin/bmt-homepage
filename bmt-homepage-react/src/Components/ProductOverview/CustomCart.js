@@ -10,7 +10,7 @@ function CustomCart() {
       </Col>
       <Col xl={6} lg={6} md={12} sm={12} xs={12} className="text-center screenshot overview-img-col">
         <Image
-          src="../images/custom-cart-template.jpg"
+          src="https://www.bmtmicro.com/images/bmt-micro-custom-cart-template-min.jpg"
         />
       </Col>
     </Row>
