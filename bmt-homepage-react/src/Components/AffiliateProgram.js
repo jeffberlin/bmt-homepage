@@ -1,36 +1,34 @@
-import React, { Component } from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-class AffiliateProgram extends Component {
-  componentDidMount() {
+function AffiliateProgram() {
+  useEffect(() => {
 		document.title = "BMT Micro - Affiliate Program"
-	}
-  render() {
-    return (
-      <div className="body-content">
-        <div className="wrapper">
-          <h1>Affiliate Program</h1>
-        </div>
-        <Container className="affiliates">
-          <Row className="justify-content-center">
-            <Col xl={12} lg={12} md={12} sm={12} style={{ marginBottom: '2rem' }}>
-              <p>All BMT Micro software suppliers are encouraged to participate in the BMT Micro Affiliate Program. This free service provides you, as a developer, with additional channels to promote and distribute your product. There are no additional fees to join, nor is there an additional fee charged by BMT Micro for sales through the affiliate program. You pay only the affiliates for this service. The developer control panel includes administrative tools that allow you to manage affiliate sign-ups, percentages and view sales reports from your affiliates. We can also offer you a customized affiliate management area that is branded with your company/product logos to give your affiliates a seamless transition from your site to managing their affiliate account. Payments to your affiliates are handled by BMT Micro.</p>
-            </Col>
-          </Row>
-          <Row className="justify-content-center">
-            <a
-              className="affiliates-btn"
-              href="https://affiliates.bmtmicro.com/new-affiliate-signup.jsp"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Become an Affiliate today!
-            </a>
-          </Row>
-        </Container>
+	})
+  return (
+    <div className="body-content">
+      <div className="wrapper">
+        <h1>Affiliate Program</h1>
       </div>
-    );
-  }
+      <Container className="affiliates">
+        <Row className="justify-content-center">
+          <Col xl={12} lg={12} md={12} sm={12} style={{ marginBottom: '2rem' }}>
+            <p>All BMT Micro software suppliers are encouraged to participate in the BMT Micro Affiliate Program. This free service provides you, as a developer, with additional channels to promote and distribute your product. There are no additional fees to join, nor is there an additional fee charged by BMT Micro for sales through the affiliate program. You pay only the affiliates for this service. The developer control panel includes administrative tools that allow you to manage affiliate sign-ups, percentages and view sales reports from your affiliates. We can also offer you a customized affiliate management area that is branded with your company/product logos to give your affiliates a seamless transition from your site to managing their affiliate account. Payments to your affiliates are handled by BMT Micro.</p>
+          </Col>
+        </Row>
+        <Row className="justify-content-center">
+          <a
+            className="affiliates-btn"
+            href="https://affiliates.bmtmicro.com/new-affiliate-signup.jsp"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Become an Affiliate today!
+          </a>
+        </Row>
+      </Container>
+    </div>
+  );
 }
 
 export default AffiliateProgram;

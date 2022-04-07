@@ -1,25 +1,23 @@
-import React, { Component } from 'react';
+import React, { useEffect } from 'react';
 import Header from './Header';
 import Banner from './Banner';
 import Features from './Features';
 import Testimonials from './Testimonials';
 import AboutSection from './AboutSection';
 
-class Home extends Component {
-	componentDidMount() {
+function Home() {
+	useEffect(() => {
 		document.title = "BMT Micro - Global Digital Commerce Platform"
-	}
-	render() {
-		return (
-			<div className="body-content">
-				<Header />
-				<Banner />
-				<Features />
-				<Testimonials />
-				<AboutSection />
-			</div>
-		);
-	}
+	})
+	return (
+		<div className="body-content">
+			<Header />
+			<Banner />
+			<Features />
+			<Testimonials />
+			<AboutSection />
+		</div>
+	);
 }
 
 export default Home;
