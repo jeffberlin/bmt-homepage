@@ -1,5 +1,8 @@
 import React, { useEffect } from 'react';
-import { Container, Row, Col, ResponsiveEmbed } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed';
 
 function About() {
 	useEffect(() => {

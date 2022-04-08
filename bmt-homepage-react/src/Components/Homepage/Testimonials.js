@@ -1,5 +1,8 @@
 import React from 'react';
-import { Container, Row, Col, Carousel } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Carousel from 'react-bootstrap/Carousel';
 import testimonials from './TestimonialsArray';
 
 class Testimonials extends React.PureComponent {

@@ -1,8 +1,14 @@
-import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import React, { useEffect } from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
 import { Link } from 'react-router-dom';
 
 function VoiceMemberships() {
+  useEffect(() => {
+    document.title = "BMT Micro Catalog - Virtual OS/2 International Consumer Education"
+  })
   return (
     <div className="body-content catalog-bg product-page">
       <Container className="catalog">

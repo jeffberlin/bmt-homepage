@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import products from './SearchItems';
-import { Col } from 'react-bootstrap';
+import Col from 'react-bootstrap/Col';
 import { Link } from 'react-router-dom';
 
 function CatalogSearch() {

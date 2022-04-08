@@ -1,5 +1,9 @@
 import React, { useEffect } from 'react';
-import { Container, Row, Col, CardDeck, Card } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+import CardDeck from 'react-bootstrap/CardDeck';
 import faqs from './FAQArray';
 
 function FAQ() {

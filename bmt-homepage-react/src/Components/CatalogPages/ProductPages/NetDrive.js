@@ -1,9 +1,15 @@
-import React, { useState } from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import React, { useState, useEffect } from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
 import { Link } from 'react-router-dom';
 import NetDriveModal from './NetDriveModal';
 
 function NetDrive() {
+  useEffect(() => {
+    document.title = "BMT Micro Catalog - Net Drive"
+  })
   const [modalShow, NetDriveModalShow] = useState(false);
   return (
     <div className="body-content catalog-bg product-page">
