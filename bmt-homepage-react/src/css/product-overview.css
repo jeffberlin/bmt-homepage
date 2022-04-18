@@ -1,3 +1,5 @@
+/* Background handled in App.css */
+
 .product-overview {
   padding-top: 8rem;
   padding-bottom: 5rem;
@@ -5,7 +7,6 @@
 
 .product-overview h1, .product-overview h5 {
   letter-spacing: .7px;
-
 }
 
 .product-overview h5 {
