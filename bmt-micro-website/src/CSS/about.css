@@ -1,0 +1,25 @@
+.about {
+	padding-top: 8rem;
+	padding-bottom: 3rem;
+}
+
+.about p {
+	color: #707070;
+	letter-spacing: .6px;
+	font-weight: 300;
+}
+
+.about p a {
+	color: #efa900;
+	transition: all .3s ease;
+}
+
+.about p a:hover {
+	color: #195a7c;
+}
+
+.ratio {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0 5px 12px 5px rgba(0, 0, 0, .1);
+  -webkit-box-shadow: 0 5px 12px 5px rgba(0, 0, 0, .1);
+}

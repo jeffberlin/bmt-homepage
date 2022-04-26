@@ -1,0 +1,19 @@
+.testimonials {
+	background-color: #d7d7d7;
+	padding-top: 3.5rem;
+	min-height: 275px;
+}
+
+.testimonials p {
+	color: #195a7c;
+	letter-spacing: .2px;
+	text-shadow: 1px 0px 0px rgba(0, 0, 0, .2);
+}
+
+.testimonials p em {
+	font-weight: 400;
+}
+
+.testimonials p strong {
+	font-weight: 600;
+}

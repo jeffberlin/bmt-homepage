@@ -1,0 +1,15 @@
+.banner {
+  border-top: 1px solid #efa900;
+  background-color: #195a7c;
+}
+
+.banner h4 {
+  /* 'font-size' is in App.css @media query */
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .2px;
+  color: #fff;
+}
+
+.banner .row {
+  padding: 2.2rem 0 2.2rem 0;
+}

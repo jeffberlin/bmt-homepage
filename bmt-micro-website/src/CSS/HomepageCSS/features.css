@@ -1,0 +1,42 @@
+.features {
+	padding-top: 4rem;
+	padding-bottom: 1rem;
+}
+
+.features i {
+	font-size: 3rem;
+}
+
+.features h5 {
+	margin-top: .5rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.features p {
+	margin-bottom: 2rem;
+	letter-spacing: .3px;
+	font-weight: 300;
+}
+
+.features i, .features h5, .features p {
+	color: #707070;
+}
+
+.features-btn {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	letter-spacing: .5px;
+	font-size: 1.1rem;
+}
+
+.features-btn, .features-btn .fas, .features-btn:hover {
+	color: #efa900;
+}
+
+.features-btn:hover {
+	text-decoration: none !important;
+}
+
+.features-btn .fas {
+	font-size: 1rem;
+}
