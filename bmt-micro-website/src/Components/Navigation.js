@@ -68,7 +68,7 @@ function Navigation() {
 									Catalog
 								</Nav.Link>
 							</LinkContainer>
-							<LinkContainer to="/contact">
+							<LinkContainer to="contact">
 								<Nav.Link className="main-link" eventKey="4">
 									Contact
 								</Nav.Link>
@@ -78,17 +78,17 @@ function Navigation() {
 								id="nav-dropdown"
 								className="main-link"
 							>
-								<LinkContainer to="/affiliates" style={dropdownNavStyle}>
+								<LinkContainer to="affiliate-program" style={dropdownNavStyle}>
 									<Nav.Link className="dropdown-style" eventKey="5.1">
 										Affiliate Program
 									</Nav.Link>
 								</LinkContainer>
-								<LinkContainer to="/customers" style={dropdownNavStyle}>
+								<LinkContainer to="customers" style={dropdownNavStyle}>
 									<Nav.Link className="dropdown-style" eventKey="5.2">
 										Customers
 									</Nav.Link>
 								</LinkContainer>
-								<LinkContainer to="/faqs" style={dropdownNavStyle}>
+								<LinkContainer to="faq" style={dropdownNavStyle}>
 									<Nav.Link className="dropdown-style" eventKey="5.3">
 										FAQ
 									</Nav.Link>

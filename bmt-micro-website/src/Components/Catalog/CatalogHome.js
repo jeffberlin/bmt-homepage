@@ -16,12 +16,14 @@ function Catalog() {
       </div>
       <Container className="catalog">
         <Row className="justify-content-center">
-          <Col xl={10} lg={10} md={10} sm={10}>
+          <Col xl={8} lg={8} md={10} sm={10}>
             <p style={{ marginBottom: '2rem' }}>If you are interested in partnering with us or would like more information please contact <a href="mailto:vendors@bmtmicro.com" className="catalog-link">vendors@bmtmicro.com</a>. To view our pricing options, <Link to="pricing" className="catalog-link">click here</Link>.</p>
           </Col>
         </Row>
         <Row className="justify-content-center text-center" style={{ marginBottom: '2rem' }}>
-          <Link to="product-list" className="products-link">Search Products</Link>
+          <Col xl={4} lg={4} md={4} sm={4} xs={4}>
+            <Link to="/product-list" className="products-link">Search Products</Link>
+          </Col>
         </Row>
         <Row>
           <Col xl={12} lg={12} md={12} sm={12}>

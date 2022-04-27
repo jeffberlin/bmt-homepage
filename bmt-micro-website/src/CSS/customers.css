@@ -1,0 +1,20 @@
+.customers {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.customers p {
+	font-weight: 300;
+	letter-spacing: .3px;
+	color: #707070;
+}
+
+.customers p a {
+	color: #efa900;
+	transition: all .3s ease;
+	text-decoration: none;
+}
+
+.customers p a:hover {
+	color: #195a7c;
+}

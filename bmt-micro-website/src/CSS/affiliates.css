@@ -1,0 +1,31 @@
+.affiliates {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.affiliates p {
+  color: #707070;
+  font-weight: 300;
+  letter-spacing: .3px;
+}
+
+.affiliates-btn {
+  /* 'font-size' & 'padding' handled in App.css @media query */
+  background-color: #efa900;
+  border: 0px;
+  border-radius: 20px;
+  transition: all .7s ease;
+  color: #fff;
+  letter-spacing: .7px;
+  text-shadow: 1px 1px 1px rgb(214, 129, 0);
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+}
+
+.affiliates-btn:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(239, 169, 0, 0.8);
+  box-shadow: 0 2px 8px 1px rgba(0, 0, 0, .3);
+  -webkit-box-shadow: 0 2px 8px 1px rgba(0, 0, 0, .3);
+}

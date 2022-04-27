@@ -113,6 +113,9 @@ p, ul, nav {
   .product-overview h5 {
     line-height: 1.5;
   }
+  .card {
+    margin-bottom: 15px;
+  }
 }
 @media (min-width: 768px) {
   .product-overview h5 {
@@ -144,7 +147,7 @@ p, ul, nav {
     margin-left: 10px;
   }
   .card-row {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
   .tier-text {
     padding: .3rem 2rem;

@@ -1,0 +1,58 @@
+.faq {
+	padding-top: 8rem;
+	padding-bottom: 3rem;
+}
+
+.card {
+	transition: all .3s ease;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.card:hover {
+	box-shadow: 0 5px 12px 5px rgb(0, 0, 0, .1);
+  -webkit-box-shadow: 0 5px 12px 5px rgb(0, 0, 0, .1);
+}
+
+.card-title {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: .5px;
+}
+
+.customer-card-title, .vendor-card-title {
+	margin-bottom: .3rem !important;
+}
+
+.faq .card-text {
+	font-size: .9rem;
+}
+
+.vendor-card-title, .customer-card-title {
+	color: #efa900;
+}
+
+.fa-laptop-code, .fa-shopping-cart {
+	font-size: 30px;
+	color: #195a7c;
+}
+
+.faq p, .answer {
+	color: #707070;
+	letter-spacing: .3px;
+}
+
+.question {
+	font-weight: 600;
+}
+
+.answer {
+	font-weight: 300;
+	font-family: 'Rubik', sans-serif;
+  width: 100%;
+  margin: 0 0 20px;
+  font-style: italic;
+  padding: 10px 20px;
+  border-left: 5px solid #195a7c;
+  position: relative;
+  background: #f4f4f4;
+}

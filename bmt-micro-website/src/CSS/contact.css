@@ -1,0 +1,96 @@
+.contact {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.media-contact {
+	border-left: 5px solid #000;
+	height: 12rem;
+	padding-top: 2rem;
+}
+
+.contact strong {
+	font-weight: 600;
+}
+
+.contact-wrapper h1 {
+	letter-spacing: 3px;
+}
+
+.contact h5, .contact-wrapper h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.contact-wrapper h1 {
+	font-size: 2.75rem;
+	color: #fff;
+	padding-top: 7.5rem;
+}
+
+.contact-wrapper {
+	background-color: #000;
+	height: 15rem;
+}
+
+.contact h5, .contact .fab {
+	color: #000;
+}
+
+.contact h5 {
+	letter-spacing: .5px;
+}
+
+.contact p {
+	letter-spacing: .2px;
+	color: #707070;
+	font-weight: 300;
+}
+
+.contact p a {
+	color: #efa900;
+}
+
+.contact p a, .contact ul li a i {
+	transition: all .3s ease;
+}
+
+.contact p a:hover {
+	color: #195a7c;
+	text-decoration: none;
+}
+
+.contact ul {
+	display: inline-flex;
+}
+
+.contact ul li {
+	margin-right: 1rem;
+}
+
+.contact .fab {
+	font-size: 1.6rem;
+}
+
+.contact ul li:last-child {
+	margin-right: 0;
+}
+
+.facebook:hover {
+	color: #4267B2;
+}
+
+.twitter:hover {
+	color: #1DA1F2;
+}
+
+.instagram:hover {
+	color: #C13584;
+}
+
+.linkedin:hover {
+	color: #006192;
+}
+
+.pinterest:hover {
+	color: #E60023;
+}

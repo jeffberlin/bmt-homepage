@@ -43,7 +43,7 @@ function CatalogSearch() {
   return (
     <Col xl={4} lg={4} md={8} sm={12}>
       <p className="back-btn" style={{ fontWeight: '300' }}>
-        <Link to="catalog">
+        <Link to="/catalog">
           <i className="fas fa-arrow-left"></i>
           &nbsp;Back
         </Link>
@@ -60,7 +60,7 @@ function CatalogSearch() {
           <li key={i}><a href={d.url} target={d.target} rel="noreferrer">{d.name}</a></li>
         ))}
       </ul>
-      {data.length === 0 && <p>No matches found! Please try again.</p>}
+      {data.length === 0 && <p style={{ letterSpacing: '.5px', color: '#707070', fontWeight: '300'}}>No matches found! Please try again.</p>}
     </Col>
   );
 }
