@@ -15,6 +15,8 @@ import './CSS/contact.css';
 import './CSS/affiliates.css';
 import './CSS/customers.css';
 import './CSS/faq.css';
+import './CSS/product-overview.css';
+import './CSS/pricing.css';
 import './CSS/footer.css';
 
 // Constants
@@ -40,6 +42,12 @@ const Customers = React.lazy(() => import('./Components/Customers'));
 
 // FAQ
 const FAQ = React.lazy(() => import('./Components/FAQ'));
+
+// Product Overview
+const ProductOverview = React.lazy(() => import('./Components/ProductOverview/ProductOverview'));
+
+// Pricing
+const Pricing = React.lazy(() => import('./Components/Pricing/Pricing'));
 
 // Error
 const Error = React.lazy(() => import('./Components/Error'));
@@ -126,6 +134,22 @@ function App() {
           element={
             <Suspense fallback={<div>Loading...</div>}>
               <FAQ />
+            </Suspense>
+          }
+        />
+        <Route
+          path="product-overview"
+          element={
+            <Suspense fallback={<div>Loading...</div>}>
+              <ProductOverview />
+            </Suspense>
+          }
+        />
+        <Route
+          path="pricing"
+          element={
+            <Suspense fallback={<div>Loading...</div>}>
+              <Pricing />
             </Suspense>
           }
         />

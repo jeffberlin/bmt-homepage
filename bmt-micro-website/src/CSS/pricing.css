@@ -1,0 +1,220 @@
+.pricing-background {
+  background-image: url(https://www.bmtmicro.com/images/bmt-micro-pricing-background-min.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: blur(2px);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  opacity: .4;
+}
+
+.pricing-background, .ribbon::before, .ribbon::after {
+  z-index: -1;
+}
+
+.pricing-background, .tier-btn {
+  width: 100%;
+}
+
+.pricing-background, .ribbon-top-right::before {
+  top: 0;
+}
+
+.pricing {
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+}
+
+.pricing h5 {
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+  -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+  font-weight: 400;
+}
+
+.black-text {
+  color: #000;
+}
+
+.tier {
+  border-radius: 5px;
+  box-shadow: 0 5px 12px 5px rgb(0, 0, 0, .1);
+  -webkit-box-shadow: 0 5px 12px 5px rgb(0, 0, 0, .1);
+  overflow: hidden;
+}
+
+.ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+.ribbon, .ribbon span, .ribbon::before,
+.ribbon::after {
+  position: absolute;
+}
+.ribbon::before, .ribbon::after, .ribbon span {
+  display: block;
+}
+.ribbon::before,
+.ribbon::after {
+  content: '';
+  border: 5px solid orangered;
+}
+.ribbon span {
+  width: 210px;
+  padding: 12px 0;
+  background-color: orangered;
+  box-shadow: 0 1px 10px 4px rgba(0,0,0,.05);
+  -webkit-box-shadow: 0 1px 10px 4px rgba(0,0,0,.05);
+  font-size: 12px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  -webkit-text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  text-align: center;
+}
+.ribbon-top-right {
+  /* top: -5px; */
+  /* right: 12px; */
+}
+.ribbon-top-right::before {
+  left: 14px;
+}
+.ribbon-top-right::after {
+  bottom: 14px;
+  right: 0;
+}
+.ribbon-top-right span {
+  left: -10px;
+  top: 30px;
+  transform: rotate(45deg);
+}
+
+.custom-tier, .basic-tier {
+  background-color: #fff;
+}
+
+.tier h4 {
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #f6f9fc;
+}
+
+.tier h4, .modal-btn, .modal-title, .pricing h5 {
+  letter-spacing: .2px;
+}
+
+.tier h4, .tier-btn, .modal-title, .ribbon span {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.advanced-tier h4 {
+  border-bottom-color: rgb(30, 107, 148);
+}
+
+.tier-rate, .ribbon span {
+  letter-spacing: .3px;
+}
+
+.top-rate {
+  font-size: 2rem;
+}
+
+.top-rate, .middle-rate {
+  margin-bottom: 0;
+}
+
+.middle-rate {
+  font-weight: 400;
+}
+
+.bottom-rate {
+  font-size: 1.5rem;
+}
+
+.advanced-tier {
+  background-color: #195a7c;
+}
+
+.advanced-tier p, .advanced-tier .tier-text, .ribbon span {
+  color: #fff;
+}
+
+.tier-text p {
+  margin-bottom: .5rem;
+}
+
+.tier-btn {
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-size: 1.1rem;
+}
+
+.tier-btn {
+  padding: 1.5rem;
+}
+
+.tier-btn, .modal-btn {
+  transition: all .5s ease;
+}
+
+.basic-btn, .custom-btn {
+  background-color: #f6f9fc;
+}
+
+.basic-btn:hover, .custom-btn:hover {
+  background-color: rgba(221, 224, 227, .5);
+}
+
+.advanced-btn {
+  background-color: rgb(30, 107, 148);
+}
+
+.advanced-btn:hover {
+  background-color: rgba(56, 133, 174, .6);
+}
+
+.tier-text li::before, .blue-arrow li::before {
+  display: inline-block;
+  content: '\f058';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.tier-text li::before, .modal-btn {
+  color: #efa900;
+}
+
+.blue-arrow::before {
+  color: #195a7c !important;
+  content: '\f0a9' !important;
+}
+
+.modal-btn {
+  border: none;
+  background-color: transparent;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.modal-btn:hover {
+  color: rgba(239, 169, 0, 0.7);
+}
+
+.modal-body {
+  color: #707070;
+  font-weight: 300;
+}
+
+.modal-text li {
+  border-bottom: 1px solid rgba(221, 224, 227, .5);
+  padding-bottom: .2rem;
+  padding-top: .2rem;
+}
+
+.modal-text li:last-child {
+  border-bottom: none;
+}

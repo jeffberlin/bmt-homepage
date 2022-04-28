@@ -93,12 +93,12 @@ function Navigation() {
 										FAQ
 									</Nav.Link>
 								</LinkContainer>
-								<LinkContainer to="/product-overview" style={dropdownNavStyle}>
+								<LinkContainer to="product-overview" style={dropdownNavStyle}>
 									<Nav.Link className="dropdown-style" eventKey="5.4">
 										Features
 									</Nav.Link>
 								</LinkContainer>
-								<LinkContainer to="/pricing" style={dropdownNavStyle}>
+								<LinkContainer to="pricing" style={dropdownNavStyle}>
 									<Nav.Link className="dropdown-style" eventKey="5.5">
 										Pricing
 									</Nav.Link>

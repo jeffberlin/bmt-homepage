@@ -14,7 +14,7 @@ function FAQ() {
 		<div className="body-content">
 			<Container className="faq">
 				<Row className="justify-content-center card-row">
-          <CardGroup className="justify-content-center">
+          <CardGroup className="justify-content-center w-auto">
             <a href="https://help.bmtmicro.com/vendors/" target="_blank" rel="noreferrer">
               <Card style={{ width: 250 }}>
                 <Card.Body className="text-center">

@@ -20,7 +20,7 @@ nav {
   padding: .5rem 1rem !important;
 }
 
-.main-link {
+.main-link, .dropdown-toggle {
   color: #195a7c !important;
 }
 

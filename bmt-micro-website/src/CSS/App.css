@@ -23,6 +23,10 @@ p, ul, nav {
   font-family: 'Rubik', sans-serif;
 }
 
+ul {
+  padding-left: 0 !important;
+}
+
 /* Handles the height of every page. Keeps footer fixed to bottom */
 .body-content {
   min-height: calc(100vh - 330px);
