@@ -17,6 +17,7 @@ import './CSS/customers.css';
 import './CSS/faq.css';
 import './CSS/product-overview.css';
 import './CSS/pricing.css';
+import './CSS/w9form.css';
 import './CSS/footer.css';
 
 // Constants
@@ -48,6 +49,9 @@ const ProductOverview = React.lazy(() => import('./Components/ProductOverview/Pr
 
 // Pricing
 const Pricing = React.lazy(() => import('./Components/Pricing/Pricing'));
+
+// W9 Form
+const W9Form = React.lazy(() => import('./Components/W9Form'));
 
 // Error
 const Error = React.lazy(() => import('./Components/Error'));
@@ -150,6 +154,14 @@ function App() {
           element={
             <Suspense fallback={<div>Loading...</div>}>
               <Pricing />
+            </Suspense>
+          }
+        />
+        <Route
+          path="w9form"
+          element={
+            <Suspense fallback={<div>Loading...</div>}>
+              <W9Form />
             </Suspense>
           }
         />
