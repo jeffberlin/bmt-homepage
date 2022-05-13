@@ -47,6 +47,5 @@
 }
 
 .header-btn:hover {
-  text-decoration: none !important;
   transform: scale(1.07) !important;
 }

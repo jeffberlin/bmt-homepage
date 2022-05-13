@@ -38,7 +38,7 @@ function Features() {
 						<h5>Customer Support</h5>
 						<p style={{ marginBottom: '0' }}>Our customer service staff has the experience and know-how to assist your customers in a friendly and professional manner. Our focus has always been to provide customers with the best possible service, ensuring your and our integrity.</p>
 					</Col>
-					<Col className="text-center" style={{ marginBottom: '2rem' }}>
+					<Col className="text-center">
 						<Link
 							to="/product-overview"
 							className="features-btn"
