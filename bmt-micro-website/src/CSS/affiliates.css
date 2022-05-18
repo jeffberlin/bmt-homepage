@@ -15,15 +15,17 @@
   border: 0px;
   border-radius: 20px;
   transition: all .7s ease;
-  color: #fff;
   letter-spacing: .7px;
   text-shadow: 1px 1px 1px rgb(214, 129, 0);
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
 }
 
-.affiliates-btn:hover {
+.affiliates-btn, .affiliates-btn:hover {
   color: #fff;
+}
+
+.affiliates-btn:hover {
   text-decoration: none;
   background-color: rgba(239, 169, 0, 0.8);
   box-shadow: 0 2px 8px 1px rgba(0, 0, 0, .3);

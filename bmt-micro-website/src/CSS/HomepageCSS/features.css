@@ -37,7 +37,7 @@
 }
 
 .features-btn:hover {
-	transform: scale(1.02) !important;
+	transform: scale(1.03) !important;
 }
 
 .features-btn, .features-btn .fas {
