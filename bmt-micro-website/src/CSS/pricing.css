@@ -76,8 +76,8 @@
   text-align: center;
 }
 .ribbon-top-right {
-  /* top: -5px; */
-  /* right: 12px; */
+  top: -3px;
+  right: 10px;
 }
 .ribbon-top-right::before {
   left: 14px;
