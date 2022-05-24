@@ -10,14 +10,15 @@ function Top() {
 			<Container className="header-section">
 				<Row className="justify-content-center align-items-center">
 					<Col xl={6} lg={6} md={12} sm={12} className="header-hero">
+
 						<div
-						className="animate__animated animate__slideInLeft animate__slow animate__delay-2s">
+						className="animate__animated animate__slideInLeft animate__slow">
 							<h1>Software distribution & order fullfilment</h1>
 						</div>
 						<div className="animate__animated animate__fadeIn animate__slow animate__delay-2s">
 							<p>Providing scalable services for online sales and digital delivery systems for developers and companies. Track your sales, product growth, and much more through our supplier portal.</p>
 						</div>
-						<div className="animate__animated animate__fadeIn animate__slow animate__delay-3s">
+						<div className="animate__animated animate__fadeIn animate__slow animate__delay-2s">
 							<div className="text-center">
 								<Link
 									to="/pricing"
@@ -40,7 +41,7 @@ function Top() {
 						</div>
 					</Col>
 					<Col xl={6} lg={6} md={12} sm={12} className="header-screenshots">
-						<div className="animate__animated animate__slideInRight animate__slow animate__delay-2s">
+						<div className="animate__animated animate__slideInRight animate__slow">
 							<Image
 								fluid
 								src="https://www.bmtmicro.com/images/bmt-micro-home-screenshot-min.png"
