@@ -1,5 +1,5 @@
-import React, { Suspense } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import React, { Suspense, useState, useEffect } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import './CSS/App.css';
 import './CSS/navigation.css';
 import './CSS/HomepageCSS/header.css';
@@ -56,118 +56,144 @@ const W9Form = React.lazy(() => import('./Components/W9Form'));
 // Error
 const Error = React.lazy(() => import('./Components/Error'));
 
+function useScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname])
+}
+
 function App() {
+  useScrollToTop();
+  const location = useLocation();
+  const [displayLocation, setDisplayLocation] = useState(location);
+  const [transitionStage, setTransitionStage] = useState("fadeIn");
+
+  useEffect(() => {
+    if (location !== displayLocation) setTransitionStage("fadeOut");
+  }, [location, displayLocation]);
   return (
     <div className="App">
       <Nav />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <Home />
-            </Suspense>
+      <div
+        className={ `${transitionStage}` }
+        onAnimationEnd={() => {
+          if (transitionStage === "fadeOut") {
+            setTransitionStage("fadeIn");
+            setDisplayLocation(location);
           }
-        />
-        <Route
-          path="about"
-          element={
-            <Suspense fallback={<div>Loading..</div>}>
-              <About />
-            </Suspense>
-          }
-        />
-        <Route
-          path="news"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <News />
-            </Suspense>
-          }
-        />
-        <Route
-          path="privacy-policy"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <PrivacyPolicy />
-            </Suspense>
-          }
-        />
-        <Route
-          path="catalog"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <Catalog />
-            </Suspense>
-          }
-        />
-        <Route
-          path="product-list"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <CatalogProductList />
-            </Suspense>
-          }
-        />
-        <Route
-          path="contact"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <Contact />
-            </Suspense>
-          }
-        />
-        <Route
-          path="affiliate-program"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <Affiliates />
-            </Suspense>
-          }
-        />
-        <Route
-          path="customers"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <Customers />
-            </Suspense>
-          }
-        />
-        <Route
-          path="faq"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <FAQ />
-            </Suspense>
-          }
-        />
-        <Route
-          path="product-overview"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <ProductOverview />
-            </Suspense>
-          }
-        />
-        <Route
-          path="pricing"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <Pricing />
-            </Suspense>
-          }
-        />
-        <Route
-          path="w9form"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <W9Form />
-            </Suspense>
-          }
-        />
-        <Route path="*" element={<Error />} />
-      </Routes>
-      <Footer />
+        }}
+      >
+        <Routes location={displayLocation}>
+          <Route
+            path="/"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <Home />
+              </Suspense>
+            }
+          />
+          <Route
+            path="about"
+            element={
+              <Suspense fallback={<div>Loading..</div>}>
+                <About />
+              </Suspense>
+            }
+          />
+          <Route
+            path="news"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <News />
+              </Suspense>
+            }
+          />
+          <Route
+            path="privacy-policy"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <PrivacyPolicy />
+              </Suspense>
+            }
+          />
+          <Route
+            path="catalog"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <Catalog />
+              </Suspense>
+            }
+          />
+          <Route
+            path="product-list"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <CatalogProductList />
+              </Suspense>
+            }
+          />
+          <Route
+            path="contact"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <Contact />
+              </Suspense>
+            }
+          />
+          <Route
+            path="affiliate-program"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <Affiliates />
+              </Suspense>
+            }
+          />
+          <Route
+            path="customers"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <Customers />
+              </Suspense>
+            }
+          />
+          <Route
+            path="faq"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <FAQ />
+              </Suspense>
+            }
+          />
+          <Route
+            path="product-overview"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <ProductOverview />
+              </Suspense>
+            }
+          />
+          <Route
+            path="pricing"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <Pricing />
+              </Suspense>
+            }
+          />
+          <Route
+            path="w9form"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <W9Form />
+              </Suspense>
+            }
+          />
+          <Route path="*" element={<Error />} />
+        </Routes>
+        <Footer />
+      </div>
     </div>
   );
 }

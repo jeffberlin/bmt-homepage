@@ -37,7 +37,7 @@ function Footer() {
 								<Link to="/news" style={linkStyle}>News</Link>
 							</li>
 							<li>
-								<Link to="/privacy" style={linkStyle}>Privacy Policy</Link>
+								<Link to="/privacy-policy" style={linkStyle}>Privacy Policy</Link>
 							</li>
 						</ul>
 					</Col>
@@ -51,13 +51,13 @@ function Footer() {
 							</li>
 							<li><strong><Link to="#" className="disabled-link" style={{ marginRight: '1rem' }}>Services</Link></strong></li>
 							<li>
-								<Link to="/affiliates" style={linkStyle}>Affiliate Program</Link>
+								<Link to="/affiliate-program" style={linkStyle}>Affiliate Program</Link>
 							</li>
 							<li>
 								<Link to="/customers" style={linkStyle}>Customers</Link>
 							</li>
 							<li>
-								<Link to="/faqs" style={linkStyle}>FAQ</Link>
+								<Link to="/faq" style={linkStyle}>FAQ</Link>
 							</li>
 							<li>
 								<Link to="/product-overview" style={linkStyle}>Features</Link>
