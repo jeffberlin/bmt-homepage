@@ -56,6 +56,23 @@ const W9Form = React.lazy(() => import('./Components/W9Form'));
 // Error
 const Error = React.lazy(() => import('./Components/Error'));
 
+// Product Pages
+const AddressNmore = React.lazy(() => import('./Components/Catalog/ProductPages/AddressNmore'));
+const EmployeeSchedule = React.lazy(() => import('./Components/Catalog/ProductPages/EmployeeSchedule'));
+const FileCommanderWin = React.lazy(() => import('./Components/Catalog/ProductPages/FileCommanderWin'));
+const FileCommander2 = React.lazy(() => import('./Components/Catalog/ProductPages/FileCommander2'));
+const Goobs = React.lazy(() => import('./Components/Catalog/ProductPages/Goobs'));
+const InCharge = React.lazy(() => import('./Components/Catalog/ProductPages/InCharge'));
+const MoneyQuizCounter = React.lazy(() => import('./Components/Catalog/ProductPages/MoneyQuizCounter'));
+const NetDrive = React.lazy(() => import('./Components/Catalog/ProductPages/NetDrive'));
+const OsEzine = React.lazy(() => import('./Components/Catalog/ProductPages/OsEzine'));
+const PersonalTimeKeeper = React.lazy(() => import('./Components/Catalog/ProductPages/PersonalTimeKeeper'));
+const PipelinePlus = React.lazy(() => import('./Components/Catalog/ProductPages/PipelinePlus'));
+const RavenSkull = React.lazy(() => import('./Components/Catalog/ProductPages/RavenSkull'));
+const Repton1 = React.lazy(() => import('./Components/Catalog/ProductPages/Repton1'));
+const ScreenSaver = React.lazy(() => import('./Components/Catalog/ProductPages/ScreenSaver'));
+const VoiceMemberships = React.lazy(() => import('./Components/Catalog/ProductPages/VoiceMemberships'));
+
 function useScrollToTop() {
   const { pathname } = useLocation();
 
@@ -187,6 +204,126 @@ function App() {
             element={
               <Suspense fallback={<div>Loading...</div>}>
                 <W9Form />
+              </Suspense>
+            }
+          />
+          <Route
+            path="product/addressnmore"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <AddressNmore />
+              </Suspense>
+            }
+          />
+          <Route
+            path="product/employeeschedule"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <EmployeeSchedule />
+              </Suspense>
+            }
+          />
+          <Route
+            path="product/filecommander2"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <FileCommander2 />
+              </Suspense>
+            }
+          />
+          <Route
+            path="product/filecommanderwin"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <FileCommanderWin />
+              </Suspense>
+            }
+          />
+          <Route
+            path="product/goobs"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <Goobs />
+              </Suspense>
+            }
+          />
+          <Route
+            path="product/incharge"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <InCharge />
+              </Suspense>
+            }
+          />
+          <Route
+            path="product/moneyquizcounter"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <MoneyQuizCounter />
+              </Suspense>
+            }
+          />
+          <Route
+            path="product/netdrive"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <NetDrive />
+              </Suspense>
+            }
+          />
+          <Route
+            path="product/osezine"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <OsEzine />
+              </Suspense>
+            }
+          />
+          <Route
+            path="product/personaltimekeeper"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <PersonalTimeKeeper />
+              </Suspense>
+            }
+          />
+          <Route
+            path="product/pipelineplus"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <PipelinePlus />
+              </Suspense>
+            }
+          />
+          <Route
+            path="product/ravenskull"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <RavenSkull />
+              </Suspense>
+            }
+          />
+          <Route
+            path="product/repton1"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <Repton1 />
+              </Suspense>
+            }
+          />
+          <Route
+            path="product/screensaver"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <ScreenSaver />
+              </Suspense>
+            }
+          />
+          <Route
+            path="product/voicememberships"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <VoiceMemberships />
               </Suspense>
             }
           />

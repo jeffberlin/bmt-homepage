@@ -26,7 +26,6 @@ const products = [
   },
   {
     name: "Address N More",
-    // url: "https://www.bmtmicro.com/bmtcatalog/products/address-n-more"
     url: "/product/addressnmore",
     target: "_self"
   },
@@ -272,19 +271,16 @@ const products = [
   },
   {
     name: "Employee Schedule",
-    // url: "https://bmtmicro.com/bmtcatalog/products/employee-schedule"
     url: "/product/employeeschedule",
     target: "_self"
   },
   {
     name: "File Commander/2",
-    // url: "https://www.bmtmicro.com/bmtcatalog/products/file-commander2",
     url: "/product/filecommander2",
     target: "_self"
   },
   {
     name: "File Commander for Win95/NT",
-    // url: "https://www.bmtmicro.com/bmtcatalog/products/file-commander-win",
     url: "/product/filecommanderwin",
     target: "_self"
   },
@@ -365,7 +361,6 @@ const products = [
   },
   {
     name: "Goobs",
-    // url: "https://www.bmtmicro.com/bmtcatalog/products/goobs",
     url: "/product/goobs",
     target: "_self"
   },
@@ -411,7 +406,6 @@ const products = [
   },
   {
     name: "In Charge!",
-    // url: "https://www.bmtmicro.com/bmtcatalog/products/incharge",
     url: "/product/incharge",
     target: "_self"
   },
@@ -512,7 +506,6 @@ const products = [
   },
   {
     name: "Money Quiz-Counter",
-    // url: "https://www.bmtmicro.com/bmtcatalog/products/money-quiz-counter",
     url: "/product/moneyquizcounter",
     target: "_self"
   },
@@ -533,7 +526,6 @@ const products = [
   },
   {
     name: "Netdrive",
-    // url: "https://www.bmtmicro.com/bmtcatalog/products/net-drive",
     url: "/product/netdrive",
     target: "_self"
   },
@@ -574,7 +566,6 @@ const products = [
   },
   {
     name: "OS/2 e-Zine!",
-    // url: "https://www.bmtmicro.com/bmtcatalog/products/os-ezine",
     url: "/product/osezine",
     target: "_self"
   },
@@ -605,7 +596,6 @@ const products = [
   },
   {
     name: "Personal Time Keeper",
-    // url: "https://www.bmtmicro.com/bmtcatalog/products/personal-time-keeper",
     url: "/product/personaltimekeeper",
     target: "_self"
   },
@@ -626,7 +616,6 @@ const products = [
   },
   {
     name: "Pipeline Plus",
-    // url: "https://www.bmtmicro.com/bmtcatalog/products/pipeline-plus",
     url: "/product/pipelineplus",
     target: "_self"
   },
@@ -697,13 +686,11 @@ const products = [
   },
   {
     name: "Ravenskull",
-    // url: "https://www.bmtmicro.com/bmtcatalog/products/ravenskull",
     url: "/product/ravenskull",
     target: "_self"
   },
   {
     name: "Repton 1",
-    // url: "https://www.bmtmicro.com/bmtcatalog/products/repton1",
     url: "/product/repton1",
     target: "_self"
   },
@@ -724,7 +711,6 @@ const products = [
   },
   {
     name: "ScreenSaver",
-    // url: "https://www.bmtmicro.com/bmtcatalog/products/screensaver",
     url: "/product/screensaver",
     target: "_self"
   },
@@ -893,11 +879,6 @@ const products = [
     url: "http://www.uppergroove.com/tizzbug.htm",
     target: "_blank"
   },
-  // {
-  //   name: "TK-Tools",
-  //   url: "https://www.bmtmicro.com/bmtcatalog/products/tk-tools",
-  //   target: "_self"
-  // },
   {
     name: "TN3270 Plus",
     url: "http://www.sdisw.com/",
@@ -918,11 +899,6 @@ const products = [
     url: "http://www.bantamcity.com/werlin/",
     target: "_blank"
   },
-  // {
-  //   name: "Turbo Business Apps for Linux",
-  //   url: "https://www.bmtmicro.com/bmtcatalog/products/turbo-business-linux",
-  //   target: "_self"
-  // },
   {
     name: "TurboHex",
     url: "http://www.genkisoft.com/turbohex.shtml",
@@ -975,7 +951,6 @@ const products = [
   },
   {
     name: "VOICE Memberships",
-    // url: "https://www.bmtmicro.com/bmtcatalog/products/voice-memberships",
     url: "/product/voicememberships",
     target: "_self"
   },
@@ -1024,11 +999,6 @@ const products = [
     url: "http://www.midnightsynergy.com/secretworlds/",
     target: "_blank"
   },
-  // {
-  //   name: "Workplace Security for OS/2 Warp",
-  //   url: "https://www.bmtmicro.com/bmtcatalog/products/workplace-security",
-  //   target: "_self"
-  // },
   {
     name: "ZModeler2",
     url: "http://www.zmodeler2.com/",

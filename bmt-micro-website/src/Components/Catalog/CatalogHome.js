@@ -21,7 +21,7 @@ function Catalog() {
           </Col>
         </Row>
         <Row className="justify-content-center text-center" style={{ marginBottom: '2rem' }}>
-          <Col xl={4} lg={4} md={4} sm={4} xs={4}>
+          <Col xl={4} lg={4} md={4} sm={6} xs={6}>
             <Link to="/product-list" className="products-link">Search Products</Link>
           </Col>
         </Row>
