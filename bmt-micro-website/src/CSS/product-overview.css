@@ -81,3 +81,7 @@
 .screenshot img {
   box-shadow: 0px 0px 35px 4px rgba(0,0,0,0.31);
 }
+
+.plugin-btn i {
+  font-size: .9rem;
+}
