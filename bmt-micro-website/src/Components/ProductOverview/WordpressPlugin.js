@@ -15,7 +15,7 @@ function WordpressPlugin() {
         <p>
           For all Wordpress websites, we have a proprietary BMT Micro Shopping Cart Plugin and integrates into the WordPress theme.
           <br/>
-          <a href="https://help.bmtmicro.com/plugin/" target="_blank" rel="noreferrer" className="plugin-btn"><span>Learn More</span>&nbsp;<i className="fas fa-arrow-right"></i></a>
+          <a href="https://help.bmtmicro.com/plugin/" target="_blank" rel="noreferrer" className="plugin-btn"><span>Read the docs</span>&nbsp;<i className="fas fa-arrow-right"></i></a>
         </p>
       </Col>
     </Row>

@@ -14,7 +14,7 @@ function PopupCart() {
         <h2>Pop-up Cart</h2>
         <p>Using our pop-up cart, customers can remain on the page throughout the checkout process. With this cart, products can be added into the customers cart without having to display the checkout screen.
           <br />
-          <a href="https://help.bmtmicro.com/vendors/can-i-use-the-bmt-shopping-cart-on-my-website/#popupcart" target="_blank" rel="noreferrer" className="plugin-btn"><span>Learn More</span>&nbsp;<i className="fas fa-arrow-right"></i></a>
+          <a href="https://help.bmtmicro.com/vendors/can-i-use-the-bmt-shopping-cart-on-my-website/#popupcart" target="_blank" rel="noreferrer" className="plugin-btn"><span>Read the docs</span>&nbsp;<i className="fas fa-arrow-right"></i></a>
         </p>
 
       </Col>
