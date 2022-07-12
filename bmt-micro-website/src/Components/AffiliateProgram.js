@@ -19,7 +19,7 @@ function AffiliateProgram() {
           </Col>
         </Row>
         <Row className="justify-content-center">
-          <Col xl={4} lg={4} md={4} sm={4} xs={4}>
+          <Col xl={12} lg={12} md={12} sm={12} xs={12} className="text-center">
             <a
               className="affiliates-btn"
               href="https://affiliates.bmtmicro.com/new-affiliate-signup.jsp"
