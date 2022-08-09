@@ -1,6 +1,6 @@
 {
   "name": "bmt-micro-website",
-  "version": "3.0.3",
+  "version": "3.0.6",
   "private": true,
   "homepage": "https://www.bmtmicro.com",
   "dependencies": {

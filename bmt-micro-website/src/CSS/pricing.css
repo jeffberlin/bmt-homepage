@@ -1,5 +1,5 @@
 .pricing-background {
-  background-image: url(https://www.bmtmicro.com/images/bmt-micro-pricing-background-min.jpg);
+  /* background-image url() handled in App.css @media query */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -43,13 +43,15 @@
   border-radius: 5px;
   box-shadow: 0 5px 12px 5px rgb(0, 0, 0, .1);
   -webkit-box-shadow: 0 5px 12px 5px rgb(0, 0, 0, .1);
+}
+
+.tier, .ribbon {
   overflow: hidden;
 }
 
 .ribbon {
   width: 150px;
   height: 150px;
-  overflow: hidden;
 }
 .ribbon, .ribbon span, .ribbon::before,
 .ribbon::after {

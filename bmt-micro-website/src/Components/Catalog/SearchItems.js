@@ -405,11 +405,6 @@ const products = [
     target: "_blank"
   },
   {
-    name: "In Charge!",
-    url: "/product/incharge",
-    target: "_self"
-  },
-  {
     name: "Inflater Ball",
     url: "http://www.dyvision.co.uk/ifbinfo.htm",
     target: "_blank"

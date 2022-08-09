@@ -102,6 +102,7 @@ ul {
   .product-overview-item {
     margin-bottom: 6.5rem;
   }
+
 }
 @media (min-width: 992px) {
   .main {
@@ -125,6 +126,7 @@ ul {
   .product-overview-item {
     margin-bottom: 8rem;
   }
+
 }
 @media (max-width: 767px) {
   .main {
@@ -151,8 +153,14 @@ ul {
   .card {
     margin-bottom: 15px;
   }
+  .pricing-background {
+    background-image: url(https://www.bmtmicro.com/images/bmt-micro-pricing-background-800px-min.jpg);
+  }
 }
 @media (min-width: 768px) {
+  .pricing-background {
+    background-image: url(https://www.bmtmicro.com/images/bmt-micro-pricing-background-min.jpg);
+  }
   .product-overview h5 {
     line-height: 2;
   }

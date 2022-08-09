@@ -62,7 +62,6 @@ const EmployeeSchedule = React.lazy(() => import('./Components/Catalog/ProductPa
 const FileCommanderWin = React.lazy(() => import('./Components/Catalog/ProductPages/FileCommanderWin'));
 const FileCommander2 = React.lazy(() => import('./Components/Catalog/ProductPages/FileCommander2'));
 const Goobs = React.lazy(() => import('./Components/Catalog/ProductPages/Goobs'));
-const InCharge = React.lazy(() => import('./Components/Catalog/ProductPages/InCharge'));
 const MoneyQuizCounter = React.lazy(() => import('./Components/Catalog/ProductPages/MoneyQuizCounter'));
 const NetDrive = React.lazy(() => import('./Components/Catalog/ProductPages/NetDrive'));
 const OsEzine = React.lazy(() => import('./Components/Catalog/ProductPages/OsEzine'));
@@ -244,14 +243,6 @@ function App() {
             element={
               <Suspense fallback={<div>Loading...</div>}>
                 <Goobs />
-              </Suspense>
-            }
-          />
-          <Route
-            path="product/incharge"
-            element={
-              <Suspense fallback={<div>Loading...</div>}>
-                <InCharge />
               </Suspense>
             }
           />

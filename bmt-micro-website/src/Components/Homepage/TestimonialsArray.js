@@ -58,6 +58,11 @@ const testimonials = [
 		"text": "You are amazing! Thank you so much for your help. Now that is great customer service! I'll be sure to tell everyone I know how great your customer service is!",
 		"name": "Michael M.",
 		"interval": "3000"
+	},
+	{
+		"text": "Y’all are seriously the best in the business! Quick response, got me what I needed, courteous and professional! Anytime I’ve had an interaction with y’all it’s been superb! Thank you for your support and know that anytime I see BMT Micro on the receipt, I’m buying a great product and feel like I’m in good hands!",
+		"name": "A.Z.",
+		"interval": "6000"
 	}
 ]
 
