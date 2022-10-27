@@ -57,6 +57,11 @@ function Navigation() {
 										News
 									</Nav.Link>
 								</LinkContainer>
+								<LinkContainer to="guarantee" style={dropdownNavStyle}>
+									<Nav.Link className="dropdown-style" eventKey="2.5">
+										Our Guarantee
+									</Nav.Link>
+								</LinkContainer>
 								<LinkContainer to="privacy-policy" style={dropdownNavStyle}>
 									<Nav.Link className="dropdown-style" eventKey="2.4">
 										Privacy Policy

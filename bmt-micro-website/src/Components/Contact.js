@@ -33,6 +33,8 @@ function Contact() {
 						<h5>Mail</h5>
 						<p>Address to PO Box:</p>
 						<p style={{ color: '#efa900' }}>BMT Micro P.O. Box 15016<br/>Wilmington, NC 28408 USA</p>
+						<p>Address:</p>
+						<p style={{ color: '#efa900' }}>5019 Carolina Beach Rd.<br/>Wilmington, NC 28412</p>
 					</Col>
 					<Col xl={{ span: 4, offset: 1 }} lg={6} md={12} sm={12} className="media-contact">
 						<h5>Connect through social media</h5>

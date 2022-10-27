@@ -29,6 +29,7 @@ const Home = React.lazy(() => import('./Components/Homepage/Home'));
 const About = React.lazy(() => import('./Components/About'));
 const News = React.lazy(() => import('./Components/News/News'));
 const PrivacyPolicy = React.lazy(() => import('./Components/PrivacyPolicy'));
+const OurGuarantee = React.lazy(() => import('./Components/OurGuarantee'));
 
 // Catalog
 const Catalog = React.lazy(() => import('./Components/Catalog/CatalogHome'));
@@ -203,6 +204,14 @@ function App() {
             element={
               <Suspense fallback={<div>Loading...</div>}>
                 <W9Form />
+              </Suspense>
+            }
+          />
+          <Route
+            path="guarantee"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <OurGuarantee />
               </Suspense>
             }
           />
