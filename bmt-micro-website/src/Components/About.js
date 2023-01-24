@@ -29,6 +29,9 @@ function About() {
 						<p>
 							In an industry that has become cluttered with automated servers and e-commerce “solutions”, our foundation is built on two major strengths. Simply put, we are accessible and dependable. BMT operates in a professional office environment and is fully staffed so you and your/our customers can actually reach someone without jumping through hoops.
 						</p>
+            <p>
+              BMT Micro Finland was established in 2022 as an additional company with an office location in the city of Turku, Finland. BMT Micro Finland serves as a secondary, subordinate entity under BMT Micro, Inc. All terms and conditions relevant to BMT Micro, Inc. also apply to BMT Micro Finland.
+            </p>
 						<p>
 							Thank you for considering BMT as an online sales and order fulfillment option for your products. Please give us a chance to serve you today! If you have any questions, please don’t hesitate to contact us at <a href="mailto:vendors@bmtmicro.com">vendors@bmtmicro.com</a>.
 						</p>

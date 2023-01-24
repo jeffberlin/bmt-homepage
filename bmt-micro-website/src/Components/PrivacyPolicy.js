@@ -17,7 +17,7 @@ function Privacy() {
 				<Row className="justify-content-center">
 					<Col>
 						<p>
-							BMT Micro, Inc., respects the privacy of our partners, clients and their customers. Any and all information collected through our system is treated with the utmost care.
+							BMT Micro, Inc., including its secondary entity BMT Micro Finland, respects the privacy of our partners, clients and their customers. Any and all information collected through our system is treated with the utmost care.
 						</p>
 						<p>
 							BMT Micro, Inc. may ask customers, depending on the payment method, to supply various personal data when placing an order, such as name and address, credit-card information, and E-mail address. We use this data only for the purpose of filling an order, or communicating with the customer or supplier about the status of an order.
