@@ -131,7 +131,7 @@ function Navigation() {
                   target="_blank"
                   style={dropdownNavStyle}
                 >
-                  Vendor Agreement
+                  Vendor Terms of Service
                 </Nav.Link>
 							</NavDropdown>
 							<NavDropdown
