@@ -123,6 +123,16 @@ function Navigation() {
 								>
 									Help Pages
 								</Nav.Link>
+                <Nav.Link
+                  href="https://vendors.bmtmicro.com/NewSignup/GenericVendorAgreement.pdf"
+                  className="dropdown-style"
+                  active={false}
+                  rel="noopener"
+                  target="_blank"
+                  style={dropdownNavStyle}
+                >
+                  Vendor Agreement
+                </Nav.Link>
 							</NavDropdown>
 							<NavDropdown
 								title="Login"
