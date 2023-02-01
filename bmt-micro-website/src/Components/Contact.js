@@ -30,7 +30,7 @@ function Contact() {
 						<h5>Email</h5>
 						<p>Software suppliers/Developers:&nbsp;<a href="mailto:vendors@bmtmicro.com" title="Send an email">vendors@bmtmicro.com</a></p>
 						<p>Customer Service:&nbsp;<a href="mailto:cservice@bmtmicro.com" title="Send an email">cservice@bmtmicro.com</a></p>
-            <p>BMT Micro Finland:&nbsp;<a href="mailto:marina@bmtmicro.com" title="Send an email">marina@bmtmicro.com</a></p>
+            <p>BMT Micro Finland:&nbsp;<a href="mailto:bmtfinland@bmtmicro.com" title="Send an email">bmtfinland@bmtmicro.com</a></p>
 						<h5>Mail</h5>
 						<p>Address to PO Box:</p>
 						<p style={{ color: '#efa900' }}>BMT Micro P.O. Box 15016<br/>Wilmington, NC 28408 USA</p>
