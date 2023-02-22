@@ -13,7 +13,7 @@ function Top() {
 
 						<div
 						className="animate__animated animate__slideInLeft animate__slow">
-							<h1>Software distribution & order fullfilment</h1>
+							<h1>Software distribution & order fulfilment</h1>
 						</div>
 						<div className="animate__animated animate__fadeIn animate__slow animate__delay-2s">
 							<p>Providing scalable services for online sales and digital delivery systems for developers and companies. Track your sales, product growth, and much more through our supplier portal.</p>
