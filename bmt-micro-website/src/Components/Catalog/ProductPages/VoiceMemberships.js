@@ -4,11 +4,13 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import { Link } from 'react-router-dom';
+import AddProducts from './VoiceAddProducts';
 
 function VoiceMemberships() {
   useEffect(() => {
-    document.title = "BMT Micro Catalog - Virtual OS/2 International Consumer Education"
-  })
+    document.title = "BMT Micro Catalog - Virtual OS/2 International Consumer Education";
+  });
+
   return (
     <div className="body-content catalog-bg product-page">
       <Container className="catalog">
@@ -26,23 +28,24 @@ function VoiceMemberships() {
           </Col>
         </Row>
         <Row className="justify-content-center info-section">
-          <Col xl={4} lg={4} md={6} sm={6} xs={12} className="top-img">
-            <div className="product-image text-left">
+          <Col xl={6} lg={6} md={6} sm={6} xs={12} className="top-img">
+            <div className="product-image text-center">
               <Image
                 src="https://www.bmtmicro.com/images/bmt-micro-voice-logo-min.png"
                 fluid
               />
             </div>
           </Col>
-          <Col xl={4} lg={4} md={6} sm={6} xs={12} style={{ marginBottom: '1.5rem' }}>
+          <Col xl={6} lg={6} md={6} sm={6} xs={12} style={{ marginBottom: '1.5rem' }}>
             <p className="product-specs">
               <strong>Platform:&nbsp;</strong>
               OS/2
             </p>
             <p className="product-specs">
               <strong>Price:&nbsp;</strong>
-              $25.00 - $200.00
+              $12.50 - $200.00
             </p>
+            <AddProducts />
           </Col>
         </Row>
         <h4 className="product-features text-center"><u>Features</u></h4>

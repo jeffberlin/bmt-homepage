@@ -13,7 +13,7 @@ a, a:hover {
   text-decoration: none !important;
 }
 
-a:active, a:focus, button:focus, button:active, [role="button"]:focus, [role="button"]:active, .btn:focus, .btn:active {
+a:active, a:focus, button:focus, button:active, [role="button"]:focus, [role="button"]:active, .btn:focus, .btn:active, #dropdown-autoclose-true:focus, #dropdown-autoclose-true:active {
   outline: none !important;
   border: none !important;
   box-shadow: none;
