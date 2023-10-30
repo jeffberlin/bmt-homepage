@@ -9,11 +9,16 @@ function Navigation() {
 	const dropdownNavStyle = {
 		color: 'rgba(0, 0, 0, .5)',
 	}
+  const navSignUpButtonStyle = {
+    backgroundColor: '#efa900',
+    color: '#195a7c',
+    
+  }
 	return (
 		<>
 			<Navbar
 				fixed="top"
-				expand="md"
+				expand="lg"
 				collapseOnSelect
 			>
 				<Container>
@@ -167,6 +172,16 @@ function Navigation() {
 									Customers
 								</Nav.Link>
 							</NavDropdown>
+              <Nav.Link
+                href="https://vendors.bmtmicro.com/new-vendor-signup.jsp"
+                className="main-link nav-button"
+                active={false}
+                rel="noopener"
+                target="_blank"
+                style={navSignUpButtonStyle}
+              >
+                Sign Up
+              </Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>

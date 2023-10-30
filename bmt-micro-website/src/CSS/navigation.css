@@ -49,3 +49,12 @@ nav {
   color: #000 !important;
   background-color: #f8f9fa;
 }
+
+.nav-button:hover {
+  color: #195a7c !important;
+}
+
+.nav-button {
+  padding-left: 1.8rem !important;
+  padding-right: 1.8rem !important;
+}
