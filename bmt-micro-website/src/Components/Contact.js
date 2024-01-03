@@ -7,6 +7,7 @@ function Contact() {
 	useEffect(() => {
 		document.title = "BMT Micro - Contact Us"
 	})
+  
 	return (
 		<div className="body-content">
 			<div className="contact-wrapper">

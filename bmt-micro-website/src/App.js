@@ -57,6 +57,9 @@ const W9Form = React.lazy(() => import('./Components/W9Form'));
 // Error
 const Error = React.lazy(() => import('./Components/Error'));
 
+// Contact Form success page
+const Success = React.lazy(() => import('./Components/Success'));
+
 // Product Pages
 const AddressNmore = React.lazy(() => import('./Components/Catalog/ProductPages/AddressNmore'));
 const EmployeeSchedule = React.lazy(() => import('./Components/Catalog/ProductPages/EmployeeSchedule'));
@@ -328,6 +331,7 @@ function App() {
             }
           />
           <Route path="*" element={<Error />} />
+          <Route path="success" element={<Success />} />
         </Routes>
         <Footer />
       </div>

@@ -4,11 +4,13 @@ import Row from 'react-bootstrap/Row';
 import BasicTier from './BasicTier';
 import AdvancedTier from './AdvancedTier';
 import CustomTier from './CustomTier';
+import ContactForm from './ContactForm';
 
 function Pricing() {
   useEffect(() => {
 		document.title = "BMT Micro - Pricing Plans"
 	})
+
   return (
     <div className="body-content">
       <div className="pricing-background"></div>
@@ -20,6 +22,10 @@ function Pricing() {
         </Row>
         <Row className="justify-content-center">
           <CustomTier />
+        </Row>
+        <Row className="justify-content-center">
+          <h5 className="black-text">Questions about using BMT Micro? Use the form below to contact a representative.</h5>
+          <ContactForm />
         </Row>
       </Container>
     </div>

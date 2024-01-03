@@ -2,7 +2,7 @@ import Col from 'react-bootstrap/Col';
 
 function CustomTier() {
 	return (
-		<Col xl={8}>
+		<Col xl={8} style={{ marginBottom: '2.5rem' }}>
 			<div className="tier custom-tier">
 			 <div className="tier-header text-center">
 	        <h4 style={{ color: '#195a7c' }}>Custom Tier</h4>

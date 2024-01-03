@@ -12,7 +12,6 @@ function Navigation() {
   const navSignUpButtonStyle = {
     backgroundColor: '#efa900',
     color: '#195a7c',
-    
   }
 	return (
 		<>

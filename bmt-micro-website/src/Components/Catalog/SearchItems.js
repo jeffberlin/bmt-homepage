@@ -115,11 +115,6 @@ const products = [
     target: "_blank"
   },
   {
-    name: "CHM4Clarion",
-    url: "http://www.carlbarnes.com/chm4clarion.htm",
-    target: "_blank"
-  },
-  {
     name: "Church Office Professional",
     url: "http://www.dbandsons.com/",
     target: "_blank"
@@ -132,11 +127,6 @@ const products = [
   {
     name: "Church Secretary Pro Edition",
     url: "http://www.dbandsons.com/",
-    target: "_blank"
-  },
-  {
-    name: "Clarion Source Search",
-    url: "http://www.carlbarnes.com/css.htm",
     target: "_blank"
   },
   {
@@ -167,11 +157,6 @@ const products = [
   {
     name: "Crystal Cave Gold",
     url: "http://www.300ad.com/crystal_cave_gold.php",
-    target: "_blank"
-  },
-  {
-    name: "CW Assistant",
-    url: "http://www.carlbarnes.com/cwa.htm",
     target: "_blank"
   },
   {

@@ -13,7 +13,7 @@ function BasicTier() {
         </div>
         <div className="tier-rate text-center">
           <p className="black-text top-rate">8.9% flat</p>
-          <p className="middle-rate" style={{ color: '#707070' }}>or</p>
+          <p className="middle-rate" style={{ color: '#efa900' }}>or</p>
           <p className="black-text bottom-rate">5.9% + $1</p>
         </div>
         <div className="tier-text">

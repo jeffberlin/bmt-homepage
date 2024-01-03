@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import PurchaseOrderPolicy from './PurchaseOrderPolicy';
-import NewYearsMessage from './NewYearsMessage';
 
 function News() {
 	useEffect(() => {
@@ -18,7 +17,6 @@ function News() {
 					</Col>
 				</Row>
         <PurchaseOrderPolicy />
-      	<NewYearsMessage />
       </Container>
 		</div>
 	);
