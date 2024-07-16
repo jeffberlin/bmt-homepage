@@ -10,7 +10,7 @@ function Ideal() {
         </Col>
         <Col className="news-section-text" xl={12} lg={12} md={12} sm={12} xs={12}>
           <p style={{ marginBottom: '4rem' }}>
-            New at BMT Micro - we now offer iDEAL as a payment option! iDEAL is a secure and convenient bank transfer payment method.
+            New at BMT Micro - we now offer iDEAL as a payment option! iDEAL is a secure and convenient bank transfer payment method. iDEAL is an online payment method that allows consumers to pay via their own bank.
           </p>
         </Col>
       </Row>

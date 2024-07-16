@@ -14,7 +14,7 @@ function About() {
 				<Row className="justify-content-center">
 					<Col className="text-center" xl={6} lg={6} md={12} sm={12} style={{ marginBottom: '3rem' }}>
 						<Ratio aspectRatio="16x9">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/vF-MgzLXfmo" title="About BMT Micro Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+							<iframe width="560" height="315" src="https://youtube.com/embed/4HKLenQvZcU?si=E-Xii2iTclwmUSja" title="About BMT Micro Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 					  </Ratio>
 					</Col>
 				</Row>
