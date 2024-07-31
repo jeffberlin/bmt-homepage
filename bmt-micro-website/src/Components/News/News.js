@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import PurchaseOrderPolicy from './PurchaseOrderPolicy';
 import Ideal from './Ideal';
+import AppInChina from './AppinChina'
 
 function News() {
 	useEffect(() => {
@@ -17,6 +18,7 @@ function News() {
 		      	<h4 style={{ marginBottom: '1.5rem' }}>BMT Micro News</h4>
 					</Col>
 				</Row>
+        <AppInChina />
         <Ideal />
         <PurchaseOrderPolicy />
       </Container>
