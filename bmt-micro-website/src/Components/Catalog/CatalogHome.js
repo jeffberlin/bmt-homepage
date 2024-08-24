@@ -17,7 +17,7 @@ function Catalog() {
       <Container className="catalog">
         <Row className="justify-content-center">
           <Col xl={8} lg={8} md={10} sm={10}>
-            <p style={{ marginBottom: '2rem' }}>If you are interested in partnering with us or would like more information please contact <a href="mailto:vendors@bmtmicro.com" className="catalog-link">vendors@bmtmicro.com</a>. To view our pricing options, <Link to="pricing" className="catalog-link">click here</Link>.</p>
+            <p style={{ marginBottom: '2rem' }}>If you are interested in partnering with us or would like more information please contact <a href="mailto:vendors@bmtmicro.com" className="catalog-link">vendors@bmtmicro.com</a>. To view our pricing options, <Link to="/pricing" className="catalog-link">click here</Link>.</p>
           </Col>
         </Row>
         <Row className="justify-content-center text-center" style={{ marginBottom: '2rem' }}>
