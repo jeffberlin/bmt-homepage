@@ -16,8 +16,8 @@ function W9Form() {
         <Row className="justify-content-center">
           <Col xl={8} lg={8} md={12} sm={12} xs={12 }>
             <p>If you need to download the W-9 Form, please click the button below.</p>
-            <a className="w9-btn" href="https://www.bmtmicro.com/images/W9_2022.pdf" download="BMT_Micro_W9_Form_2022.pdf">
-              <i className="fas fa-file-download"></i>&nbsp;&nbsp;W9_Form_2022.pdf
+            <a className="w9-btn" href="https://www.bmtmicro.com/images/W9_2024.pdf" download="BMT_Micro_W9_Form_2024.pdf">
+              <i className="fas fa-file-download"></i>&nbsp;&nbsp;W9_Form_2024.pdf
             </a>
           </Col>
         </Row>
