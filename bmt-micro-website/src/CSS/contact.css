@@ -79,8 +79,9 @@
 	color: #4267B2;
 }
 
-.twitter:hover {
-	color: #1DA1F2;
+.x:hover {
+	/* color: #1DA1F2; */
+  color: #0465b0;
 }
 
 .instagram:hover {
@@ -93,4 +94,8 @@
 
 .pinterest:hover {
 	color: #E60023;
+}
+
+.bluesky:hover {
+  color: #4f9bd9;
 }

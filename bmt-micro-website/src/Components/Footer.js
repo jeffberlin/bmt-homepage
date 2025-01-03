@@ -19,10 +19,11 @@ function Footer() {
 					<Col xl={2} lg={2} md={12} sm={12} xs={12} className="social">
 						<h5>BMT Social</h5>
 						<p className="facebook"><a href="https://www.facebook.com/bmt.micro" target="_blank" rel="noreferrer">Facebook</a></p>
-            <p className="twitter"><a href="https://twitter.com/BMTMicro" target="_blank" rel="noreferrer">Twitter</a></p>
+            <p className="x"><a href="https://x.com/BMTMicro" target="_blank" rel="noreferrer">X</a></p>
             <p className="instagram"><a href="https://www.instagram.com/bmtmicro/" target="_blank" rel="noreferrer">Instagram</a></p>
             <p className="linkedin"><a href="https://www.linkedin.com/company/bmt-micro-wilmington-nc-usa" target="_blank" rel="noreferrer">LinkedIn</a></p>
             <p className="pinterest"><a href="https://www.pinterest.com/bmtmicro/" target="_blank" rel="noreferrer">Pinterest</a></p>
+            <p className="bluesky"><a href="https://bsky.app/profile/bmtmicro.bsky.social" target="_blank" rel="noreferrer">BlueSky</a></p>
 					</Col>
 					<Col xl={2} lg={2} md={4} sm={4} xs={4} className=" footer-menu">
 						<ul>
