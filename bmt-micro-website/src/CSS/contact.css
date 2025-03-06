@@ -75,6 +75,10 @@
 	margin-right: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 .facebook:hover {
 	color: #4267B2;
 }
@@ -90,10 +94,6 @@
 
 .linkedin:hover {
 	color: #006192;
-}
-
-.pinterest:hover {
-	color: #E60023;
 }
 
 .bluesky:hover {

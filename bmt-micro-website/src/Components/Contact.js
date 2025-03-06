@@ -45,7 +45,6 @@ function Contact() {
 							<li><a href="https://x.com/BMTMicro" target="_blank" rel="noreferrer"><i className="fab fa-brands fa-square-x-twitter x"></i></a></li>
 							<li><a href="https://www.instagram.com/bmtmicro/" target="_blank" rel="noreferrer"><i className="fab fa-instagram-square instagram"></i></a></li>
 							<li><a href="https://www.linkedin.com/company/bmt-micro-wilmington-nc-usa" target="_blank" rel="noreferrer"><i className="fab fa-linkedin linkedin"></i></a></li>
-							<li><a href="https://www.pinterest.com/bmtmicro/" target="_blank" rel="noreferrer"><i className="fab fa-pinterest-square pinterest"></i></a></li>
               <li><a href="https://bsky.app/profile/bmtmicro.bsky.social" target="_blank" rel="noreferrer"><i className="fab fa-brands fa-square-bluesky bluesky"></i></a></li>
 						</ul>
 					</Col>

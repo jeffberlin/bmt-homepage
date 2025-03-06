@@ -3,27 +3,27 @@
 	padding: 2rem 0;
 }
 
-.social h5, .copyright {
+.social h5, .footer-header, .copyright {
 	color: #fff;
 }
 
-.social p a, .footer-menu, .disabled-link, .disabled-link:hover {
+.social p a, .footer-sub-link, .disabled-link, .disabled-link:hover {
 	color: #707070;
 }
 
-ul {
+.footer-menu {
 	letter-spacing: .3px;
 }
 
-.social p a, .footer-menu ul li a {
+.social p a, .footer-sub-link, .footer-link {
 	transition: all .3s;
 }
 
-.social h5 {
+.social h5, .footer-header {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.social h5, .footer-menu ul li strong {
+.social h5, .footer-header {
 	font-size: 1.1rem;
 }
 
@@ -44,36 +44,24 @@ ul {
 	color: #006192;
 }
 
-.pinterest a:hover {
-	color: #E60023;
-}
-
 .bluesky a:hover {
   color: #4f9bd9;
-}
-
-ul {
-	list-style: none;
-	padding-left: 0;
 }
 
 .disabled-link {
 	pointer-events: none;
 }
 
-.footer-menu ul li {
+.footer-sub-link {
 	margin-bottom: .5rem;
-}
-
-ul li a {
-	font-size: .9rem;
+  font-size: .9rem;
 }
 
 .copyright {
 	font-size: .8rem;
 }
 
-.footer-menu ul li a:hover {
+.footer-sub-link:hover, .footer-link:hover {
 	color: #efa900 !important;
 }
 
