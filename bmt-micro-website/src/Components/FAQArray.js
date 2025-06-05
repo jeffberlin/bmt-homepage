@@ -57,7 +57,7 @@ const faqs = [
   {
     "number": "12",
     "question": "I’m already a vendor. Can I be an affiliate, too?",
-    "answer": "es. Many BMT Micro developers are affiliates for another’s products. We can even set up your affiliate sales to be paid through your vendor account."
+    "answer": "Yes. Many BMT Micro developers are affiliates for another’s products. We can even set up your affiliate sales to be paid through your vendor account."
   },
   {
     "number": "13",
