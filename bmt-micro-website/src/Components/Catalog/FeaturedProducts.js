@@ -17,6 +17,21 @@ function FeaturedProducts() {
   return (
     <Row className="justify-content-center">
       <Col xl={10} lg={10} md={12} sm={12} style={colBorder}>
+        <h5 className="featured-product-title">Starsector</h5>
+        <Image
+          className="featured-product-image"
+          src="https://www.bmtmicro.com/images/bmt-micro-starsector-1-min.jpg"
+          style={productImage}
+        />
+        <Image
+          className="featured-product-image"
+          src="https://www.bmtmicro.com/images/bmt-micro-starsector-2-min.jpg"
+          style={{ marginBottom: '1rem', width: 170 }}
+        />
+        <p>Starsector is an in-development open-world single-player space-combat, roleplaying, exploration, and economic game. You take the role of a space captain seeking fortune and glory however you choose.</p>
+        <p className="text-center"><a href="https://fractalsoftworks.com/" target="_blank" rel="noreferrer" className="catalog-link">Visit Website</a></p>
+      </Col>
+      <Col xl={10} lg={10} md={12} sm={12} style={colBorder}>
         <h5 className="featured-product-title">SolSuite</h5>
         <Image
           className="featured-product-image"

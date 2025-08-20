@@ -770,6 +770,11 @@ const products = [
     target: "_blank"
   },
   {
+    name: "Starsector",
+    url: "https://fractalsoftworks.com/",
+    target: "_blank"
+  },
+  {
     name: "Start Menu Organizer",
     url: "http://www.winstep.net/startmenuorganizer.asp",
     target: "_blank"
